@@ -1,4 +1,4 @@
-﻿---
+---
 title: 开发人员入门指南
 description: 医疗器械嵌入式软件开发人员快速入门指南，帮助您快速了解学习路径、关键资源和开发要点
 difficulty: 基础
@@ -67,7 +67,7 @@ category: 入门
 
 我们为开发人员设计了系统的学习路径：
 
-🎯 **[嵌入式软件工程师学习路径](/learning-paths/embedded-engineer-path/)**
+🎯 **[嵌入式软件工程师学习路径](/zh/learning-paths/embedded-engineer-path/)**
 
 **学习路径概览**：
 
@@ -126,58 +126,58 @@ category: 入门
 
 #### 🔴 必学模块
 
-1. **[嵌入式C/C++编程](/technical-knowledge/embedded-c-cpp/)**
-   - [内存管理](/technical-knowledge/embedded-c-cpp/memory-management/)
-   - [指针操作](/technical-knowledge/embedded-c-cpp/pointer-operations/)
-   - [位操作](/technical-knowledge/embedded-c-cpp/bit-manipulationn/)
+1. **[嵌入式C/C++编程](/zh/technical-knowledge/embedded-c-cpp/)**
+   - [内存管理](/zh/technical-knowledge/embedded-c-cpp/memory-management/)
+   - [指针操作](/zh/technical-knowledge/embedded-c-cpp/pointer-operations/)
+   - [位操作](/zh/technical-knowledge/embedded-c-cpp/bit-manipulation/)
 
-2. **[实时操作系统（RTOS）](/technical-knowledge/rtos/)**
-   - [任务调度](/technical-knowledge/rtos/task-scheduling/)
-   - [同步机制](/technical-knowledge/rtos/synchronizationn/)
-   - [中断处理](/technical-knowledge/rtos/interrupt-handling/)
+2. **[实时操作系统（RTOS）](/zh/technical-knowledge/rtos/)**
+   - [任务调度](/zh/technical-knowledge/rtos/task-scheduling/)
+   - [同步机制](/zh/technical-knowledge/rtos/synchronization/)
+   - [中断处理](/zh/technical-knowledge/rtos/interrupt-handling/)
 
-3. **[硬件接口](/technical-knowledge/hardware-interfaces/)**
-   - [I2C接口](/technical-knowledge/hardware-interfaces/i2c/)
-   - [SPI接口](/technical-knowledge/hardware-interfaces/spi/)
-   - [UART接口](/technical-knowledge/hardware-interfaces/uart/)
-   - [ADC/DAC](/technical-knowledge/hardware-interfaces/adc-dac/)
+3. **[硬件接口](/zh/technical-knowledge/hardware-interfaces/)**
+   - [I2C接口](/zh/technical-knowledge/hardware-interfaces/i2c/)
+   - [SPI接口](/zh/technical-knowledge/hardware-interfaces/spi/)
+   - [UART接口](/zh/technical-knowledge/hardware-interfaces/uart/)
+   - [ADC/DAC](/zh/technical-knowledge/hardware-interfaces/adc-dac/)
 
-4. **[低功耗设计](/technical-knowledge/low-power-design/)**
-   - [睡眠模式](/technical-knowledge/low-power-design/sleep-modes/)
-   - [功耗优化](/technical-knowledge/low-power-design/power-optimizationn/)
+4. **[低功耗设计](/zh/technical-knowledge/low-power-design/)**
+   - [睡眠模式](/zh/technical-knowledge/low-power-design/sleep-modes/)
+   - [功耗优化](/zh/technical-knowledge/low-power-design/power-optimization/)
 
 #### 🔵 选修模块
 
-- [编译优化](/technical-knowledge/embedded-c-cpp/compiler-optimization/)
-- [资源管理](/technical-knowledge/rtos/resource-management/)
-- [心电信号处理](/technical-knowledge/signal-processing/ecg-processing/)
+- [编译优化](/zh/technical-knowledge/embedded-c-cpp/compiler-optimization/)
+- [资源管理](/zh/technical-knowledge/rtos/resource-management/)
+- [心电信号处理](/zh/technical-knowledge/signal-processing/ecg-processing/)
 
 ### 法规与规范
 
 #### 必须了解的标准
 
-1. **[IEC 62304](/regulatory-standards/iec-62304/)** - 医疗器械软件生命周期过程
-   - [软件安全分类](/regulatory-standards/iec-62304/software-classificationn/)
-   - [生命周期过程](/regulatory-standards/iec-62304/lifecycle-processes/)
-   - [文档要求](/regulatory-standards/iec-62304/documentation-requirements/)
+1. **[IEC 62304](/zh/regulatory-standards/iec-62304/)** - 医疗器械软件生命周期过程
+   - [软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/)
+   - [生命周期过程](/zh/regulatory-standards/iec-62304/lifecycle-processes/)
+   - [文档要求](/zh/regulatory-standards/iec-62304/documentation-requirements/)
 
-2. **[编码规范](/software-engineering/coding-standards/)**
-   - [MISRA C规范](/software-engineering/coding-standards/misra-c/)
-   - [CERT C规范](/software-engineering/coding-standards/cert-c/)
-   - [代码审查检查清单](/software-engineering/coding-standards/code-review-checklist/)
+2. **[编码规范](/zh/software-engineering/coding-standards/)**
+   - [MISRA C规范](/zh/software-engineering/coding-standards/misra-c/)
+   - [CERT C规范](/zh/software-engineering/coding-standards/cert-c/)
+   - [代码审查检查清单](/zh/software-engineering/coding-standards/code-review-checklist/)
 
-3. **[测试策略](/software-engineering/testing-strategy/)**
-   - [单元测试](/software-engineering/testing-strategy/unit-testing/)
-   - [集成测试](/software-engineering/testing-strategy/integration-testing/)
-   - [系统测试](/software-engineering/testing-strategy/system-testing/)
+3. **[测试策略](/zh/software-engineering/testing-strategy/)**
+   - [单元测试](/zh/software-engineering/testing-strategy/unit-testing/)
+   - [集成测试](/zh/software-engineering/testing-strategy/integration-testing/)
+   - [系统测试](/zh/software-engineering/testing-strategy/system-testing/)
 
 ### 实践案例
 
 通过实际案例学习端到端的开发流程：
 
-- **[A类设备案例](/case-studies/class-a-device-example/)** - 低风险设备开发实践
-- **[B类设备案例](/case-studies/class-b-blood-pressure-monitor/)** - 血压监测仪开发
-- **[C类设备案例](/case-studies/class-c-device-example/)** - 高风险设备开发实践
+- **[A类设备案例](/zh/case-studies/class-a-device-example/)** - 低风险设备开发实践
+- **[B类设备案例](/zh/case-studies/class-b-blood-pressure-monitor/)** - 血压监测仪开发
+- **[C类设备案例](/zh/case-studies/class-c-device-example/)** - 高风险设备开发实践
 
 ### 推荐工具
 
@@ -362,7 +362,7 @@ category: 入门
        - 重新设计系统架构
        - 使用消息队列代替共享资源
     
-    详见：[同步机制](/technical-knowledge/rtos/synchronizationn/)
+    详见：[同步机制](/zh/technical-knowledge/rtos/synchronization/)
 
 ??? question "Q8: 如何优化嵌入式系统的功耗？"
     **答案**：
@@ -385,7 +385,7 @@ category: 入门
        - 减少循环等待
        - 优化算法效率
     
-    详见：[低功耗设计](/technical-knowledge/low-power-design/)
+    详见：[低功耗设计](/zh/technical-knowledge/low-power-design/)
 
 ### 职业发展
 
@@ -499,8 +499,8 @@ category: 入门
 现在你已经了解了如何开始学习，建议你：
 
 1. ✅ **评估基础知识**：确认是否具备必要的前置知识
-2. ✅ **浏览学习路径**：查看[嵌入式软件工程师学习路径](/learning-paths/embedded-engineer-path/)
-3. ✅ **开始第一个模块**：从[嵌入式C/C++概述](/technical-knowledge/embedded-c-cpp/)开始
+2. ✅ **浏览学习路径**：查看[嵌入式软件工程师学习路径](/zh/learning-paths/embedded-engineer-path/)
+3. ✅ **开始第一个模块**：从[嵌入式C/C++概述](/zh/technical-knowledge/embedded-c-cpp/)开始
 4. ✅ **加入学习社区**：与其他学习者交流经验
 5. ✅ **制定学习计划**：设定每周学习目标和时间
 
@@ -508,19 +508,19 @@ category: 入门
 
 ### 相关指南
 
-- [QA工程师入门指南](/getting-started/for-qa-engineers/) - 了解测试和质量保证
-- [监管事务专员入门指南](/getting-started/for-regulatory-affairs/) - 了解法规认证流程
+- [QA工程师入门指南](/zh/getting-started/for-qa-engineers/) - 了解测试和质量保证
+- [监管事务专员入门指南](/zh/getting-started/for-regulatory-affairs/) - 了解法规认证流程
 
 ### 学习路径
 
-- [嵌入式软件工程师学习路径](/learning-paths/embedded-engineer-path/) - 完整的学习路径
-- [架构师学习路径](/learning-paths/architect-path/) - 进阶学习路径
+- [嵌入式软件工程师学习路径](/zh/learning-paths/embedded-engineer-path/) - 完整的学习路径
+- [架构师学习路径](/zh/learning-paths/architect-path/) - 进阶学习路径
 
 ### 核心模块
 
-- [嵌入式C/C++编程](/technical-knowledge/embedded-c-cpp/)
-- [实时操作系统](/technical-knowledge/rtos/)
-- [IEC 62304标准](/regulatory-standards/iec-62304/)
+- [嵌入式C/C++编程](/zh/technical-knowledge/embedded-c-cpp/)
+- [实时操作系统](/zh/technical-knowledge/rtos/)
+- [IEC 62304标准](/zh/regulatory-standards/iec-62304/)
 
 ## 参考文献
 
@@ -559,6 +559,6 @@ category: 入门
 !!! success "开始你的学习之旅"
     准备好了吗？现在就开始你的医疗器械嵌入式软件开发学习之旅吧！
     
-    👉 [查看完整学习路径](/learning-paths/embedded-engineer-path/)
+    👉 [查看完整学习路径](/zh/learning-paths/embedded-engineer-path/)
     
-    👉 [开始第一个模块](/technical-knowledge/embedded-c-cpp/)
+    👉 [开始第一个模块](/zh/technical-knowledge/embedded-c-cpp/)

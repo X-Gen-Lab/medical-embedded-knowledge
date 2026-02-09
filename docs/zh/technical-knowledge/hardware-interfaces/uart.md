@@ -1,4 +1,4 @@
-﻿---
+---
 title: UART通信协议
 description: 掌握UART（通用异步收发器）通信协议的原理、配置和实现，学习如何在医疗器械中实现可靠的串行通信
 difficulty: 基础

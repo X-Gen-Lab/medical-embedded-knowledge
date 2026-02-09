@@ -1,16 +1,20 @@
-﻿---
-title: "IEC 62304 - Medical Device Software Lifecycle Processes"
-description: "IEC 62304 standard knowledge, including software safety classification, lifecycle processes, and documentation requirements"
-difficulty: "Intermediate"
-estimated_time: "6 hours"
-tags: ["IEC 62304", "Software Lifecycle", "Medical Standards"]
+---
+title: IEC 62304 - Medical Device Software Lifecycle Processes
+description: IEC 62304 standard knowledge, including software safety classification,
+  lifecycle processes, and documentation requirements
+difficulty: Intermediate
+estimated_time: 6 hours
+tags:
+- IEC 62304
+- Software Lifecycle
+- Medical Standards
 related_modules:
-  - "regulatory-standards/iso-14971"
-  - "software-engineering/requirements-engineering"
-  - "software-engineering/testing-strategy"
-last_updated: "2026-02-07"
-version: "1.0"
-language: "en-US"
+- en/regulatory-standards/iso-14971
+- en/software-engineering/requirements-engineering
+- en/software-engineering/testing-strategy
+last_updated: '2026-02-07'
+version: '1.0'
+language: en-US
 translation_status: complete
 ---
 
@@ -335,10 +339,10 @@ graph TD
 
 ## Related Resources
 
-- [Software Classification Details](software-classificationn.md)
+- [Software Classification Details](software-classification.md)
 - [ISO 14971 - Risk Management](../iso-14971/index.md)
-- [Requirements Engineering](../../software-engineering/requirements-engineering/index.md)
-- [Testing Strategy](../../software-engineering/testing-strategy/index.md)
+- [Requirements Engineering](/zh/software-engineering/requirements-engineering/index.md)
+- [Testing Strategy](/zh/software-engineering/testing-strategy/index.md)
 
 ## References
 

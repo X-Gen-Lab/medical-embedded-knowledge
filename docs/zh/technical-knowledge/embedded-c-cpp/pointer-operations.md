@@ -508,7 +508,7 @@ bool safe_buffer_read(safe_buffer_t* buffer, uint8_t* data, size_t len) {
 ### 相关知识模块
 
 - [内存管理](memory-management.md) - 动态内存分配和内存池管理
-- [位操作](bit-manipulationn.md) - 位运算和寄存器操作技巧
+- [位操作](bit-manipulation.md) - 位运算和寄存器操作技巧
 
 ### 深入学习
 

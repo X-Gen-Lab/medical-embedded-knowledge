@@ -1,4 +1,4 @@
-﻿---
+---
 title: 接口设计
 description: 医疗器械嵌入式软件的接口定义、API设计原则和最佳实践
 difficulty: 中级

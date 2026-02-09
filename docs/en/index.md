@@ -1,4 +1,4 @@
-﻿---
+---
 title: Medical Device Embedded Software Knowledge System
 description: Comprehensive knowledge base for medical device embedded software development
 language: en-US

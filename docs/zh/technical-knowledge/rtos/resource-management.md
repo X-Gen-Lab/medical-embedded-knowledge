@@ -539,7 +539,7 @@ void freeTimer(TimerResource_t *pTimer) {
 
 - [内存管理](../embedded-c-cpp/memory-management.md)
 - [任务调度](task-scheduling.md)
-- [同步机制](synchronizationn.md)
+- [同步机制](synchronization.md)
 
 ## 参考文献
 

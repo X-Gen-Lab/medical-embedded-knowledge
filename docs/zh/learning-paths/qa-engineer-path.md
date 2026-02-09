@@ -48,11 +48,11 @@ target_role: "质量保证工程师"
 
 #### 知识模块
 
-- 🔴 必修 [法规标准概述](/regulatory-standards/) (1小时)
-- 🔴 必修 [IEC 62304概述](/regulatory-standards/iec-62304/) (2小时)
-- 🔴 必修 [软件安全分类](/regulatory-standards/iec-62304/software-classificationn/) (2小时)
-- 🔴 必修 [生命周期过程](/regulatory-standards/iec-62304/lifecycle-processes/) (4小时)
-- 🔴 必修 [文档要求](/regulatory-standards/iec-62304/documentation-requirements/) (3小时)
+- 🔴 必修 [法规标准概述](/zh/regulatory-standards/) (1小时)
+- 🔴 必修 [IEC 62304概述](/zh/regulatory-standards/iec-62304/) (2小时)
+- 🔴 必修 [软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/) (2小时)
+- 🔴 必修 [生命周期过程](/zh/regulatory-standards/iec-62304/lifecycle-processes/) (4小时)
+- 🔴 必修 [文档要求](/zh/regulatory-standards/iec-62304/documentation-requirements/) (3小时)
 
 #### ✅ IEC 62304理解检查点
 
@@ -67,9 +67,9 @@ target_role: "质量保证工程师"
 
 #### 知识模块
 
-- 🔴 必修 [ISO 13485概述](/regulatory-standards/iso-13485/) (2小时)
-- 🔴 必修 [质量管理原则](/regulatory-standards/iso-13485/quality-management/) (4小时)
-- 🔴 必修 [审核检查清单](/regulatory-standards/iso-13485/audit-checklist/) (4小时)
+- 🔴 必修 [ISO 13485概述](/zh/regulatory-standards/iso-13485/) (2小时)
+- 🔴 必修 [质量管理原则](/zh/regulatory-standards/iso-13485/quality-management/) (4小时)
+- 🔴 必修 [审核检查清单](/zh/regulatory-standards/iso-13485/audit-checklist/) (4小时)
 
 #### ✅ 质量管理体系检查点
 
@@ -84,10 +84,10 @@ target_role: "质量保证工程师"
 
 #### 知识模块
 
-- 🔴 必修 [ISO 14971概述](/regulatory-standards/iso-14971/) (2小时)
-- 🔴 必修 [风险分析](/regulatory-standards/iso-14971/risk-analysis/) (4小时)
-- 🔴 必修 [风险评估](/regulatory-standards/iso-14971/risk-evaluationn/) (3小时)
-- 🔴 必修 [风险控制](/regulatory-standards/iso-14971/risk-control/) (3小时)
+- 🔴 必修 [ISO 14971概述](/zh/regulatory-standards/iso-14971/) (2小时)
+- 🔴 必修 [风险分析](/zh/regulatory-standards/iso-14971/risk-analysis/) (4小时)
+- 🔴 必修 [风险评估](/zh/regulatory-standards/iso-14971/risk-evaluation/) (3小时)
+- 🔴 必修 [风险控制](/zh/regulatory-standards/iso-14971/risk-control/) (3小时)
 
 #### ✅ 风险管理能力检查点
 
@@ -102,10 +102,10 @@ target_role: "质量保证工程师"
 
 #### 知识模块
 
-- 🔴 必修 [测试策略概述](/software-engineering/testing-strategy/) (2小时)
-- 🔴 必修 [单元测试](/software-engineering/testing-strategy/unit-testing/) (3小时)
-- 🔴 必修 [集成测试](/software-engineering/testing-strategy/integration-testing/) (3小时)
-- 🔴 必修 [系统测试](/software-engineering/testing-strategy/system-testing/) (4小时)
+- 🔴 必修 [测试策略概述](/zh/software-engineering/testing-strategy/) (2小时)
+- 🔴 必修 [单元测试](/zh/software-engineering/testing-strategy/unit-testing/) (3小时)
+- 🔴 必修 [集成测试](/zh/software-engineering/testing-strategy/integration-testing/) (3小时)
+- 🔴 必修 [系统测试](/zh/software-engineering/testing-strategy/system-testing/) (4小时)
 
 #### ✅ 测试策略应用检查点
 
@@ -120,10 +120,10 @@ target_role: "质量保证工程师"
 
 #### 知识模块
 
-- 🔴 必修 [FDA法规概述](/regulatory-standards/fda-regulations/) (2小时)
-- 🔴 必修 [510(k)流程](/regulatory-standards/fda-regulations/510k-process/) (3小时)
-- 🔵 选修 [PMA流程](/regulatory-standards/fda-regulations/pma-process/) (2小时)
-- 🔴 必修 [软件验证](/regulatory-standards/fda-regulations/software-validation/) (3小时)
+- 🔴 必修 [FDA法规概述](/zh/regulatory-standards/fda-regulations/) (2小时)
+- 🔴 必修 [510(k)流程](/zh/regulatory-standards/fda-regulations/510k-process/) (3小时)
+- 🔵 选修 [PMA流程](/zh/regulatory-standards/fda-regulations/pma-process/) (2小时)
+- 🔴 必修 [软件验证](/zh/regulatory-standards/fda-regulations/software-validation/) (3小时)
 
 ### 阶段 6: 其他重要标准
 
@@ -133,10 +133,10 @@ target_role: "质量保证工程师"
 
 #### 知识模块
 
-- 🔴 必修 [IEC 60601-1概述](/regulatory-standards/iec-60601-1/) (2小时)
-- 🔴 必修 [电气安全](/regulatory-standards/iec-60601-1/electrical-safety/) (2小时)
-- 🔴 必修 [IEC 81001-5-1概述](/regulatory-standards/iec-81001-5-1/) (2小时)
-- 🔵 选修 [安全控制](/regulatory-standards/iec-81001-5-1/security-controls/) (2小时)
+- 🔴 必修 [IEC 60601-1概述](/zh/regulatory-standards/iec-60601-1/) (2小时)
+- 🔴 必修 [电气安全](/zh/regulatory-standards/iec-60601-1/electrical-safety/) (2小时)
+- 🔴 必修 [IEC 81001-5-1概述](/zh/regulatory-standards/iec-81001-5-1/) (2小时)
+- 🔵 选修 [安全控制](/zh/regulatory-standards/iec-81001-5-1/security-controls/) (2小时)
 
 ### 阶段 7: 实践案例分析
 
@@ -146,10 +146,10 @@ target_role: "质量保证工程师"
 
 #### 知识模块
 
-- 🔴 必修 [案例研究概述](/case-studies/) (1小时)
-- 🔴 必修 [A类设备案例](/case-studies/class-a-device-example/) (2小时)
-- 🔴 必修 [B类设备案例](/case-studies/class-b-device-example/) (2小时)
-- 🔵 选修 [C类设备案例](/case-studies/class-c-device-example/) (1小时)
+- 🔴 必修 [案例研究概述](/zh/case-studies/) (1小时)
+- 🔵 选修 [A类设备案例](/zh/case-studies/class-a-device-example/) (2小时)
+- 🔴 必修 [B类设备案例：血压监护仪](/zh/case-studies/class-b-blood-pressure-monitor.md) (2小时)
+- 🔵 选修 [C类设备案例](/zh/case-studies/class-c-device-example/) (1小时)
 
 #### ✅ 综合能力检查点
 

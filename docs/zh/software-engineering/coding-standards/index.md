@@ -1,4 +1,4 @@
-﻿---
+---
 title: 编码规范
 description: 编码规范知识，包含MISRA C、CERT C和代码审查清单
 difficulty: 中级
@@ -932,3 +932,10 @@ if (sensor_is_ready()) {
 3. BARR-C:2018 - Embedded C Coding Standard
 4. IEC 62304:2006+AMD1:2015 - Medical device software - Software life cycle processes
 5. 书籍：《The CERT C Coding Standard》by Robert C. Seacord
+
+
+## 内容模块
+
+- [CERT C安全编码规范](cert-c.md)
+- [代码审查检查清单](code-review-checklist.md)
+- [MISRA C编码规范](misra-c.md)

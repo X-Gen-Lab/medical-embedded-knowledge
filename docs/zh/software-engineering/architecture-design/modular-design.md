@@ -1,4 +1,4 @@
-﻿---
+---
 title: 模块化设计（Modular Design）
 description: 深入理解模块化设计原则、模块划分方法和医疗器械软件中的模块化实践
 difficulty: 中级

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Embedded C/C++ Programming"
 description: "Embedded C/C++ programming knowledge, including memory management, pointer operations, bit manipulation, and compiler optimization"
 difficulty: "Intermediate"
@@ -16,7 +16,7 @@ This module covers core C/C++ programming knowledge for medical device embedded 
 
 - [Memory Management](memory-management.md) - Stack, heap, static memory, and memory pool techniques
 - [Pointer Operations](pointer-operations.md) - Pointer arithmetic, function pointers, and hardware register access
-- [Bit Manipulation](bit-manipulationn.md) - Bitwise operators, register operations, and bit fields
+- [Bit Manipulation](bit-manipulation.md) - Bitwise operators, register operations, and bit fields
 - Compiler Optimization (To be completed)
 
 ## Learning Path
@@ -30,4 +30,4 @@ Recommended learning sequence:
 
 - [RTOS Task Scheduling](../rtos/task-scheduling.md)
 - [Hardware Interfaces](../hardware-interfaces/index.md)
-- [MISRA C Coding Standards](../../software-engineering/coding-standards/index.md)
+- [MISRA C Coding Standards](/zh/software-engineering/coding-standards/index.md)

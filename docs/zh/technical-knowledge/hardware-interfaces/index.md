@@ -12,8 +12,8 @@ tags: ["硬件接口", "I2C", "SPI", "UART"]
 
 ## 主要内容
 
-- I2C通信
-- SPI通信
-- UART通信
-- ADC/DAC
-- GPIO操作
+- [ADC/DAC转换器](adc-dac.md)
+- [GPIO操作](gpio.md)
+- [I2C通信协议](i2c.md)
+- [SPI通信协议](spi.md)
+- [UART通信协议](uart.md)

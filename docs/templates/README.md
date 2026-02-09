@@ -60,7 +60,7 @@
 
 - **related_modules** (array): 相关模块路径列表
   - 使用相对路径
-  - 示例: ["rtos/synchronizationn", "rtos/interrupt-handling"]
+  - 示例: ["rtos/synchronization", "rtos/interrupt-handling"]
 - **language** (string): 内容语言
   - 默认: "zh-CN"
   - 可选: "en-US"
@@ -198,7 +198,7 @@ def function():
 参考以下已完成的模块作为示例：
 
 - `docs/technical-knowledge/rtos/task-scheduling.md`
-- `docs/regulatory-standards/iec-62304/software-classificationn.md`
+- `docs/regulatory-standards/iec-62304/software-classification.md`
 - `docs/software-engineering/coding-standards/misra-c.md`
 
 ## 获取帮助

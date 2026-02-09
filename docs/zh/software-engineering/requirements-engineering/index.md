@@ -1,4 +1,4 @@
-﻿---
+---
 title: 需求工程
 description: 需求工程知识，包含需求追溯、需求验证和变更管理
 difficulty: 中级
@@ -690,3 +690,8 @@ graph TD
 3. ISO/IEC/IEEE 29148:2018 - Systems and software engineering - Life cycle processes - Requirements engineering
 4. 书籍：《Software Requirements》by Karl Wiegers and Joy Beatty
 5. 书籍：《Mastering the Requirements Process》by Suzanne Robertson and James Robertson
+
+
+## 内容模块
+
+- [需求变更管理](change-management.md)

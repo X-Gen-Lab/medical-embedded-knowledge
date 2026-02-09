@@ -1,4 +1,4 @@
-﻿---
+---
 title: "系统架构师学习路径"
 title_en: "System Architect Learning Path"
 description: "为医疗器械系统架构师设计的学习路径，涵盖软件架构设计、系统集成、需求工程、风险管理和技术决策，培养端到端的系统设计能力。"
@@ -50,10 +50,10 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [需求工程概述](/software-engineering/requirements-engineering/) (2小时)
-- 🔴 必修 [需求追溯](/software-engineering/requirements-engineering/requirements-traceability/) (3小时)
-- 🔴 必修 [变更管理](/software-engineering/requirements-engineering/change-management/) (3小时)
-- 🔴 必修 [文档要求](/regulatory-standards/iec-62304/documentation-requirements/) (2小时)
+- 🔴 必修 [需求工程概述](/zh/software-engineering/requirements-engineering/) (2小时)
+- 🔴 必修 [需求追溯](/zh/software-engineering/requirements-engineering/requirements-traceability/) (3小时)
+- 🔴 必修 [变更管理](/zh/software-engineering/requirements-engineering/change-management/) (3小时)
+- 🔴 必修 [文档要求](/zh/regulatory-standards/iec-62304/documentation-requirements/) (2小时)
 
 #### ✅ 需求工程能力检查点
 
@@ -68,11 +68,11 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [架构设计概述](/software-engineering/architecture-design/) (2小时)
-- 🔴 必修 [分层架构](/software-engineering/architecture-design/layered-architecturee/) (4小时)
-- 🔴 必修 [接口设计](/software-engineering/architecture-design/interface-design/) (4小时)
-- 🔴 必修 [模块化设计](/software-engineering/architecture-design/modular-design/) (3小时)
-- 🔵 选修 [设计模式](/software-engineering/architecture-design/design-patterns/) (2小时)
+- 🔴 必修 [架构设计概述](/zh/software-engineering/architecture-design/) (2小时)
+- 🔴 必修 [分层架构](/zh/software-engineering/architecture-design/layered-architecture/) (4小时)
+- 🔴 必修 [接口设计](/zh/software-engineering/architecture-design/interface-design/) (4小时)
+- 🔴 必修 [模块化设计](/zh/software-engineering/architecture-design/modular-design/) (3小时)
+- 🔵 选修 [设计模式](/zh/software-engineering/architecture-design/design-patterns/) (2小时)
 
 #### ✅ 架构设计能力检查点
 
@@ -87,12 +87,12 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [RTOS概述](/technical-knowledge/rtos/) (2小时)
-- 🔴 必修 [任务调度](/technical-knowledge/rtos/task-scheduling/) (3小时)
-- 🔴 必修 [资源管理](/technical-knowledge/rtos/resource-management/) (2小时)
-- 🔴 必修 [硬件接口概述](/technical-knowledge/hardware-interfaces/) (2小时)
-- 🔴 必修 [低功耗设计概述](/technical-knowledge/low-power-design/) (2小时)
-- 🔵 选修 [信号处理概述](/technical-knowledge/signal-processing/) (1小时)
+- 🔴 必修 [RTOS概述](/zh/technical-knowledge/rtos/) (2小时)
+- 🔴 必修 [任务调度](/zh/technical-knowledge/rtos/task-scheduling/) (3小时)
+- 🔴 必修 [资源管理](/zh/technical-knowledge/rtos/resource-management/) (2小时)
+- 🔴 必修 [硬件接口概述](/zh/technical-knowledge/hardware-interfaces/) (2小时)
+- 🔴 必修 [低功耗设计概述](/zh/technical-knowledge/low-power-design/) (2小时)
+- 🔵 选修 [信号处理概述](/zh/technical-knowledge/signal-processing/) (1小时)
 
 ### 阶段 4: 风险管理与安全设计
 
@@ -102,10 +102,10 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [ISO 14971概述](/regulatory-standards/iso-14971/) (2小时)
-- 🔴 必修 [风险分析](/regulatory-standards/iso-14971/risk-analysis/) (3小时)
-- 🔴 必修 [风险控制](/regulatory-standards/iso-14971/risk-control/) (3小时)
-- 🔴 必修 [IEC 81001-5-1概述](/regulatory-standards/iec-81001-5-1/) (2小时)
+- 🔴 必修 [ISO 14971概述](/zh/regulatory-standards/iso-14971/) (2小时)
+- 🔴 必修 [风险分析](/zh/regulatory-standards/iso-14971/risk-analysis/) (3小时)
+- 🔴 必修 [风险控制](/zh/regulatory-standards/iso-14971/risk-control/) (3小时)
+- 🔴 必修 [IEC 81001-5-1概述](/zh/regulatory-standards/iec-81001-5-1/) (2小时)
 
 #### ✅ 风险驱动设计检查点
 
@@ -120,10 +120,10 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [编码规范概述](/software-engineering/coding-standards/) (1小时)
-- 🔴 必修 [MISRA C规范](/software-engineering/coding-standards/misra-c/) (3小时)
-- 🔴 必修 [代码审查清单](/software-engineering/coding-standards/code-review-checklist/) (2小时)
-- 🔴 必修 [静态分析概述](/software-engineering/static-analysis/) (2小时)
+- 🔴 必修 [编码规范概述](/zh/software-engineering/coding-standards/) (1小时)
+- 🔴 必修 [MISRA C规范](/zh/software-engineering/coding-standards/misra-c/) (3小时)
+- 🔴 必修 [代码审查清单](/zh/software-engineering/coding-standards/code-review-checklist/) (2小时)
+- 🔴 必修 [静态分析概述](/zh/software-engineering/static-analysis/) (2小时)
 
 ### 阶段 6: 配置管理与测试策略
 
@@ -133,10 +133,10 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [配置管理概述](/software-engineering/configuration-management/) (2小时)
-- 🔴 必修 [版本控制](/software-engineering/configuration-management/version-control/) (2小时)
-- 🔴 必修 [基线管理](/software-engineering/configuration-management/baseline-management/) (2小时)
-- 🔴 必修 [测试策略概述](/software-engineering/testing-strategy/) (2小时)
+- 🔴 必修 [配置管理概述](/zh/software-engineering/configuration-management/) (2小时)
+- 🔴 必修 [版本控制](/zh/software-engineering/configuration-management/version-control/) (2小时)
+- 🔴 必修 [基线管理](/zh/software-engineering/configuration-management/baseline-management/) (2小时)
+- 🔴 必修 [测试策略概述](/zh/software-engineering/testing-strategy/) (2小时)
 
 #### ✅ 工程实践检查点
 
@@ -151,10 +151,10 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [IEC 62304概述](/regulatory-standards/iec-62304/) (2小时)
-- 🔴 必修 [生命周期过程](/regulatory-standards/iec-62304/lifecycle-processes/) (3小时)
-- 🔴 必修 [ISO 13485概述](/regulatory-standards/iso-13485/) (2小时)
-- 🔵 选修 [FDA法规概述](/regulatory-standards/fda-regulations/) (1小时)
+- 🔴 必修 [IEC 62304概述](/zh/regulatory-standards/iec-62304/) (2小时)
+- 🔴 必修 [生命周期过程](/zh/regulatory-standards/iec-62304/lifecycle-processes/) (3小时)
+- 🔴 必修 [ISO 13485概述](/zh/regulatory-standards/iso-13485/) (2小时)
+- 🔵 选修 [FDA法规概述](/zh/regulatory-standards/fda-regulations/) (1小时)
 
 ### 阶段 8: 实践案例与综合应用
 
@@ -164,9 +164,9 @@ target_role: "系统架构师"
 
 #### 知识模块
 
-- 🔴 必修 [案例研究概述](/case-studies/) (1小时)
-- 🔴 必修 [B类设备案例](/case-studies/class-b-device-example/) (2小时)
-- 🔴 必修 [C类设备案例](/case-studies/class-c-device-example/) (3小时)
+- 🔴 必修 [案例研究概述](/zh/case-studies/) (1小时)
+- 🔴 必修 [B类设备案例：血压监护仪](/zh/case-studies/class-b-blood-pressure-monitor.md) (2小时)
+- 🔵 选修 [C类设备案例](/zh/case-studies/class-c-device-example/) (3小时)
 
 #### ✅ 综合架构能力检查点
 

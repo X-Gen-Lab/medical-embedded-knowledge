@@ -1,4 +1,4 @@
-﻿---
+---
 title: 监管事务专员入门指南
 description: 医疗器械监管事务专员快速入门指南，帮助您快速了解法规体系、认证流程和文档要求
 difficulty: 基础
@@ -69,7 +69,7 @@ category: 入门
 
 我们为监管事务专员设计了系统的学习路径：
 
-🎯 **[监管事务专员学习路径](/learning-paths/regulatory-specialist-path/)**
+🎯 **[监管事务专员学习路径](/zh/learning-paths/regulatory-specialist-path/)**
 
 **学习路径概览**：
 
@@ -143,32 +143,32 @@ category: 入门
 
 #### 🔴 必学模块
 
-1. **[IEC 62304](/regulatory-standards/iec-62304/)** - 医疗器械软件生命周期过程
-   - [软件安全分类](/regulatory-standards/iec-62304/software-classificationn/)
-   - [生命周期过程](/regulatory-standards/iec-62304/lifecycle-processes/)
-   - [文档要求](/regulatory-standards/iec-62304/documentation-requirements/)
+1. **[IEC 62304](/zh/regulatory-standards/iec-62304/)** - 医疗器械软件生命周期过程
+   - [软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/)
+   - [生命周期过程](/zh/regulatory-standards/iec-62304/lifecycle-processes/)
+   - [文档要求](/zh/regulatory-standards/iec-62304/documentation-requirements/)
 
-2. **[ISO 13485](/regulatory-standards/iso-13485/)** - 质量管理体系
-   - [质量管理原则](/regulatory-standards/iso-13485/quality-management/)
-   - [审核检查清单](/regulatory-standards/iso-13485/audit-checklist/)
+2. **[ISO 13485](/zh/regulatory-standards/iso-13485/)** - 质量管理体系
+   - [质量管理原则](/zh/regulatory-standards/iso-13485/quality-management/)
+   - [审核检查清单](/zh/regulatory-standards/iso-13485/audit-checklist/)
 
-3. **[ISO 14971](/regulatory-standards/iso-14971/)** - 风险管理
-   - [风险分析](/regulatory-standards/iso-14971/risk-analysis/)
-   - [风险评估](/regulatory-standards/iso-14971/risk-evaluationn/)
-   - [风险控制](/regulatory-standards/iso-14971/risk-control/)
+3. **[ISO 14971](/zh/regulatory-standards/iso-14971/)** - 风险管理
+   - [风险分析](/zh/regulatory-standards/iso-14971/risk-analysis/)
+   - [风险评估](/zh/regulatory-standards/iso-14971/risk-evaluation/)
+   - [风险控制](/zh/regulatory-standards/iso-14971/risk-control/)
 
-4. **[FDA法规](/regulatory-standards/fda-regulations/)** - 美国市场准入
-   - [510(k)流程](/regulatory-standards/fda-regulations/510k-process/)
-   - [PMA流程](/regulatory-standards/fda-regulations/pma-process/)
-   - [软件验证](/regulatory-standards/fda-regulations/software-validation/)
+4. **[FDA法规](/zh/regulatory-standards/fda-regulations/)** - 美国市场准入
+   - [510(k)流程](/zh/regulatory-standards/fda-regulations/510k-process/)
+   - [PMA流程](/zh/regulatory-standards/fda-regulations/pma-process/)
+   - [软件验证](/zh/regulatory-standards/fda-regulations/software-validation/)
 
-5. **[IEC 60601-1](/regulatory-standards/iec-60601-1/)** - 电气安全
-   - [电气安全](/regulatory-standards/iec-60601-1/electrical-safety/)
-   - [EMC要求](/regulatory-standards/iec-60601-1/emc-requirements/)
+5. **[IEC 60601-1](/zh/regulatory-standards/iec-60601-1/)** - 电气安全
+   - [电气安全](/zh/regulatory-standards/iec-60601-1/electrical-safety/)
+   - [EMC要求](/zh/regulatory-standards/iec-60601-1/emc-requirements/)
 
-6. **[IEC 81001-5-1](/regulatory-standards/iec-81001-5-1/)** - 网络安全
-   - [威胁建模](/regulatory-standards/iec-81001-5-1/threat-modeling/)
-   - [安全控制](/regulatory-standards/iec-81001-5-1/security-controls/)
+6. **[IEC 81001-5-1](/zh/regulatory-standards/iec-81001-5-1/)** - 网络安全
+   - [威胁建模](/zh/regulatory-standards/iec-81001-5-1/threat-modeling/)
+   - [安全控制](/zh/regulatory-standards/iec-81001-5-1/security-controls/)
 
 #### 🔵 选修模块
 
@@ -179,19 +179,19 @@ category: 入门
 
 #### 必须了解的技术模块
 
-1. **[需求工程](/software-engineering/requirements-engineering/)**
+1. **[需求工程](/zh/software-engineering/requirements-engineering/)**
    - 需求管理
    - 需求追溯性
 
-2. **[架构设计](/software-engineering/architecture-design/)**
+2. **[架构设计](/zh/software-engineering/architecture-design/)**
    - 系统架构
    - 模块化设计
 
-3. **[测试策略](/software-engineering/testing-strategy/)**
+3. **[测试策略](/zh/software-engineering/testing-strategy/)**
    - 测试方法
    - 验证和确认
 
-4. **[配置管理](/software-engineering/configuration-management/)**
+4. **[配置管理](/zh/software-engineering/configuration-management/)**
    - 版本控制
    - 基线管理
 
@@ -199,9 +199,9 @@ category: 入门
 
 通过实际案例学习认证流程：
 
-- **[A类设备案例](/case-studies/class-a-device-example/)** - 低风险设备认证实践
-- **[B类设备案例](/case-studies/class-b-blood-pressure-monitor/)** - 血压监测仪认证
-- **[C类设备案例](/case-studies/class-c-device-example/)** - 高风险设备认证实践
+- **[A类设备案例](/zh/case-studies/class-a-device-example/)** - 低风险设备认证实践
+- **[B类设备案例](/zh/case-studies/class-b-blood-pressure-monitor/)** - 血压监测仪认证
+- **[C类设备案例](/zh/case-studies/class-c-device-example/)** - 高风险设备认证实践
 
 ### 推荐工具
 
@@ -448,7 +448,7 @@ category: 入门
     - 考虑软件故障的潜在后果
     - 需要文档化分类依据
     
-    详见：[软件安全分类](/regulatory-standards/iec-62304/software-classificationn/)
+    详见：[软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/)
 
 ??? question "Q7: 510(k)和PMA有什么区别？"
     **答案**：
@@ -476,7 +476,7 @@ category: 入门
     - 是否有合适的谓词设备
     - 产品的创新程度
     
-    详见：[510(k)流程](/regulatory-standards/fda-regulations/510k-process/)和[PMA流程](/regulatory-standards/fda-regulations/pma-process/)
+    详见：[510(k)流程](/zh/regulatory-standards/fda-regulations/510k-process/)和[PMA流程](/zh/regulatory-standards/fda-regulations/pma-process/)
 
 ??? question "Q8: 如何进行软件安全分类？"
     **答案**：
@@ -511,7 +511,7 @@ category: 入门
     - 分类可能随产品演进而变化
     - 需要定期审查
     
-    详见：[软件安全分类](/regulatory-standards/iec-62304/software-classificationn/)
+    详见：[软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/)
 
 ??? question "Q9: 如何管理法规变更？"
     **答案**：
@@ -599,7 +599,7 @@ category: 入门
     - 跟踪措施实施
     - 保持与FDA沟通
     
-    详见：[FDA法规](/regulatory-standards/fda-regulations/)
+    详见：[FDA法规](/zh/regulatory-standards/fda-regulations/)
 
 ### 职业发展
 
@@ -748,8 +748,8 @@ category: 入门
 现在你已经了解了如何开始学习，建议你：
 
 1. ✅ **评估基础知识**：确认是否具备必要的前置知识
-2. ✅ **浏览学习路径**：查看[监管事务专员学习路径](/learning-paths/regulatory-specialist-path/)
-3. ✅ **开始第一个模块**：从[法规标准概述](/regulatory-standards/)开始
+2. ✅ **浏览学习路径**：查看[监管事务专员学习路径](/zh/learning-paths/regulatory-specialist-path/)
+3. ✅ **开始第一个模块**：从[法规标准概述](/zh/regulatory-standards/)开始
 4. ✅ **加入专业组织**：考虑加入RAPS等专业组织
 5. ✅ **制定学习计划**：设定每周学习目标和时间
 6. ✅ **建立知识库**：开始整理法规文档和模板
@@ -758,20 +758,20 @@ category: 入门
 
 ### 相关指南
 
-- [开发人员入门指南](/getting-started/for-developers/) - 了解软件开发流程
-- [QA工程师入门指南](/getting-started/for-qa-engineers/) - 了解测试和质量保证
+- [开发人员入门指南](/zh/getting-started/for-developers/) - 了解软件开发流程
+- [QA工程师入门指南](/zh/getting-started/for-qa-engineers/) - 了解测试和质量保证
 
 ### 学习路径
 
-- [监管事务专员学习路径](/learning-paths/regulatory-specialist-path/) - 完整的学习路径
+- [监管事务专员学习路径](/zh/learning-paths/regulatory-specialist-path/) - 完整的学习路径
 
 ### 核心模块
 
-- [法规标准概述](/regulatory-standards/)
-- [IEC 62304标准](/regulatory-standards/iec-62304/)
-- [ISO 13485质量管理](/regulatory-standards/iso-13485/)
-- [ISO 14971风险管理](/regulatory-standards/iso-14971/)
-- [FDA法规](/regulatory-standards/fda-regulations/)
+- [法规标准概述](/zh/regulatory-standards/)
+- [IEC 62304标准](/zh/regulatory-standards/iec-62304/)
+- [ISO 13485质量管理](/zh/regulatory-standards/iso-13485/)
+- [ISO 14971风险管理](/zh/regulatory-standards/iso-14971/)
+- [FDA法规](/zh/regulatory-standards/fda-regulations/)
 
 ## 参考文献
 
@@ -818,6 +818,6 @@ category: 入门
 !!! success "开始你的监管事务学习之旅"
     准备好了吗？现在就开始你的医疗器械监管事务学习之旅吧！
     
-    👉 [查看完整学习路径](/learning-paths/regulatory-specialist-path/)
+    👉 [查看完整学习路径](/zh/learning-paths/regulatory-specialist-path/)
     
-    👉 [开始第一个模块](/regulatory-standards/)
+    👉 [开始第一个模块](/zh/regulatory-standards/)

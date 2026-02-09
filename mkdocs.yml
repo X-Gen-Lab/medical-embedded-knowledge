@@ -51,8 +51,7 @@ plugins:
         - en
       separator: '[\s\-\.]+'           # 分词分隔符（空格、连字符、点）
       # 离线搜索配置 (Offline Search Configuration) - 需求 11.2, 11.3
-      prebuild_index: true             # 预构建搜索索引，支持离线搜索
-      indexing: 'full'                 # 完整索引模式，包含所有内容
+      # 注意: prebuild_index 和 indexing 选项在新版本中已不支持，搜索功能仍然正常工作
   # PDF导出插件 (PDF Export Plugin) - 任务 11 已完成
   # 注意: 在Windows环境下可能需要额外的依赖，如果构建失败可以临时禁用
   # - pdf-export:
@@ -186,9 +185,6 @@ markdown_extensions:
       permalink: true              # 为标题添加永久链接
       permalink_title: 链接到此章节  # 永久链接的标题
       toc_depth: 3                 # 目录深度（显示到h3）
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
 
 nav:
   - 首页: index.md
@@ -286,7 +282,7 @@ nav:
   - 实践案例:
       - case-studies/index.md
       - A类器械示例: case-studies/class-a-device-example.md
-      - B类器械示例: case-studies/class-b-device-example.md
+      - B类器械示例: case-studies/class-b-blood-pressure-monitor.md
       - C类器械示例: case-studies/class-c-device-example.md
   - 学习路径:
       - learning-paths/index.md

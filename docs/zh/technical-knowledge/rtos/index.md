@@ -1,4 +1,4 @@
-﻿---
+---
 title: "实时操作系统（RTOS）"
 description: "RTOS知识，包含任务调度、同步机制、中断处理和资源管理"
 difficulty: "中级"
@@ -13,9 +13,9 @@ tags: ["RTOS", "任务调度", "实时系统"]
 ## 主要内容
 
 - [任务调度](task-scheduling.md) - 优先级调度、时间片轮转和调度策略
-- 同步机制（待完成） - 互斥锁、信号量和消息队列
-- 中断处理（待完成） - 中断服务程序和中断优先级
-- 资源管理（待完成） - 内存管理和任务通信
+- [中断处理](interrupt-handling.md)
+- [RTOS资源管理](resource-management.md)
+- [同步机制](synchronization.md)
 
 ## 学习路径
 

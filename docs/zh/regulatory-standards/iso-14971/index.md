@@ -638,3 +638,10 @@ graph TD
 3. FDA Guidance: "Applying Human Factors and Usability Engineering to Medical Devices"
 4. ISO/IEC Guide 51:2014 - Safety aspects - Guidelines for their inclusion in standards
 5. 书籍：《Risk Management for Medical Devices》by Faisal Amin
+
+
+## 内容模块
+
+- [ISO 14971 风险分析](risk-analysis.md)
+- [ISO 14971 风险控制](risk-control.md)
+- [ISO 14971 风险评估](risk-evaluation.md)

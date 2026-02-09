@@ -948,3 +948,11 @@ sequenceDiagram
 3. 书籍：《Design Patterns: Elements of Reusable Object-Oriented Software》by Gang of Four
 4. IEC 62304:2006+AMD1:2015 - Medical device software - Software life cycle processes
 5. IEEE 1471-2000 - Recommended Practice for Architectural Description of Software-Intensive Systems
+
+
+## 内容模块
+
+- [设计模式（Design Patterns）](design-patterns/)
+- [接口设计](interface-design.md)
+- [分层架构设计](layered-architecture.md)
+- [模块化设计（Modular Design）](modular-design.md)

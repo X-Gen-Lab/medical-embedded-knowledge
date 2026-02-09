@@ -12,10 +12,9 @@ tags: ["测试策略", "单元测试", "集成测试", "系统测试"]
 
 ## 主要内容
 
-- 单元测试
-- 集成测试
-- 系统测试
-- 回归测试
+- [集成测试](integration-testing.md)
+- [系统测试](system-testing.md)
+- [单元测试](unit-testing.md)
 
 ## 参考文献
 

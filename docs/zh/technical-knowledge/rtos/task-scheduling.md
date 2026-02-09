@@ -559,7 +559,7 @@ void print_task_stats(void) {
 
 ### 相关知识模块
 
-- [同步机制](synchronizationn.md) - RTOS中的互斥锁、信号量和事件组
+- [同步机制](synchronization.md) - RTOS中的互斥锁、信号量和事件组
 - [中断处理](interrupt-handling.md) - 中断服务程序和中断优先级管理
 
 ### 深入学习

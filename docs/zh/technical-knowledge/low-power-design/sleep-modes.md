@@ -1,4 +1,4 @@
-﻿---
+---
 title: 睡眠模式
 description: 掌握微控制器的各种睡眠模式，学习如何在医疗器械中实现低功耗设计，延长电池寿命
 difficulty: 中级
@@ -718,7 +718,7 @@ void main(void) {
 
 ## 相关资源
 
-- [功耗优化](power-optimizationn.md)
+- [功耗优化](power-optimization.md)
 - [任务调度](../rtos/task-scheduling.md)
 - [GPIO操作](../hardware-interfaces/gpio.md)
 

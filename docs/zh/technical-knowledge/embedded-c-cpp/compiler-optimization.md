@@ -1,4 +1,4 @@
-﻿---
+---
 title: 编译器优化（Compiler Optimization）
 description: 深入理解编译器优化技术、优化级别和医疗器械软件中的优化策略
 difficulty: 中级
@@ -2700,7 +2700,7 @@ static inline int fast_function(int x) {
 ## 相关资源
 
 - [内存管理](./memory-management.md) - 内存优化技术
-- [功耗优化](../low-power-design/power-optimizationn.md) - 低功耗设计
+- [功耗优化](../low-power-design/power-optimization.md) - 低功耗设计
 - [RTOS任务调度](../rtos/task-scheduling.md) - 实时系统优化
 - [代码审查](../../software-engineering/coding-standards/code-review-checklist.md) - 优化代码审查
 - [测试策略](../../software-engineering/testing-strategy/index.md) - 性能验证

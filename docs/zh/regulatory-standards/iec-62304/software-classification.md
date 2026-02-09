@@ -1,4 +1,4 @@
-﻿---
+---
 title: 软件安全分类
 description: IEC 62304软件安全分类方法和分类标准
 difficulty: 中级

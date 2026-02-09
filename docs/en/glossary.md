@@ -1,5 +1,5 @@
-﻿---
-title: "Glossary / 鏈琛?
+---
+title: "Glossary / 术语表"
 description: "Chinese-English glossary of terms related to medical device embedded software development"
 language: "en-US"
 translation_status: complete

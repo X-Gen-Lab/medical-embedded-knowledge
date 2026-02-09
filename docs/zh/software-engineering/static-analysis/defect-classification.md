@@ -1269,7 +1269,7 @@ void read_sensor_data(sensor_t* sensor) {
 ## 相关资源
 
 - [静态分析概述](index.md)
-- [静态分析工具使用](tool-usagee.md)
+- [静态分析工具使用](tool-usage.md)
 - [MISRA C编码规范](../coding-standards/misra-c.md)
 - [代码审查检查清单](../coding-standards/code-review-checklist.md)
 

@@ -26,4 +26,4 @@ This page is pending translation from Chinese to English.
 
 ---
 
-*Original Chinese version available at: [涓枃鐗堟湰](../../case-studies/class-b-blood-pressure-monitor.md)*
+*Original Chinese version available at: [涓枃鐗堟湰](/zh/case-studies/class-b-blood-pressure-monitor.md)*

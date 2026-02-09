@@ -788,7 +788,7 @@ if (abs(result1 - result2) > TOLERANCE) {
 ## 相关资源
 
 - [ISO 14971概览](../index.md)
-- [风险评估](./risk-evaluationn.md)
+- [风险评估](./risk-evaluation.md)
 
 ## 参考文献
 

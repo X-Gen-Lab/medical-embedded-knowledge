@@ -2,6 +2,9 @@
 
 欢迎来到医疗器械嵌入式软件知识体系！
 
+- [学习路径系统设计](design.md)
+
+
 ## 关于本知识库
 
 本知识库旨在为医疗器械嵌入式软件开发人员、质量工程师和监管人员提供全面、系统的学习资源。
@@ -24,12 +27,15 @@
 - IEC 81001-5-1 - 网络安全
 
 ### 软件工程实践
-- 需求工程
-- 软件架构设计
-- 编码规范（MISRA C、CERT C）
-- 测试策略
-- 配置管理
-- 静态代码分析
+
+- [实践案例](case-studies/)
+- [入门指南](getting-started/)
+- [术语表 / Glossary](glossary.md)
+- [参考资料](references/)
+- [医疗法规与标准](regulatory-standards/)
+- [需求文档 - 学习路径定制](requirements.md)
+- [软件工程实践](software-engineering/)
+- [核心技术知识](technical-knowledge/)
 
 ## 快速开始
 

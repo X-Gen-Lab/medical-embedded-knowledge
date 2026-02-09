@@ -14,8 +14,8 @@ tags: ["C语言", "C++", "嵌入式编程"]
 
 - [内存管理](memory-management.md) - 栈、堆、静态内存和内存池技术
 - [指针操作](pointer-operations.md) - 指针算术、函数指针和硬件寄存器访问
-- [位操作](bit-manipulationn.md) - 位运算符、寄存器操作和位域
-- 编译优化（待完成）
+- [位操作](bit-manipulation.md) - 位运算符、寄存器操作和位域
+- [编译器优化（Compiler Optimization）](compiler-optimization.md)
 
 ## 学习路径
 

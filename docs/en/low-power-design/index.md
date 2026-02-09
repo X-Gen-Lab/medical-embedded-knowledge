@@ -1,12 +1,12 @@
-﻿---
+---
 title: "Low Power Design"
-description: "寰呰ˉ鍏呭唴瀹?
-difficulty: "涓骇"
-estimated_time: "30鍒嗛挓"
+description: "Low power design techniques for medical devices"
+difficulty: "Intermediate"
+estimated_time: "30 minutes"
 tags: []
 last_updated: "2026-02-09"
 version: "1.0"
-language: "zh"
+language: "en"
 ---
 
 # Low Power Design

@@ -12,9 +12,8 @@ tags: ["配置管理", "版本控制", "基线管理"]
 
 ## 主要内容
 
-- 版本控制
-- 基线管理
-- 发布管理
+- [基线管理](baseline-management.md)
+- [版本控制](version-control.md)
 
 ## 参考文献
 

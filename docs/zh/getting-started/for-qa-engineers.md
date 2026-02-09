@@ -69,7 +69,7 @@ category: 入门
 
 我们为QA工程师设计了系统的学习路径：
 
-🎯 **[质量保证工程师学习路径](/learning-paths/qa-engineer-path/)**
+🎯 **[质量保证工程师学习路径](/zh/learning-paths/qa-engineer-path/)**
 
 **学习路径概览**：
 
@@ -138,50 +138,50 @@ category: 入门
 
 #### 🔴 必学模块
 
-1. **[IEC 62304](/regulatory-standards/iec-62304/)** - 医疗器械软件生命周期过程
-   - [软件安全分类](/regulatory-standards/iec-62304/software-classificationn/)
-   - [生命周期过程](/regulatory-standards/iec-62304/lifecycle-processes/)
-   - [文档要求](/regulatory-standards/iec-62304/documentation-requirements/)
+1. **[IEC 62304](/zh/regulatory-standards/iec-62304/)** - 医疗器械软件生命周期过程
+   - [软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/)
+   - [生命周期过程](/zh/regulatory-standards/iec-62304/lifecycle-processes/)
+   - [文档要求](/zh/regulatory-standards/iec-62304/documentation-requirements/)
 
-2. **[ISO 13485](/regulatory-standards/iso-13485/)** - 质量管理体系
-   - [质量管理原则](/regulatory-standards/iso-13485/quality-management/)
-   - [审核检查清单](/regulatory-standards/iso-13485/audit-checklist/)
+2. **[ISO 13485](/zh/regulatory-standards/iso-13485/)** - 质量管理体系
+   - [质量管理原则](/zh/regulatory-standards/iso-13485/quality-management/)
+   - [审核检查清单](/zh/regulatory-standards/iso-13485/audit-checklist/)
 
-3. **[ISO 14971](/regulatory-standards/iso-14971/)** - 风险管理
-   - [风险分析](/regulatory-standards/iso-14971/risk-analysis/)
-   - [风险评估](/regulatory-standards/iso-14971/risk-evaluationn/)
-   - [风险控制](/regulatory-standards/iso-14971/risk-control/)
+3. **[ISO 14971](/zh/regulatory-standards/iso-14971/)** - 风险管理
+   - [风险分析](/zh/regulatory-standards/iso-14971/risk-analysis/)
+   - [风险评估](/zh/regulatory-standards/iso-14971/risk-evaluation/)
+   - [风险控制](/zh/regulatory-standards/iso-14971/risk-control/)
 
-4. **[FDA法规](/regulatory-standards/fda-regulations/)**
-   - [510(k)流程](/regulatory-standards/fda-regulations/510k-process/)
-   - [PMA流程](/regulatory-standards/fda-regulations/pma-process/)
-   - [软件验证](/regulatory-standards/fda-regulations/software-validation/)
+4. **[FDA法规](/zh/regulatory-standards/fda-regulations/)**
+   - [510(k)流程](/zh/regulatory-standards/fda-regulations/510k-process/)
+   - [PMA流程](/zh/regulatory-standards/fda-regulations/pma-process/)
+   - [软件验证](/zh/regulatory-standards/fda-regulations/software-validation/)
 
 #### 🔵 选修模块
 
-- [IEC 60601-1电气安全](/regulatory-standards/iec-60601-1/electrical-safety/)
-- [IEC 81001-5-1安全控制](/regulatory-standards/iec-81001-5-1/security-controls/)
+- [IEC 60601-1电气安全](/zh/regulatory-standards/iec-60601-1/electrical-safety/)
+- [IEC 81001-5-1安全控制](/zh/regulatory-standards/iec-81001-5-1/security-controls/)
 
 ### 测试策略与方法
 
 #### 核心测试模块
 
-1. **[测试策略概述](/software-engineering/testing-strategy/)**
+1. **[测试策略概述](/zh/software-engineering/testing-strategy/)**
    - 测试方法论
    - 测试生命周期
    - 测试文档要求
 
-2. **[单元测试](/software-engineering/testing-strategy/unit-testing/)**
+2. **[单元测试](/zh/software-engineering/testing-strategy/unit-testing/)**
    - 单元测试框架
    - 测试用例设计
    - 代码覆盖率
 
-3. **[集成测试](/software-engineering/testing-strategy/integration-testing/)**
+3. **[集成测试](/zh/software-engineering/testing-strategy/integration-testing/)**
    - 集成测试策略
    - 接口测试
    - 集成测试工具
 
-4. **[系统测试](/software-engineering/testing-strategy/system-testing/)**
+4. **[系统测试](/zh/software-engineering/testing-strategy/system-testing/)**
    - 功能测试
    - 性能测试
    - 安全测试
@@ -190,9 +190,9 @@ category: 入门
 
 通过实际案例学习端到端的测试流程：
 
-- **[A类设备案例](/case-studies/class-a-device-example/)** - 低风险设备测试实践
-- **[B类设备案例](/case-studies/class-b-blood-pressure-monitor/)** - 血压监测仪测试
-- **[C类设备案例](/case-studies/class-c-device-example/)** - 高风险设备测试实践
+- **[A类设备案例](/zh/case-studies/class-a-device-example/)** - 低风险设备测试实践
+- **[B类设备案例](/zh/case-studies/class-b-blood-pressure-monitor/)** - 血压监测仪测试
+- **[C类设备案例](/zh/case-studies/class-c-device-example/)** - 高风险设备测试实践
 
 ### 推荐工具
 
@@ -313,7 +313,7 @@ category: 入门
     - 更严格的代码审查
     - 可能需要独立验证和确认
     
-    详见：[软件安全分类](/regulatory-standards/iec-62304/software-classificationn/)
+    详见：[软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/)
 
 ??? question "Q4: 如何编写符合IEC 62304要求的测试计划？"
     **答案**：
@@ -382,7 +382,7 @@ category: 入门
        - 评估控制后的风险
        - 确认风险可接受
     
-    详见：[风险分析](/regulatory-standards/iso-14971/risk-analysis/)
+    详见：[风险分析](/zh/regulatory-standards/iso-14971/risk-analysis/)
 
 ### 测试相关
 
@@ -545,7 +545,7 @@ category: 入门
        - 制定改进计划
        - 跟踪改进实施
     
-    详见：[FDA法规](/regulatory-standards/fda-regulations/)
+    详见：[FDA法规](/zh/regulatory-standards/fda-regulations/)
 
 ### 职业发展
 
@@ -669,8 +669,8 @@ category: 入门
 现在你已经了解了如何开始学习，建议你：
 
 1. ✅ **评估基础知识**：确认是否具备必要的前置知识
-2. ✅ **浏览学习路径**：查看[质量保证工程师学习路径](/learning-paths/qa-engineer-path/)
-3. ✅ **开始第一个模块**：从[IEC 62304概述](/regulatory-standards/iec-62304/)开始
+2. ✅ **浏览学习路径**：查看[质量保证工程师学习路径](/zh/learning-paths/qa-engineer-path/)
+3. ✅ **开始第一个模块**：从[IEC 62304概述](/zh/regulatory-standards/iec-62304/)开始
 4. ✅ **加入专业社区**：与其他QA工程师交流经验
 5. ✅ **制定学习计划**：设定每周学习目标和时间
 
@@ -678,19 +678,19 @@ category: 入门
 
 ### 相关指南
 
-- [开发人员入门指南](/getting-started/for-developers/) - 了解开发流程和技术
-- [监管事务专员入门指南](/getting-started/for-regulatory-affairs/) - 了解法规认证流程
+- [开发人员入门指南](/zh/getting-started/for-developers/) - 了解开发流程和技术
+- [监管事务专员入门指南](/zh/getting-started/for-regulatory-affairs/) - 了解法规认证流程
 
 ### 学习路径
 
-- [质量保证工程师学习路径](/learning-paths/qa-engineer-path/) - 完整的学习路径
+- [质量保证工程师学习路径](/zh/learning-paths/qa-engineer-path/) - 完整的学习路径
 
 ### 核心模块
 
-- [IEC 62304标准](/regulatory-standards/iec-62304/)
-- [ISO 13485质量管理](/regulatory-standards/iso-13485/)
-- [ISO 14971风险管理](/regulatory-standards/iso-14971/)
-- [测试策略](/software-engineering/testing-strategy/)
+- [IEC 62304标准](/zh/regulatory-standards/iec-62304/)
+- [ISO 13485质量管理](/zh/regulatory-standards/iso-13485/)
+- [ISO 14971风险管理](/zh/regulatory-standards/iso-14971/)
+- [测试策略](/zh/software-engineering/testing-strategy/)
 
 ## 参考文献
 
@@ -733,6 +733,6 @@ category: 入门
 !!! success "开始你的QA学习之旅"
     准备好了吗？现在就开始你的医疗器械质量保证学习之旅吧！
     
-    👉 [查看完整学习路径](/learning-paths/qa-engineer-path/)
+    👉 [查看完整学习路径](/zh/learning-paths/qa-engineer-path/)
     
-    👉 [开始第一个模块](/regulatory-standards/iec-62304/)
+    👉 [开始第一个模块](/zh/regulatory-standards/iec-62304/)

@@ -420,3 +420,9 @@ IEC 60601-1要求整合ISO 14971风险管理：
 2. IEC 60601-1-2:2014 - Medical electrical equipment - Part 1-2: General requirements for basic safety and essential performance - Collateral standard: Electromagnetic disturbances
 3. IEC 62366-1:2015 - Medical devices - Part 1: Application of usability engineering to medical devices
 4. 书籍：《Medical Device Design: Innovation from Concept to Market》by Peter J. Ogrodnik
+
+
+## 内容模块
+
+- [IEC 60601-1 电气安全](electrical-safety.md)
+- [IEC 60601-1 EMC要求](emc-requirements.md)

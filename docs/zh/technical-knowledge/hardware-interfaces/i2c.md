@@ -1,4 +1,4 @@
-﻿---
+---
 title: I2C通信协议
 description: I2C总线协议原理、配置和在医疗器械中的应用
 difficulty: 中级

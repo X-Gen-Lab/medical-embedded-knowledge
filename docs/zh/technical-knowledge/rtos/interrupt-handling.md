@@ -724,7 +724,7 @@ void task(void *param) {
 ### 相关知识模块
 
 - [任务调度](task-scheduling.md) - RTOS任务调度和优先级管理
-- [同步机制](synchronizationn.md) - 信号量、队列和事件组
+- [同步机制](synchronization.md) - 信号量、队列和事件组
 - [资源管理](resource-management.md) - 内存管理和资源池
 
 ### 深入学习

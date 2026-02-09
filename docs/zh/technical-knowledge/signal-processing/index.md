@@ -12,7 +12,7 @@ tags: ["信号处理", "FFT", "数字滤波", "医疗算法"]
 
 ## 主要内容
 
-- 数字滤波
-- 快速傅里叶变换（FFT）
-- 心电信号处理
-- 血氧计算
+- [数字滤波器](digital-filters.md)
+- [心电信号处理（ECG Processing）](ecg-processing.md)
+- [快速傅里叶变换（FFT）](fft.md)
+- [血氧饱和度计算（SpO2 Calculation）](spo2-calculation.md)

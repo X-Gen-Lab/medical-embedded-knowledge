@@ -1,4 +1,4 @@
-﻿---
+---
 title: 内存管理
 description: 嵌入式C/C++中的内存管理技术，包括栈、堆、静态内存和内存池
 difficulty: Intermediate
@@ -409,4 +409,4 @@ void memory_pool_get_stats(uint32_t* allocated, uint32_t* peak) {
 
 - [Pointer Operations](pointer-operations.md)
 - [Low Power Design](../../low-power-design/index.md)
-- [MISRA C Coding Standards](../../software-engineering/coding-standards/misra-c.md)
+- [MISRA C Coding Standards](/zh/software-engineering/coding-standards/misra-c.md)

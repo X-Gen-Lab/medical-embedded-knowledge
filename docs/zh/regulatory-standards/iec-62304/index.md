@@ -386,7 +386,7 @@ graph TD
 
 ## 相关资源
 
-- [软件安全分类详解](software-classificationn.md)
+- [软件安全分类详解](software-classification.md)
 - [ISO 14971 - 风险管理](../iso-14971/index.md)
 - [需求工程](../../software-engineering/requirements-engineering/index.md)
 - [测试策略](../../software-engineering/testing-strategy/index.md)
@@ -398,3 +398,9 @@ graph TD
 3. AAMI TIR45:2012 - Guidance on the use of AGILE practices in the development of medical device software
 4. ISO/TR 80002-2:2017 - Medical device software - Part 2: Validation of software for medical device quality systems
 5. 书籍：《Medical Device Software Verification, Validation and Compliance》by David A. Vogel
+
+
+## 内容模块
+
+- [IEC 62304 文档要求](documentation-requirements.md)
+- [IEC 62304 生命周期过程](lifecycle-processes.md)

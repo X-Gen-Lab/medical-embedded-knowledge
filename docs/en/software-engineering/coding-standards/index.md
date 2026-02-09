@@ -1,16 +1,21 @@
-﻿---
-title: "Coding Standards"
-description: "Coding standards for medical device embedded software, including MISRA C, CERT C, and code review checklists"
-difficulty: "Intermediate"
-estimated_time: "4 hours"
-tags: ["Coding Standards", "MISRA C", "CERT C", "Code Quality"]
+---
+title: Coding Standards
+description: Coding standards for medical device embedded software, including MISRA
+  C, CERT C, and code review checklists
+difficulty: Intermediate
+estimated_time: 4 hours
+tags:
+- Coding Standards
+- MISRA C
+- CERT C
+- Code Quality
 related_modules:
-  - "technical-knowledge/embedded-c-cpp"
-  - "software-engineering/static-analysis"
-  - "regulatory-standards/iec-62304"
-last_updated: "2026-02-07"
-version: "1.0"
-language: "en-US"
+- en/technical-knowledge/embedded-c-cpp
+- en/software-engineering/static-analysis
+- en/regulatory-standards/iec-62304
+last_updated: '2026-02-07'
+version: '1.0'
+language: en-US
 translation_status: complete
 ---
 
@@ -206,7 +211,7 @@ Static analysis tools automatically check code for compliance with coding standa
 - [CERT C Details](cert-c.md)
 - [Code Review Checklist](code-review-checklist.md)
 - [Static Analysis](../static-analysis/index.md)
-- [Embedded C/C++](../../technical-knowledge/embedded-c-cpp/index.md)
+- [Embedded C/C++](/zh/technical-knowledge/embedded-c-cpp/index.md)
 
 ## References
 

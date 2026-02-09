@@ -1,4 +1,4 @@
-﻿---
+---
 title: GPIO操作
 description: 掌握GPIO（通用输入输出）的配置和使用，学习如何控制LED、读取按键、配置中断等基本硬件接口操作
 difficulty: 基础

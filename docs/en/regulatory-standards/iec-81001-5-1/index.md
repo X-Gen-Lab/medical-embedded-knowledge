@@ -1,4 +1,4 @@
-﻿---
+---
 title: "[To be translated]"
 description: "[To be translated]"
 language: en-US
@@ -13,4 +13,4 @@ This page is pending translation from Chinese to English.
 
 ---
 
-*Original Chinese version available at: [涓枃鐗堟湰](../../regulatory-standards/iec-81001-5-1/index.md)*
+*Original Chinese version available at: [涓枃鐗堟湰](/zh/regulatory-standards/iec-81001-5-1/index.md)*

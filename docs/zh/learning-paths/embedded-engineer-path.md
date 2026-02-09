@@ -1,4 +1,4 @@
-﻿---
+---
 title: "嵌入式软件工程师学习路径"
 title_en: "Embedded Software Engineer Learning Path"
 description: "为医疗器械嵌入式软件开发人员设计的系统学习路径，涵盖从基础编程到实时操作系统、硬件接口、信号处理以及医疗法规的全面知识体系。"
@@ -49,11 +49,11 @@ target_role: "嵌入式软件工程师"
 
 #### 知识模块
 
-- 🔴 必修 [嵌入式C/C++概述](/technical-knowledge/embedded-c-cpp/) (1小时)
-- 🔴 必修 [内存管理](/technical-knowledge/embedded-c-cpp/memory-management/) (3小时)
-- 🔴 必修 [指针操作](/technical-knowledge/embedded-c-cpp/pointer-operations/) (3小时)
-- 🔴 必修 [位操作](/technical-knowledge/embedded-c-cpp/bit-manipulationn/) (2小时)
-- 🔵 选修 [编译优化](/technical-knowledge/embedded-c-cpp/compiler-optimization/) (3小时)
+- 🔴 必修 [嵌入式C/C++概述](/zh/technical-knowledge/embedded-c-cpp/) (1小时)
+- 🔴 必修 [内存管理](/zh/technical-knowledge/embedded-c-cpp/memory-management/) (3小时)
+- 🔴 必修 [指针操作](/zh/technical-knowledge/embedded-c-cpp/pointer-operations/) (3小时)
+- 🔴 必修 [位操作](/zh/technical-knowledge/embedded-c-cpp/bit-manipulation/) (2小时)
+- 🔵 选修 [编译优化](/zh/technical-knowledge/embedded-c-cpp/compiler-optimization/) (3小时)
 
 #### ✅ C/C++编程能力检查点
 
@@ -68,11 +68,11 @@ target_role: "嵌入式软件工程师"
 
 #### 知识模块
 
-- 🔴 必修 [RTOS概述](/technical-knowledge/rtos/) (2小时)
-- 🔴 必修 [任务调度](/technical-knowledge/rtos/task-scheduling/) (4小时)
-- 🔴 必修 [同步机制](/technical-knowledge/rtos/synchronizationn/) (4小时)
-- 🔴 必修 [中断处理](/technical-knowledge/rtos/interrupt-handling/) (3小时)
-- 🔵 选修 [资源管理](/technical-knowledge/rtos/resource-management/) (2小时)
+- 🔴 必修 [RTOS概述](/zh/technical-knowledge/rtos/) (2小时)
+- 🔴 必修 [任务调度](/zh/technical-knowledge/rtos/task-scheduling/) (4小时)
+- 🔴 必修 [同步机制](/zh/technical-knowledge/rtos/synchronization/) (4小时)
+- 🔴 必修 [中断处理](/zh/technical-knowledge/rtos/interrupt-handling/) (3小时)
+- 🔵 选修 [资源管理](/zh/technical-knowledge/rtos/resource-management/) (2小时)
 
 #### ✅ RTOS应用能力检查点
 
@@ -87,11 +87,11 @@ target_role: "嵌入式软件工程师"
 
 #### 知识模块
 
-- 🔴 必修 [硬件接口概述](/technical-knowledge/hardware-interfaces/) (1小时)
-- 🔴 必修 [I2C接口](/technical-knowledge/hardware-interfaces/i2c/) (3小时)
-- 🔴 必修 [SPI接口](/technical-knowledge/hardware-interfaces/spi/) (3小时)
-- 🔴 必修 [UART接口](/technical-knowledge/hardware-interfaces/uart/) (2小时)
-- 🔴 必修 [ADC/DAC](/technical-knowledge/hardware-interfaces/adc-dac/) (3小时)
+- 🔴 必修 [硬件接口概述](/zh/technical-knowledge/hardware-interfaces/) (1小时)
+- 🔴 必修 [I2C接口](/zh/technical-knowledge/hardware-interfaces/i2c/) (3小时)
+- 🔴 必修 [SPI接口](/zh/technical-knowledge/hardware-interfaces/spi/) (3小时)
+- 🔴 必修 [UART接口](/zh/technical-knowledge/hardware-interfaces/uart/) (2小时)
+- 🔴 必修 [ADC/DAC](/zh/technical-knowledge/hardware-interfaces/adc-dac/) (3小时)
 
 #### ✅ 硬件接口调试能力检查点
 
@@ -106,12 +106,12 @@ target_role: "嵌入式软件工程师"
 
 #### 知识模块
 
-- 🔴 必修 [低功耗设计概述](/technical-knowledge/low-power-design/) (1小时)
-- 🔴 必修 [睡眠模式](/technical-knowledge/low-power-design/sleep-modes/) (2小时)
-- 🔴 必修 [功耗优化](/technical-knowledge/low-power-design/power-optimizationn/) (2小时)
-- 🔴 必修 [信号处理概述](/technical-knowledge/signal-processing/) (1小时)
-- 🔴 必修 [数字滤波](/technical-knowledge/signal-processing/digital-filters/) (2小时)
-- 🔵 选修 [心电信号处理](/technical-knowledge/signal-processing/ecg-processing/) (2小时)
+- 🔴 必修 [低功耗设计概述](/zh/technical-knowledge/low-power-design/) (1小时)
+- 🔴 必修 [睡眠模式](/zh/technical-knowledge/low-power-design/sleep-modes/) (2小时)
+- 🔴 必修 [功耗优化](/zh/technical-knowledge/low-power-design/power-optimization/) (2小时)
+- 🔴 必修 [信号处理概述](/zh/technical-knowledge/signal-processing/) (1小时)
+- 🔴 必修 [数字滤波](/zh/technical-knowledge/signal-processing/digital-filters/) (2小时)
+- 🔵 选修 [心电信号处理](/zh/technical-knowledge/signal-processing/ecg-processing/) (2小时)
 
 ### 阶段 5: 医疗法规与编码规范
 
@@ -121,11 +121,11 @@ target_role: "嵌入式软件工程师"
 
 #### 知识模块
 
-- 🔴 必修 [IEC 62304概述](/regulatory-standards/iec-62304/) (2小时)
-- 🔴 必修 [软件安全分类](/regulatory-standards/iec-62304/software-classificationn/) (1小时)
-- 🔴 必修 [编码规范概述](/software-engineering/coding-standards/) (1小时)
-- 🔴 必修 [MISRA C规范](/software-engineering/coding-standards/misra-c/) (3小时)
-- 🔵 选修 [CERT C规范](/software-engineering/coding-standards/cert-c/) (1小时)
+- 🔴 必修 [IEC 62304概述](/zh/regulatory-standards/iec-62304/) (2小时)
+- 🔴 必修 [软件安全分类](/zh/regulatory-standards/iec-62304/software-classification/) (1小时)
+- 🔴 必修 [编码规范概述](/zh/software-engineering/coding-standards/) (1小时)
+- 🔴 必修 [MISRA C规范](/zh/software-engineering/coding-standards/misra-c/) (3小时)
+- 🔵 选修 [CERT C规范](/zh/software-engineering/coding-standards/cert-c/) (1小时)
 
 #### ✅ 法规与规范理解检查点
 
@@ -140,10 +140,10 @@ target_role: "嵌入式软件工程师"
 
 #### 知识模块
 
-- 🔴 必修 [测试策略概述](/software-engineering/testing-strategy/) (1小时)
-- 🔴 必修 [单元测试](/software-engineering/testing-strategy/unit-testing/) (2小时)
-- 🔴 必修 [集成测试](/software-engineering/testing-strategy/integration-testing/) (2小时)
-- 🔵 选修 [A类设备案例](/case-studies/class-a-device-example/) (3小时)
+- 🔴 必修 [测试策略概述](/zh/software-engineering/testing-strategy/) (1小时)
+- 🔴 必修 [单元测试](/zh/software-engineering/testing-strategy/unit-testing/) (2小时)
+- 🔴 必修 [集成测试](/zh/software-engineering/testing-strategy/integration-testing/) (2小时)
+- 🔵 选修 [A类设备案例](/zh/case-studies/class-a-device-example/) (3小时)
 
 #### ✅ 综合能力检查点
 

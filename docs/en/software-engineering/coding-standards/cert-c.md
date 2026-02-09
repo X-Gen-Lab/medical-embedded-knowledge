@@ -18,19 +18,55 @@ version: '1.0'
 language: en-US
 ---
 
+# CERT C安全编码规范
 
-# Learn more about CERT C
+> ⚠️ **Note**: This page is a placeholder for English translation.
 
-> 鈿狅笍 **娉ㄦ剰**: 鏈〉闈㈠唴瀹瑰緟琛ュ厖
+## Learning Objectives
 
-## 姒傝堪
+After completing this module, you will be able to:
+- Understand the core concepts of cert c安全编码规范
+- Apply cert c安全编码规范 in medical device software development
+- Follow best practices and avoid common pitfalls
 
-鏈ā鍧楀唴瀹规鍦ㄥ紑鍙戜腑锛屾暚璇锋湡寰呫€?
+## Prerequisites
 
-## 鐩稿叧璧勬簮
+- Basic knowledge of C/C++ programming
+- Understanding of embedded systems
+- Familiarity with medical device software development
 
-- 寰呰ˉ鍏?
+## Content
 
-## 鍙傝€冩枃鐚?
+> 📝 **Content Status**: This module is currently being translated from Chinese. 
+> 
+> For the complete content, please refer to the [Chinese version](../../../zh/software-engineering/coding-standards/cert-c.md).
 
-1. 寰呰ˉ鍏?
+### Overview
+
+This module covers cert c安全编码规范 in the context of medical device embedded software development.
+
+### Key Topics
+
+- Fundamental concepts
+- Practical applications
+- Best practices
+- Common pitfalls
+
+## Related Resources
+
+Please refer to the related modules listed in the front matter above.
+
+## References
+
+1. IEC 62304:2006+AMD1:2015 - Medical device software - Software life cycle processes
+2. ISO 13485:2016 - Medical devices - Quality management systems
+3. Relevant technical standards and guidelines
+
+---
+
+**Document Information**
+
+- **Last Updated**: 2026-02-09
+- **Version**: 1.0
+- **Translation Status**: Placeholder
+- **Feedback**: Please submit issues or suggestions through GitHub Issues

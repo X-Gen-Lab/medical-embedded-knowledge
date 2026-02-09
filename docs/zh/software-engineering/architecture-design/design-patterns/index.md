@@ -1,4 +1,4 @@
-﻿---
+---
 title: 设计模式（Design Patterns）
 description: 医疗器械嵌入式软件中常用的设计模式及其应用
 difficulty: 中级
