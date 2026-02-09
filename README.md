@@ -640,6 +640,8 @@ pytest --cov=scripts --cov-report=html
 
 ### 构建和部署
 
+#### 本地构建
+
 ```bash
 # 本地构建
 mkdocs build
@@ -647,12 +649,58 @@ mkdocs build
 # 构建并检查严格模式（所有警告视为错误）
 mkdocs build --strict
 
-# 部署到GitHub Pages
-mkdocs gh-deploy
-
 # 生成离线包
 python scripts/package_offline.py
 ```
+
+#### 自动部署
+
+本项目配置了GitHub Actions自动部署工作流，实现持续集成和持续部署（CI/CD）：
+
+**自动触发条件**：
+- 推送到 `main` 分支时自动触发
+- 仅在文档相关文件变更时触发（提高效率）
+  - `docs/**` - 文档内容
+  - `mkdocs.yml` - 配置文件
+  - `requirements.txt` - 依赖文件
+  - `.github/workflows/deploy.yml` - 工作流配置
+
+**部署流程**：
+1. **构建阶段**：
+   - 检出代码仓库
+   - 设置Python环境（3.11）
+   - 安装项目依赖
+   - 构建MkDocs站点（严格模式）
+   - 添加离线版本标识
+   - 上传构建产物
+
+2. **部署阶段**：
+   - 部署到GitHub Pages
+   - 自动更新站点URL
+   - 输出部署信息
+
+**手动触发部署**：
+```bash
+# 方法1：通过GitHub网页界面
+# 访问 Actions -> Deploy to GitHub Pages -> Run workflow
+
+# 方法2：使用GitHub CLI
+gh workflow run deploy.yml
+
+# 方法3：传统方式（手动部署）
+mkdocs gh-deploy
+```
+
+**查看部署状态**：
+- 访问仓库的 Actions 标签页
+- 查看最新的工作流运行状态
+- 部署成功后访问：https://x-gen-lab.github.io/medical-embedded-knowledge/
+
+**部署配置说明**：
+- 工作流文件：`.github/workflows/deploy.yml`
+- 部署目标：GitHub Pages
+- 构建输出：`site/` 目录
+- 离线版本标识：包含构建时间、版本号和分支信息
 
 ## 🐛 故障排除
 
