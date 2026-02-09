@@ -75,8 +75,8 @@
 #### 1. 克隆仓库
 
 ```bash
-git clone <repository-url>
-cd Medical
+git clone https://github.com/X-Gen-Lab/medical-embedded-knowledge.git
+cd medical-embedded-knowledge
 ```
 
 #### 2. 创建虚拟环境（推荐）
@@ -408,8 +408,8 @@ Medical/
 ```bash
 # Fork项目到您的GitHub账户
 # 克隆您的Fork
-git clone https://github.com/YOUR_USERNAME/Medical.git
-cd Medical
+git clone https://github.com/YOUR_USERNAME/medical-embedded-knowledge.git
+cd medical-embedded-knowledge
 
 # 创建新分支
 git checkout -b feature/your-feature-name
@@ -709,9 +709,9 @@ pip install mkdocs-pdf-export-plugin
 
 如有问题、建议或合作意向，请通过以下方式联系我们：
 
-- **GitHub Issues**: [提交Issue](https://github.com/your-org/Medical/issues)
+- **GitHub Issues**: [提交Issue](https://github.com/X-Gen-Lab/medical-embedded-knowledge/issues)
 - **电子邮件**: [待定]
-- **讨论区**: [GitHub Discussions](https://github.com/your-org/Medical/discussions)
+- **讨论区**: [GitHub Discussions](https://github.com/X-Gen-Lab/medical-embedded-knowledge/discussions)
 
 ## 🗺️ 路线图
 
@@ -772,7 +772,7 @@ pip install mkdocs-pdf-export-plugin
 
 如果这个项目对您有帮助，请给我们一个Star！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-org/Medical&type=Date)](https://star-history.com/#your-org/Medical&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=X-Gen-Lab/medical-embedded-knowledge&type=Date)](https://star-history.com/#X-Gen-Lab/medical-embedded-knowledge&Date)
 
 ---
 

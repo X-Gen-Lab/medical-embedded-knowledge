@@ -325,7 +325,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-org/medical-embedded-knowledge
+      link: https://github.com/X-Gen-Lab/medical-embedded-knowledge
   version:
     provider: mike
 ```

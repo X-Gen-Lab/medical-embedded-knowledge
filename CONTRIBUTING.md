@@ -106,11 +106,11 @@ Welcome to the Medical Device Embedded Software Knowledge System! We warmly welc
 # 1. Fork项目到您的GitHub账户（在GitHub网页上点击Fork按钮）
 
 # 2. 克隆您的Fork到本地
-git clone https://github.com/YOUR_USERNAME/Medical.git
-cd Medical
+git clone https://github.com/YOUR_USERNAME/medical-embedded-knowledge.git
+cd medical-embedded-knowledge
 
 # 3. 添加上游仓库
-git remote add upstream https://github.com/ORIGINAL_OWNER/Medical.git
+git remote add upstream https://github.com/X-Gen-Lab/medical-embedded-knowledge.git
 
 # 4. 创建新分支
 git checkout -b feature/your-feature-name
@@ -1125,8 +1125,8 @@ git rebase main
 
 ```bash
 # 克隆和设置
-git clone https://github.com/YOUR_USERNAME/Medical.git
-cd Medical
+git clone https://github.com/YOUR_USERNAME/medical-embedded-knowledge.git
+cd medical-embedded-knowledge
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt

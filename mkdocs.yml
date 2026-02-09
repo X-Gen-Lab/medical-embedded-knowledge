@@ -1,7 +1,7 @@
 site_name: 医疗器械嵌入式软件知识体系
 site_description: 全面的医疗器械嵌入式软件开发知识库
 site_author: 知识体系团队
-site_url: https://medical-embedded-knowledge.example.com
+site_url: https://x-gen-lab.github.io/medical-embedded-knowledge/
 
 # 离线HTML构建配置 (Offline HTML Build Configuration)
 # 需求 11.2: 支持将整个知识库打包为离线HTML文件
@@ -312,7 +312,7 @@ extra:
       lang: en
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-org/medical-embedded-knowledge
+      link: https://github.com/X-Gen-Lab/medical-embedded-knowledge
 
 # 自定义JavaScript (Custom JavaScript)
 extra_javascript:

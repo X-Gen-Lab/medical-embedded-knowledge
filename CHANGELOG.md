@@ -208,8 +208,8 @@ Thank you to all the people who have contributed to this project!
 
 - **项目主页 | Homepage**: [待定 | TBD]
 - **文档站点 | Documentation**: [待定 | TBD]
-- **问题追踪 | Issue Tracker**: [GitHub Issues](https://github.com/your-org/Medical/issues)
-- **讨论区 | Discussions**: [GitHub Discussions](https://github.com/your-org/Medical/discussions)
+- **问题追踪 | Issue Tracker**: [GitHub Issues](https://github.com/X-Gen-Lab/medical-embedded-knowledge/issues)
+- **讨论区 | Discussions**: [GitHub Discussions](https://github.com/X-Gen-Lab/medical-embedded-knowledge/discussions)
 
 ---
 
