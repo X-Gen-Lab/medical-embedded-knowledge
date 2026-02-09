@@ -1,0 +1,301 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+  <title>页面未找到 - 医疗器械嵌入式软件知识体系</title>
+{% endblock %}
+
+{% block content %}
+  <div class="md-content" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+      <div class="error-404">
+        <h1>😕 抱歉，页面未找到</h1>
+        <p class="error-message">您访问的页面不存在或已被移动。</p>
+        
+        <div class="search-section">
+          <h2>🔍 搜索知识内容</h2>
+          <p>尝试搜索您需要的内容：</p>
+          <form class="search-form" role="search">
+            <input 
+              type="text" 
+              name="q" 
+              class="md-input search-input" 
+              placeholder="输入关键词搜索..." 
+              aria-label="搜索"
+              autocomplete="off"
+            >
+            <button type="submit" class="md-button md-button--primary search-button">
+              搜索
+            </button>
+          </form>
+        </div>
+
+        <div class="popular-pages">
+          <h2>📚 热门页面</h2>
+          <ul class="popular-list">
+            <li>
+              <a href="{{ config.site_url or '/' }}" class="popular-link">
+                <span class="icon">🏠</span>
+                <span class="text">首页</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ config.site_url or '/' }}technical-knowledge/" class="popular-link">
+                <span class="icon">💻</span>
+                <span class="text">核心技术知识</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ config.site_url or '/' }}regulatory-standards/" class="popular-link">
+                <span class="icon">📋</span>
+                <span class="text">法规与标准</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ config.site_url or '/' }}software-engineering/" class="popular-link">
+                <span class="icon">⚙️</span>
+                <span class="text">软件工程实践</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ config.site_url or '/' }}learning-paths/" class="popular-link">
+                <span class="icon">🎯</span>
+                <span class="text">学习路径</span>
+              </a>
+            </li>
+            <li>
+              <a href="{{ config.site_url or '/' }}case-studies/" class="popular-link">
+                <span class="icon">📖</span>
+                <span class="text">实践案例</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="help-section">
+          <h2>💡 建议</h2>
+          <ul class="help-list">
+            <li>检查URL拼写是否正确</li>
+            <li>使用上方搜索框查找相关内容</li>
+            <li>浏览热门页面找到您需要的信息</li>
+            <li>返回<a href="{{ config.site_url or '/' }}">首页</a>重新开始</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
+{% endblock %}
+
+{% block styles %}
+  {{ super() }}
+  <style>
+    .error-404 {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+    }
+
+    .error-404 h1 {
+      font-size: 2.5rem;
+      color: var(--md-primary-fg-color);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .error-message {
+      font-size: 1.2rem;
+      text-align: center;
+      color: var(--md-default-fg-color--light);
+      margin-bottom: 3rem;
+    }
+
+    .search-section {
+      background-color: var(--md-code-bg-color);
+      padding: 2rem;
+      border-radius: 0.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .search-section h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: var(--md-primary-fg-color);
+    }
+
+    .search-form {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .search-input {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      font-size: 1rem;
+      border: 1px solid var(--md-default-fg-color--lightest);
+      border-radius: 0.25rem;
+      background-color: var(--md-default-bg-color);
+      color: var(--md-default-fg-color);
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--md-primary-fg-color);
+      box-shadow: 0 0 0 2px var(--md-primary-fg-color--light);
+    }
+
+    .search-button {
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .popular-pages {
+      margin-bottom: 3rem;
+    }
+
+    .popular-pages h2 {
+      font-size: 1.5rem;
+      color: var(--md-primary-fg-color);
+      margin-bottom: 1rem;
+    }
+
+    .popular-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .popular-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem;
+      background-color: var(--md-code-bg-color);
+      border-radius: 0.5rem;
+      text-decoration: none;
+      color: var(--md-default-fg-color);
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+
+    .popular-link:hover {
+      background-color: var(--md-accent-fg-color--transparent);
+      border-color: var(--md-accent-fg-color);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .popular-link .icon {
+      font-size: 1.5rem;
+    }
+
+    .popular-link .text {
+      font-weight: 500;
+    }
+
+    .help-section {
+      background-color: var(--md-admonition-bg-color);
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      border-left: 4px solid var(--md-primary-fg-color);
+    }
+
+    .help-section h2 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: var(--md-primary-fg-color);
+    }
+
+    .help-list {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+
+    .help-list li {
+      margin-bottom: 0.5rem;
+      line-height: 1.6;
+    }
+
+    .help-list a {
+      color: var(--md-primary-fg-color);
+      text-decoration: underline;
+    }
+
+    .help-list a:hover {
+      color: var(--md-accent-fg-color);
+    }
+
+    /* 响应式设计 */
+    @media screen and (max-width: 768px) {
+      .error-404 {
+        padding: 1rem;
+      }
+
+      .error-404 h1 {
+        font-size: 2rem;
+      }
+
+      .search-form {
+        flex-direction: column;
+      }
+
+      .popular-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* 暗色模式适配 */
+    [data-md-color-scheme="slate"] .search-input {
+      background-color: var(--md-code-bg-color);
+    }
+
+    [data-md-color-scheme="slate"] .popular-link {
+      background-color: var(--md-default-bg-color--light);
+    }
+
+    [data-md-color-scheme="slate"] .popular-link:hover {
+      background-color: var(--md-accent-fg-color--transparent);
+    }
+  </style>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    // 处理搜索表单提交
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchForm = document.querySelector('.search-form');
+      if (searchForm) {
+        searchForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const searchInput = this.querySelector('input[name="q"]');
+          const query = searchInput.value.trim();
+          
+          if (query) {
+            // 触发MkDocs Material主题的搜索功能
+            const searchButton = document.querySelector('[data-md-component="search-button"]');
+            if (searchButton) {
+              searchButton.click();
+              setTimeout(function() {
+                const materialSearchInput = document.querySelector('.md-search__input');
+                if (materialSearchInput) {
+                  materialSearchInput.value = query;
+                  materialSearchInput.dispatchEvent(new Event('input', { bubbles: true }));
+                  materialSearchInput.focus();
+                }
+              }, 100);
+            } else {
+              // 降级方案：直接跳转到搜索页面（如果有的话）
+              window.location.href = '{{ config.site_url or "/" }}search.html?q=' + encodeURIComponent(query);
+            }
+          }
+        });
+      }
+    });
+  </script>
+{% endblock %}

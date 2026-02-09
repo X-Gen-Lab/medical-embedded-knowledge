@@ -1,0 +1,441 @@
+/**
+ * PDF导出样式文件
+ * 用于优化PDF打印输出的样式定义
+ * 
+ * 功能：
+ * - 隐藏导航和页脚元素
+ * - 优化页面分隔
+ * - 优化代码块和图表显示
+ * - 确保内容在打印时的可读性
+ */
+
+/* ============================================
+   打印媒体查询 - 仅在打印/PDF导出时应用
+   ============================================ */
+@media print {
+    
+    /* ----------------------------------------
+       隐藏不需要的UI元素
+       ---------------------------------------- */
+    
+    /* 隐藏页眉导航 */
+    .md-header,
+    header {
+        display: none !important;
+    }
+    
+    /* 隐藏页脚 */
+    .md-footer,
+    footer {
+        display: none !important;
+    }
+    
+    /* 隐藏侧边栏导航 */
+    .md-sidebar,
+    .md-sidebar--primary,
+    .md-sidebar--secondary {
+        display: none !important;
+    }
+    
+    /* 隐藏搜索框 */
+    .md-search,
+    .md-search__form {
+        display: none !important;
+    }
+    
+    /* 隐藏返回顶部按钮 */
+    .md-top {
+        display: none !important;
+    }
+    
+    /* 隐藏语言切换器 */
+    .md-select {
+        display: none !important;
+    }
+    
+    /* 隐藏主题切换按钮 */
+    .md-header__button {
+        display: none !important;
+    }
+    
+    /* ----------------------------------------
+       页面布局优化
+       ---------------------------------------- */
+    
+    /* 主内容区域占满整个页面宽度 */
+    .md-content {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* 内容容器优化 */
+    .md-content__inner {
+        margin: 0 !important;
+        padding: 20mm !important;
+    }
+    
+    /* 移除容器的最大宽度限制 */
+    .md-container {
+        max-width: none !important;
+    }
+    
+    /* ----------------------------------------
+       页面分隔和分页控制
+       ---------------------------------------- */
+    
+    /* 一级标题前强制分页（新章节开始） */
+    h1 {
+        page-break-before: always;
+        page-break-after: avoid;
+        font-size: 24pt;
+        margin-top: 0;
+        padding-top: 20pt;
+    }
+    
+    /* 第一个h1不分页 */
+    h1:first-of-type {
+        page-break-before: avoid;
+    }
+    
+    /* 二级标题避免孤立在页面底部 */
+    h2 {
+        page-break-before: auto;
+        page-break-after: avoid;
+        font-size: 18pt;
+        margin-top: 16pt;
+    }
+    
+    /* 三级标题避免孤立 */
+    h3 {
+        page-break-after: avoid;
+        font-size: 14pt;
+        margin-top: 12pt;
+    }
+    
+    /* 四级及以下标题 */
+    h4, h5, h6 {
+        page-break-after: avoid;
+        font-size: 12pt;
+        margin-top: 10pt;
+    }
+    
+    /* 段落避免被分页打断 */
+    p {
+        orphans: 3;  /* 页面底部至少保留3行 */
+        widows: 3;   /* 页面顶部至少保留3行 */
+    }
+    
+    /* ----------------------------------------
+       代码块优化
+       ---------------------------------------- */
+    
+    /* 代码块避免分页 */
+    pre,
+    code,
+    .highlight {
+        page-break-inside: avoid;
+        background-color: #f5f5f5 !important;
+        border: 1px solid #ddd;
+        padding: 10pt;
+        font-size: 9pt;
+        line-height: 1.4;
+    }
+    
+    /* 行内代码样式 */
+    code {
+        background-color: #f0f0f0 !important;
+        padding: 2pt 4pt;
+        border-radius: 3pt;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    /* 代码块容器 */
+    .codehilite,
+    .highlight pre {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    /* 代码行号（如果有） */
+    .linenos {
+        display: none; /* 打印时隐藏行号以节省空间 */
+    }
+    
+    /* ----------------------------------------
+       表格优化
+       ---------------------------------------- */
+    
+    /* 表格避免分页 */
+    table {
+        page-break-inside: avoid;
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 10pt;
+        margin: 10pt 0;
+    }
+    
+    /* 表格单元格 */
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8pt;
+        text-align: left;
+    }
+    
+    /* 表头样式 */
+    th {
+        background-color: #f0f0f0 !important;
+        font-weight: bold;
+    }
+    
+    /* 表格标题 */
+    caption {
+        font-weight: bold;
+        margin-bottom: 8pt;
+    }
+    
+    /* ----------------------------------------
+       列表优化
+       ---------------------------------------- */
+    
+    /* 列表避免分页打断 */
+    ul, ol {
+        page-break-inside: avoid;
+    }
+    
+    /* 列表项 */
+    li {
+        orphans: 2;
+        widows: 2;
+    }
+    
+    /* ----------------------------------------
+       图片和图表优化
+       ---------------------------------------- */
+    
+    /* 图片避免分页 */
+    img {
+        page-break-inside: avoid;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* 图片容器 */
+    figure {
+        page-break-inside: avoid;
+        margin: 10pt 0;
+    }
+    
+    /* 图片标题 */
+    figcaption {
+        font-size: 10pt;
+        font-style: italic;
+        text-align: center;
+        margin-top: 5pt;
+    }
+    
+    /* Mermaid图表容器 */
+    .mermaid {
+        page-break-inside: avoid;
+        background-color: white !important;
+        padding: 10pt;
+        border: 1px solid #ddd;
+    }
+    
+    /* SVG图表 */
+    svg {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* ----------------------------------------
+       提示框和警告框优化
+       ---------------------------------------- */
+    
+    /* Admonition容器避免分页 */
+    .admonition {
+        page-break-inside: avoid;
+        border: 1px solid #ddd;
+        padding: 10pt;
+        margin: 10pt 0;
+        background-color: #f9f9f9 !important;
+    }
+    
+    /* 提示框标题 */
+    .admonition-title {
+        font-weight: bold;
+        margin-bottom: 5pt;
+    }
+    
+    /* 不同类型的提示框 */
+    .admonition.note {
+        border-left: 4px solid #448aff;
+    }
+    
+    .admonition.tip {
+        border-left: 4px solid #00c853;
+    }
+    
+    .admonition.warning {
+        border-left: 4px solid #ff9100;
+    }
+    
+    .admonition.danger {
+        border-left: 4px solid #ff5252;
+    }
+    
+    /* ----------------------------------------
+       链接优化
+       ---------------------------------------- */
+    
+    /* 显示链接URL（可选） */
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+        font-size: 8pt;
+        color: #666;
+    }
+    
+    /* 内部链接不显示URL */
+    a[href^="#"]:after,
+    a[href^="/"]:after {
+        content: "";
+    }
+    
+    /* 链接文本颜色 */
+    a {
+        color: #0066cc;
+        text-decoration: underline;
+    }
+    
+    /* ----------------------------------------
+       引用块优化
+       ---------------------------------------- */
+    
+    /* 引用块避免分页 */
+    blockquote {
+        page-break-inside: avoid;
+        border-left: 4px solid #ddd;
+        padding-left: 15pt;
+        margin: 10pt 0;
+        font-style: italic;
+        color: #666;
+    }
+    
+    /* ----------------------------------------
+       水平分隔线
+       ---------------------------------------- */
+    
+    hr {
+        page-break-after: avoid;
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 20pt 0;
+    }
+    
+    /* ----------------------------------------
+       任务列表优化
+       ---------------------------------------- */
+    
+    /* 任务列表 */
+    .task-list-item {
+        list-style-type: none;
+    }
+    
+    /* 复选框 */
+    .task-list-item input[type="checkbox"] {
+        margin-right: 5pt;
+    }
+    
+    /* ----------------------------------------
+       选项卡内容优化
+       ---------------------------------------- */
+    
+    /* 选项卡容器 */
+    .tabbed-set {
+        page-break-inside: avoid;
+    }
+    
+    /* 隐藏选项卡切换按钮 */
+    .tabbed-labels {
+        display: none;
+    }
+    
+    /* 显示所有选项卡内容 */
+    .tabbed-content {
+        display: block !important;
+    }
+    
+    /* ----------------------------------------
+       页面边距和尺寸
+       ---------------------------------------- */
+    
+    @page {
+        size: A4;
+        margin: 20mm 15mm;
+    }
+    
+    /* ----------------------------------------
+       字体和排版
+       ---------------------------------------- */
+    
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 11pt;
+        line-height: 1.6;
+        color: #000;
+    }
+    
+    /* 等宽字体 */
+    code, pre, kbd, samp {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    /* ----------------------------------------
+       目录（TOC）优化
+       ---------------------------------------- */
+    
+    /* 页面内目录 */
+    .md-nav--secondary {
+        display: none; /* 打印时隐藏右侧目录 */
+    }
+    
+    /* ----------------------------------------
+       元数据和Front Matter
+       ---------------------------------------- */
+    
+    /* 隐藏元数据显示（如果有） */
+    .metadata {
+        font-size: 9pt;
+        color: #666;
+        border-top: 1px solid #ddd;
+        padding-top: 10pt;
+        margin-top: 20pt;
+    }
+    
+    /* ----------------------------------------
+       页眉页脚（可选，用于自定义）
+       ---------------------------------------- */
+    
+    @page {
+        @top-center {
+            content: "医疗器械嵌入式软件知识体系";
+            font-size: 9pt;
+            color: #666;
+        }
+        
+        @bottom-center {
+            content: counter(page);
+            font-size: 9pt;
+        }
+    }
+}
+
+/* ============================================
+   屏幕显示样式（不影响打印）
+   ============================================ */
+
+/* 在屏幕上预览打印效果时的样式 */
+@media screen {
+    /* 这里可以添加屏幕预览样式，但通常不需要 */
+}

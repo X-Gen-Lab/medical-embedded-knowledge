@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <!-- Language availability indicator -->
+  {% if page.meta.translation_status %}
+    <div class="language-indicator">
+      {% if page.meta.translation_status == "pending" %}
+        <div class="admonition info">
+          <p class="admonition-title">Translation Status</p>
+          <p>
+            <span class="badge badge-warning">⚠️ English Only / 仅英文</span>
+            This page is currently available in English only. Chinese translation is pending.
+          </p>
+        </div>
+      {% elif page.meta.translation_status == "complete" %}
+        <!-- Translation complete - no indicator needed -->
+      {% endif %}
+    </div>
+  {% endif %}
+  
+  {{ super() }}
+{% endblock %}
+
+{% block styles %}
+  {{ super() }}
+  <style>
+    .language-indicator {
+      margin-bottom: 1.5rem;
+    }
+    
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.25rem;
+    }
+    
+    .badge-warning {
+      background-color: #ff9800;
+      color: #fff;
+    }
+    
+    .badge-success {
+      background-color: #4caf50;
+      color: #fff;
+    }
+    
+    .badge-info {
+      background-color: #2196f3;
+      color: #fff;
+    }
+  </style>
+{% endblock %}
