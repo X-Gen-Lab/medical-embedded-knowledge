@@ -36,9 +36,33 @@ class BrokenLink:
 class InternalLinkValidator:
     """内部链接验证器"""
     
+    # 排除的文件模式
+    EXCLUDE_PATTERNS = [
+        'templates/',  # 排除模板目录
+        'template.md',  # 排除模板文件
+    ]
+    
     def __init__(self, docs_dir: str = 'docs'):
         self.docs_dir = Path(docs_dir)
         self.broken_links: List[BrokenLink] = []
+    
+    def should_skip_file(self, file_path: Path) -> bool:
+        """判断是否应该跳过该文件"""
+        file_path_str = str(file_path).replace('\\', '/')
+        
+        for pattern in self.EXCLUDE_PATTERNS:
+            if pattern in file_path_str:
+                return True
+        
+        return False
+    
+    def remove_code_blocks(self, content: str) -> str:
+        """移除代码块，避免误检测代码中的内容"""
+        # 移除代码块 ```...```
+        content = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
+        # 移除行内代码 `...`
+        content = re.sub(r'`[^`]+`', '', content)
+        return content
     
     def extract_inline_links(self, file_path: Path) -> List[Tuple[str, str, int]]:
         """
@@ -49,7 +73,10 @@ class InternalLinkValidator:
         
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
+                original_content = f.read()
+            
+            # 移除代码块，避免误检测
+            content = self.remove_code_blocks(original_content)
             
             # 匹配Markdown链接格式: [text](url)
             link_pattern = r'\[([^\]]+)\]\(([^)]+)\)'
@@ -57,7 +84,8 @@ class InternalLinkValidator:
             for match in re.finditer(link_pattern, content):
                 text = match.group(1)
                 url = match.group(2)
-                line_number = content[:match.start()].count('\n') + 1
+                # 在原始内容中查找行号
+                line_number = original_content[:match.start()].count('\n') + 1
                 
                 # 只处理内部链接（不以http开头）
                 if not url.startswith('http'):
@@ -129,6 +157,10 @@ class InternalLinkValidator:
     
     def validate_inline_links(self, file_path: Path):
         """验证文件中的内联链接"""
+        # 跳过模板文件
+        if self.should_skip_file(file_path):
+            return
+        
         links = self.extract_inline_links(file_path)
         
         for link_text, link_url, line_number in links:
@@ -148,6 +180,10 @@ class InternalLinkValidator:
     
     def validate_related_modules(self, file_path: Path):
         """验证Front Matter中的related_modules链接"""
+        # 跳过模板文件
+        if self.should_skip_file(file_path):
+            return
+        
         related_modules = self.extract_front_matter_links(file_path)
         
         for module_path in related_modules:
@@ -265,6 +301,13 @@ class InternalLinkValidator:
 
 def main():
     """主函数"""
+    import io
+    import sys
+    
+    # 设置输出编码为UTF-8
+    if sys.stdout.encoding != 'utf-8':
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    
     validator = InternalLinkValidator()
     validator.validate_all()
     

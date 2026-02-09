@@ -26,21 +26,21 @@ class StructureIssue:
 class ContentStructureValidator:
     """内容结构验证器"""
     
-    # 必需的内容部分
-    REQUIRED_SECTIONS = [
-        '## 学习目标',
-        '## 前置知识',
-        '## 内容'
-    ]
+    # 必需的内容部分（支持中英文）
+    REQUIRED_SECTIONS = {
+        'learning_objectives': ['## 学习目标', '## Learning Objectives'],
+        'prerequisites': ['## 前置知识', '## Prerequisites'],
+        'content': ['## 内容', '## Content']
+    }
     
-    # 推荐的内容部分
-    RECOMMENDED_SECTIONS = [
-        '## 最佳实践',
-        '## 常见陷阱',
-        '## 实践练习',
-        '## 自测问题',
-        '## 参考文献'
-    ]
+    # 推荐的内容部分（支持中英文）
+    RECOMMENDED_SECTIONS = {
+        'best_practices': ['## 最佳实践', '## Best Practices'],
+        'common_pitfalls': ['## 常见陷阱', '## Common Pitfalls'],
+        'exercises': ['## 实践练习', '## Exercises'],
+        'self_test': ['## 自测问题', '## Self-Test Questions'],
+        'references': ['## 参考文献', '## References']
+    }
     
     # 排除的文件和目录
     EXCLUDE_PATTERNS = ['index.md', 'README.md', 'glossary.md', 'templates/', 'learning-paths/']
@@ -85,21 +85,25 @@ class ContentStructureValidator:
     
     def validate_required_sections(self, file_path: Path, content: str):
         """验证必需部分"""
-        for section in self.REQUIRED_SECTIONS:
-            if section not in content:
+        for section_key, section_titles in self.REQUIRED_SECTIONS.items():
+            # 检查是否存在任一语言版本的标题
+            has_section = any(title in content for title in section_titles)
+            if not has_section:
                 self.issues.append(StructureIssue(
                     file_path=str(file_path),
                     issue_type="缺少必需部分",
-                    message=f"缺少 '{section}' 部分",
+                    message=f"缺少 '{section_titles[0]}' 部分",
                     severity="error"
                 ))
     
     def validate_recommended_sections(self, file_path: Path, content: str):
         """验证推荐部分"""
         missing_sections = []
-        for section in self.RECOMMENDED_SECTIONS:
-            if section not in content:
-                missing_sections.append(section)
+        for section_key, section_titles in self.RECOMMENDED_SECTIONS.items():
+            # 检查是否存在任一语言版本的标题
+            has_section = any(title in content for title in section_titles)
+            if not has_section:
+                missing_sections.append(section_titles[0])
         
         if missing_sections:
             self.issues.append(StructureIssue(
@@ -111,7 +115,9 @@ class ContentStructureValidator:
     
     def validate_learning_objectives(self, file_path: Path, content: str):
         """验证学习目标部分"""
-        if '## 学习目标' not in content:
+        # 检查是否存在学习目标部分（中文或英文）
+        has_learning_objectives = any(title in content for title in self.REQUIRED_SECTIONS['learning_objectives'])
+        if not has_learning_objectives:
             return
         
         # 提取学习目标部分
@@ -119,7 +125,7 @@ class ContentStructureValidator:
         learning_objectives_section = None
         
         for i, section in enumerate(sections):
-            if section.strip().startswith('学习目标'):
+            if section.strip().startswith('学习目标') or section.strip().startswith('Learning Objectives'):
                 # 获取到下一个##之前的内容
                 learning_objectives_section = section
                 break
@@ -158,8 +164,11 @@ class ContentStructureValidator:
     
     def validate_self_test_questions(self, file_path: Path, content: str):
         """验证自测问题"""
-        # 查找自测问题部分
-        if '## 自测问题' not in content and '## 自测' not in content:
+        # 查找自测问题部分（中文或英文）
+        has_self_test = ('## 自测问题' in content or '## 自测' in content or 
+                        '## Self-Test Questions' in content or '## Self-Test' in content)
+        
+        if not has_self_test:
             self.issues.append(StructureIssue(
                 file_path=str(file_path),
                 issue_type="缺少自测问题",
