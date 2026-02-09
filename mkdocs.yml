@@ -1,0 +1,350 @@
+site_name: 医疗器械嵌入式软件知识体系
+site_description: 全面的医疗器械嵌入式软件开发知识库
+site_author: 知识体系团队
+site_url: https://medical-embedded-knowledge.example.com
+
+# 离线HTML构建配置 (Offline HTML Build Configuration)
+# 需求 11.2: 支持将整个知识库打包为离线HTML文件
+use_directory_urls: false  # 使用文件名而非目录URL，确保离线访问时链接正常工作
+
+theme:
+  name: material
+  language: zh
+  custom_dir: docs/overrides  # 使用自定义模板目录
+  features:
+    # 导航特性 (Navigation Features)
+    - navigation.tabs           # 启用顶部标签式导航
+    - navigation.sections       # 启用导航分组
+    - navigation.expand         # 默认展开所有导航项
+    - navigation.top            # 返回顶部按钮
+    - navigation.indexes        # 启用章节索引页
+    - navigation.tracking       # 地址栏自动更新为当前标题
+    # 搜索特性 (Search Features) - 需求 6.1, 6.2, 6.5
+    - search.suggest            # 搜索建议（输入时显示建议）
+    - search.highlight          # 搜索结果高亮显示
+    - search.share              # 搜索结果分享
+    # 内容特性 (Content Features)
+    - content.code.copy
+    - content.tabs.link
+    - content.code.annotate     # 代码注释
+    # 目录特性 (TOC Features)
+    - toc.follow                # 目录跟随滚动
+    - toc.integrate             # 将目录集成到左侧导航
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - scheme: slate
+      primary: blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+      separator: '[\s\-\.]+'           # 分词分隔符（空格、连字符、点）
+      # 离线搜索配置 (Offline Search Configuration) - 需求 11.2, 11.3
+      prebuild_index: true             # 预构建搜索索引，支持离线搜索
+      indexing: 'full'                 # 完整索引模式，包含所有内容
+  # PDF导出插件 (PDF Export Plugin) - 任务 11 已完成
+  # 注意: 在Windows环境下可能需要额外的依赖，如果构建失败可以临时禁用
+  # - pdf-export:
+  #     combined: true                   # 生成合并的完整PDF
+  #     combined_output_path: pdf/medical-embedded-knowledge-complete.pdf  # 完整PDF输出路径
+  #     media_type: print                # 使用打印媒体类型
+  #     enabled_if_env: ENABLE_PDF_EXPORT  # 通过环境变量控制是否启用
+  #     verbose: true                    # 详细输出
+  #     debug_html: false                # 调试HTML（生产环境关闭）
+  - i18n:
+      docs_structure: folder           # 使用文件夹结构组织多语言内容
+      fallback_to_default: true        # 如果翻译不存在，回退到默认语言
+      reconfigure_material: true       # 自动重新配置Material主题
+      reconfigure_search: true         # 自动重新配置搜索插件
+      languages:
+        - locale: zh
+          default: true                # 中文为默认语言
+          name: 中文
+          build: true
+          site_name: 医疗器械嵌入式软件知识体系
+        - locale: en
+          name: English
+          build: true
+          site_name: Medical Device Embedded Software Knowledge System
+          nav_translations:
+            首页: Home
+            入门指南: Getting Started
+            开发人员: For Developers
+            质量工程师: For QA Engineers
+            监管事务: For Regulatory Affairs
+            核心技术知识: Technical Knowledge
+            嵌入式C/C++: Embedded C/C++
+            内存管理: Memory Management
+            指针操作: Pointer Operations
+            位操作: Bit Manipulation
+            RTOS: RTOS
+            任务调度: Task Scheduling
+            同步机制: Synchronization
+            中断处理: Interrupt Handling
+            硬件接口: Hardware Interfaces
+            I2C: I2C
+            SPI: SPI
+            UART: UART
+            ADC/DAC: ADC/DAC
+            低功耗设计: Low Power Design
+            睡眠模式: Sleep Modes
+            功耗优化: Power Optimization
+            信号处理: Signal Processing
+            数字滤波: Digital Filters
+            FFT: FFT
+            心电信号处理: ECG Signal Processing
+            SpO2计算: SpO2 Calculation
+            编译器优化: Compiler Optimization
+            法规与标准: Regulatory Standards
+            IEC 62304: IEC 62304
+            软件安全分类: Software Classification
+            生命周期过程: Lifecycle Processes
+            文档要求: Documentation Requirements
+            ISO 13485: ISO 13485
+            质量管理: Quality Management
+            审核清单: Audit Checklist
+            ISO 14971: ISO 14971
+            风险分析: Risk Analysis
+            风险评估: Risk Evaluation
+            风险控制: Risk Control
+            FDA法规: FDA Regulations
+            510(k)流程: 510(k) Process
+            PMA流程: PMA Process
+            软件验证: Software Validation
+            IEC 60601-1: IEC 60601-1
+            电气安全: Electrical Safety
+            EMC要求: EMC Requirements
+            IEC 81001-5-1: IEC 81001-5-1
+            威胁建模: Threat Modeling
+            安全控制: Security Controls
+            软件工程: Software Engineering
+            需求工程: Requirements Engineering
+            需求追溯: Requirements Traceability
+            变更管理: Change Management
+            架构设计: Architecture Design
+            分层架构: Layered Architecture
+            接口设计: Interface Design
+            编码规范: Coding Standards
+            MISRA C: MISRA C
+            CERT C: CERT C
+            代码审查清单: Code Review Checklist
+            测试策略: Testing Strategy
+            单元测试: Unit Testing
+            集成测试: Integration Testing
+            系统测试: System Testing
+            配置管理: Configuration Management
+            版本控制: Version Control
+            基线管理: Baseline Management
+            静态分析: Static Analysis
+            工具使用: Tool Usage
+            缺陷分类: Defect Classification
+            实践案例: Case Studies
+            A类器械示例: Class A Device Example
+            B类器械示例: Class B Device Example
+            C类器械示例: Class C Device Example
+            学习路径: Learning Paths
+            嵌入式工程师: Embedded Engineer
+            质量工程师: QA Engineer
+            系统架构师: System Architect
+            监管专员: Regulatory Specialist
+            参考资料: References
+            书籍推荐: Recommended Books
+            标准文档: Standards Documents
+            在线课程: Online Courses
+            工具和库: Tools and Libraries
+            术语表: Glossary
+  - tags
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true              # 为标题添加永久链接
+      permalink_title: 链接到此章节  # 永久链接的标题
+      toc_depth: 3                 # 目录深度（显示到h3）
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+nav:
+  - 首页: index.md
+  - 入门指南:
+      - getting-started/index.md
+      - 开发人员: getting-started/for-developers.md
+      - 质量工程师: getting-started/for-qa-engineers.md
+      - 监管事务: getting-started/for-regulatory-affairs.md
+  - 核心技术知识:
+      - technical-knowledge/index.md
+      - 嵌入式C/C++:
+          - technical-knowledge/embedded-c-cpp/index.md
+          - 内存管理: technical-knowledge/embedded-c-cpp/memory-management.md
+          - 指针操作: technical-knowledge/embedded-c-cpp/pointer-operations.md
+          - 位操作: technical-knowledge/embedded-c-cpp/bit-manipulation.md
+          - 编译器优化: technical-knowledge/embedded-c-cpp/compiler-optimization.md
+      - RTOS:
+          - technical-knowledge/rtos/index.md
+          - 任务调度: technical-knowledge/rtos/task-scheduling.md
+          - 同步机制: technical-knowledge/rtos/synchronization.md
+          - 中断处理: technical-knowledge/rtos/interrupt-handling.md
+      - 硬件接口:
+          - technical-knowledge/hardware-interfaces/index.md
+          - I2C: technical-knowledge/hardware-interfaces/i2c.md
+          - SPI: technical-knowledge/hardware-interfaces/spi.md
+          - UART: technical-knowledge/hardware-interfaces/uart.md
+          - ADC/DAC: technical-knowledge/hardware-interfaces/adc-dac.md
+      - 低功耗设计:
+          - technical-knowledge/low-power-design/index.md
+          - 睡眠模式: technical-knowledge/low-power-design/sleep-modes.md
+          - 功耗优化: technical-knowledge/low-power-design/power-optimization.md
+      - 信号处理:
+          - technical-knowledge/signal-processing/index.md
+          - 数字滤波: technical-knowledge/signal-processing/digital-filters.md
+          - FFT: technical-knowledge/signal-processing/fft.md
+          - 心电信号处理: technical-knowledge/signal-processing/ecg-processing.md
+          - SpO2计算: technical-knowledge/signal-processing/spo2-calculation.md
+  - 法规与标准:
+      - regulatory-standards/index.md
+      - IEC 62304:
+          - regulatory-standards/iec-62304/index.md
+          - 软件安全分类: regulatory-standards/iec-62304/software-classification.md
+          - 生命周期过程: regulatory-standards/iec-62304/lifecycle-processes.md
+          - 文档要求: regulatory-standards/iec-62304/documentation-requirements.md
+      - ISO 13485:
+          - regulatory-standards/iso-13485/index.md
+          - 质量管理: regulatory-standards/iso-13485/quality-management.md
+          - 审核清单: regulatory-standards/iso-13485/audit-checklist.md
+      - ISO 14971:
+          - regulatory-standards/iso-14971/index.md
+          - 风险分析: regulatory-standards/iso-14971/risk-analysis.md
+          - 风险评估: regulatory-standards/iso-14971/risk-evaluation.md
+          - 风险控制: regulatory-standards/iso-14971/risk-control.md
+      - FDA法规:
+          - regulatory-standards/fda-regulations/index.md
+          - 510(k)流程: regulatory-standards/fda-regulations/510k-process.md
+          - PMA流程: regulatory-standards/fda-regulations/pma-process.md
+          - 软件验证: regulatory-standards/fda-regulations/software-validation.md
+      - IEC 60601-1:
+          - regulatory-standards/iec-60601-1/index.md
+          - 电气安全: regulatory-standards/iec-60601-1/electrical-safety.md
+          - EMC要求: regulatory-standards/iec-60601-1/emc-requirements.md
+      - IEC 81001-5-1:
+          - regulatory-standards/iec-81001-5-1/index.md
+          - 威胁建模: regulatory-standards/iec-81001-5-1/threat-modeling.md
+          - 安全控制: regulatory-standards/iec-81001-5-1/security-controls.md
+  - 软件工程:
+      - software-engineering/index.md
+      - 需求工程:
+          - software-engineering/requirements-engineering/index.md
+          - 需求追溯: software-engineering/requirements-engineering/requirements-traceability.md
+          - 变更管理: software-engineering/requirements-engineering/change-management.md
+      - 架构设计:
+          - software-engineering/architecture-design/index.md
+          - 分层架构: software-engineering/architecture-design/layered-architecture.md
+          - 接口设计: software-engineering/architecture-design/interface-design.md
+      - 编码规范:
+          - software-engineering/coding-standards/index.md
+          - MISRA C: software-engineering/coding-standards/misra-c.md
+          - CERT C: software-engineering/coding-standards/cert-c.md
+          - 代码审查清单: software-engineering/coding-standards/code-review-checklist.md
+      - 测试策略:
+          - software-engineering/testing-strategy/index.md
+          - 单元测试: software-engineering/testing-strategy/unit-testing.md
+          - 集成测试: software-engineering/testing-strategy/integration-testing.md
+          - 系统测试: software-engineering/testing-strategy/system-testing.md
+      - 配置管理:
+          - software-engineering/configuration-management/index.md
+          - 版本控制: software-engineering/configuration-management/version-control.md
+          - 基线管理: software-engineering/configuration-management/baseline-management.md
+      - 静态分析:
+          - software-engineering/static-analysis/index.md
+          - 工具使用: software-engineering/static-analysis/tool-usage.md
+          - 缺陷分类: software-engineering/static-analysis/defect-classification.md
+  - 实践案例:
+      - case-studies/index.md
+      - A类器械示例: case-studies/class-a-device-example.md
+      - B类器械示例: case-studies/class-b-device-example.md
+      - C类器械示例: case-studies/class-c-device-example.md
+  - 学习路径:
+      - learning-paths/index.md
+      - 嵌入式工程师: learning-paths/embedded-engineer-path.md
+      - 质量工程师: learning-paths/qa-engineer-path.md
+      - 系统架构师: learning-paths/architect-path.md
+      - 监管专员: learning-paths/regulatory-specialist-path.md
+  - 参考资料:
+      - references/index.md
+      - 书籍推荐: references/books.md
+      - 标准文档: references/standards-documents.md
+      - 在线课程: references/online-courses.md
+      - 工具和库: references/tools-and-libraries.md
+  - 术语表: glossary.md
+
+extra:
+  alternate:
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/medical-embedded-knowledge
+
+# 自定义JavaScript (Custom JavaScript)
+extra_javascript:
+  - javascripts/search-handler.js
+
+# 自定义CSS (Custom CSS)
+extra_css:
+  - stylesheets/search-custom.css
+  - assets/css/pdf-styles.css
+
+# 离线HTML构建说明 (Offline HTML Build Instructions)
+# 需求 11.2, 11.3, 11.4, 11.5
+# 
+# 构建离线HTML包的步骤：
+# 1. 运行构建命令: mkdocs build
+# 2. 生成的site/目录包含完整的静态HTML文件
+# 3. 所有资源（CSS、JS、图片）使用相对路径，支持离线访问
+# 4. 搜索功能通过预构建索引支持离线使用
+# 5. 导航和内部链接在离线环境下正常工作
+#
+# 配置要点：
+# - use_directory_urls: false - 使用.html文件扩展名，确保离线链接有效
+# - prebuild_index: true - 预构建搜索索引，无需服务器端处理
+# - 所有extra_css和extra_javascript使用相对路径
+# - Material主题自动处理资源的相对路径引用
+#
+# 打包离线版本：
+# - 将整个site/目录压缩为ZIP文件
+# - 用户解压后可直接在浏览器中打开index.html
+# - 所有功能（导航、搜索、代码高亮）在离线环境下正常工作
+
+# 导航配置 (Navigation Configuration)
+# 面包屑导航自动启用（Material主题默认）
+# 页内目录（TOC）通过 toc.follow 和 toc.integrate 特性启用
+# 上一页/下一页导航自动启用（Material主题默认）
