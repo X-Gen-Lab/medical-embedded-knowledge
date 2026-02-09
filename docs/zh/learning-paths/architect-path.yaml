@@ -1,0 +1,348 @@
+# 系统架构师学习路径
+# System Architect Learning Path
+
+path_id: "architect-path"
+
+title: "系统架构师学习路径"
+title_en: "System Architect Learning Path"
+
+description: "为医疗器械系统架构师设计的学习路径，涵盖软件架构设计、系统集成、需求工程、风险管理和技术决策，培养端到端的系统设计能力。"
+description_en: "A learning path designed for medical device system architects, covering software architecture design, system integration, requirements engineering, risk management, and technical decision-making to develop end-to-end system design capabilities."
+
+estimated_total_time: "55小时"
+
+difficulty: "高级"
+
+target_role: "系统架构师"
+
+prerequisites:
+  - "5年以上嵌入式软件开发经验"
+  - "熟悉至少一种RTOS"
+  - "理解软件设计模式"
+  - "具备系统级思维能力"
+  - "了解医疗器械开发流程"
+
+learning_objectives:
+  - "掌握医疗器械软件架构设计的最佳实践"
+  - "能够进行系统级需求分析和分解"
+  - "理解并应用分层架构和模块化设计"
+  - "能够进行技术选型和架构决策"
+  - "掌握系统集成和接口设计"
+  - "理解法规对架构设计的影响"
+  - "能够平衡性能、安全性和可维护性"
+
+stages:
+  # 阶段1：需求工程
+  - stage: 1
+    title: "需求工程与分析"
+    title_en: "Requirements Engineering and Analysis"
+    description: "掌握系统级需求分析和管理方法"
+    description_en: "Master system-level requirements analysis and management methods"
+    estimated_time: "10小时"
+    
+    modules:
+      - id: "software-engineering/requirements-engineering/index"
+        title: "需求工程概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/requirements-engineering/requirements-traceability"
+        title: "需求追溯"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "software-engineering/requirements-engineering/change-management"
+        title: "变更管理"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iec-62304/documentation-requirements"
+        title: "文档要求"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段2：软件架构设计
+  - stage: 2
+    title: "软件架构设计"
+    title_en: "Software Architecture Design"
+    description: "学习医疗器械软件架构设计的核心原则和模式"
+    description_en: "Learn core principles and patterns of medical device software architecture design"
+    estimated_time: "15小时"
+    
+    modules:
+      - id: "software-engineering/architecture-design/index"
+        title: "架构设计概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/architecture-design/layered-architecture"
+        title: "分层架构"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "software-engineering/architecture-design/interface-design"
+        title: "接口设计"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "software-engineering/architecture-design/modular-design"
+        title: "模块化设计"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "software-engineering/architecture-design/design-patterns"
+        title: "设计模式"
+        required: false
+        estimated_time: "2小时"
+
+  # 阶段3：技术基础深化
+  - stage: 3
+    title: "技术基础深化"
+    title_en: "Technical Foundation Enhancement"
+    description: "深化对核心技术的理解"
+    description_en: "Deepen understanding of core technologies"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "technical-knowledge/rtos/index"
+        title: "RTOS概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/rtos/task-scheduling"
+        title: "任务调度"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "technical-knowledge/rtos/resource-management"
+        title: "资源管理"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/hardware-interfaces/index"
+        title: "硬件接口概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/low-power-design/index"
+        title: "低功耗设计概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/signal-processing/index"
+        title: "信号处理概述"
+        required: false
+        estimated_time: "1小时"
+
+  # 阶段4：风险管理与安全设计
+  - stage: 4
+    title: "风险管理与安全设计"
+    title_en: "Risk Management and Safety Design"
+    description: "将风险管理融入架构设计"
+    description_en: "Integrate risk management into architecture design"
+    estimated_time: "10小时"
+    
+    modules:
+      - id: "regulatory-standards/iso-14971/index"
+        title: "ISO 14971概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-analysis"
+        title: "风险分析"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-control"
+        title: "风险控制"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iec-81001-5-1/index"
+        title: "IEC 81001-5-1概述"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段5：编码规范与静态分析
+  - stage: 5
+    title: "编码规范与静态分析"
+    title_en: "Coding Standards and Static Analysis"
+    description: "确保代码质量和可维护性"
+    description_en: "Ensure code quality and maintainability"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "software-engineering/coding-standards/index"
+        title: "编码规范概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "software-engineering/coding-standards/misra-c"
+        title: "MISRA C规范"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "software-engineering/coding-standards/code-review-checklist"
+        title: "代码审查清单"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/static-analysis/index"
+        title: "静态分析概述"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段6：配置管理与测试策略
+  - stage: 6
+    title: "配置管理与测试策略"
+    title_en: "Configuration Management and Testing Strategy"
+    description: "建立完善的配置管理和测试体系"
+    description_en: "Establish comprehensive configuration management and testing system"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "software-engineering/configuration-management/index"
+        title: "配置管理概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/configuration-management/version-control"
+        title: "版本控制"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/configuration-management/baseline-management"
+        title: "基线管理"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/testing-strategy/index"
+        title: "测试策略概述"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段7：法规标准综合
+  - stage: 7
+    title: "法规标准综合理解"
+    title_en: "Comprehensive Understanding of Regulations"
+    description: "全面理解法规对架构设计的影响"
+    description_en: "Comprehensively understand the impact of regulations on architecture design"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "regulatory-standards/iec-62304/index"
+        title: "IEC 62304概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-62304/lifecycle-processes"
+        title: "生命周期过程"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iso-13485/index"
+        title: "ISO 13485概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/fda-regulations/index"
+        title: "FDA法规概述"
+        required: false
+        estimated_time: "1小时"
+
+  # 阶段8：实践案例与综合应用
+  - stage: 8
+    title: "实践案例与综合应用"
+    title_en: "Case Studies and Comprehensive Application"
+    description: "通过实际案例综合应用所学知识"
+    description_en: "Comprehensively apply learned knowledge through real cases"
+    estimated_time: "6小时"
+    
+    modules:
+      - id: "case-studies/index"
+        title: "案例研究概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "case-studies/class-b-device-example"
+        title: "B类设备案例"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "case-studies/class-c-device-example"
+        title: "C类设备案例"
+        required: true
+        estimated_time: "3小时"
+
+checkpoints:
+  - after_stage: 1
+    title: "需求工程能力检查点"
+    title_en: "Requirements Engineering Skills Checkpoint"
+    assessment: "完成需求分析练习，能够进行系统级需求分解和追溯"
+    assessment_en: "Complete requirements analysis exercise, able to perform system-level requirements decomposition and traceability"
+    required_score: 85
+    
+  - after_stage: 2
+    title: "架构设计能力检查点"
+    title_en: "Architecture Design Skills Checkpoint"
+    assessment: "完成架构设计练习，能够设计分层架构和定义清晰的接口"
+    assessment_en: "Complete architecture design exercise, able to design layered architecture and define clear interfaces"
+    required_score: 85
+    
+  - after_stage: 4
+    title: "风险驱动设计检查点"
+    title_en: "Risk-Driven Design Checkpoint"
+    assessment: "完成风险分析练习，能够将风险控制措施融入架构设计"
+    assessment_en: "Complete risk analysis exercise, able to integrate risk control measures into architecture design"
+    required_score: 85
+    
+  - after_stage: 6
+    title: "工程实践检查点"
+    title_en: "Engineering Practice Checkpoint"
+    assessment: "完成配置管理和测试策略设计，展示工程化能力"
+    assessment_en: "Complete configuration management and testing strategy design, demonstrate engineering capabilities"
+    required_score: 80
+    
+  - after_stage: 8
+    title: "综合架构能力检查点"
+    title_en: "Comprehensive Architecture Skills Checkpoint"
+    assessment: "完成端到端架构设计案例，展示从需求到实现的全流程架构能力"
+    assessment_en: "Complete end-to-end architecture design case, demonstrate full-process architecture capabilities from requirements to implementation"
+    required_score: 90
+
+recommended_resources:
+  - type: "book"
+    title: "软件架构实践（第3版）"
+    url: "https://example.com/software-architecture-book"
+    
+  - type: "book"
+    title: "医疗器械软件开发：IEC 62304实践指南"
+    url: "https://example.com/iec62304-guide"
+    
+  - type: "book"
+    title: "嵌入式系统架构设计"
+    url: "https://example.com/embedded-architecture"
+    
+  - type: "course"
+    title: "软件架构师认证课程"
+    url: "https://example.com/architect-certification"
+    
+  - type: "standard"
+    title: "IEC 62304:2006+AMD1:2015"
+    url: "https://www.iec.ch/standards"
+    
+  - type: "tool"
+    title: "Enterprise Architect建模工具"
+    url: "https://sparxsystems.com/"
+
+metadata:
+  version: "1.0"
+  last_updated: "2026-02-07"
+  author: "医疗器械嵌入式软件知识体系团队"
+  status: "active"
+  tags:
+    - "架构设计"
+    - "医疗器械"
+    - "系统集成"
+    - "需求工程"
+    - "风险管理"

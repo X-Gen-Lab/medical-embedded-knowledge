@@ -1,0 +1,349 @@
+# 监管事务专员学习路径
+# Regulatory Affairs Specialist Learning Path
+
+path_id: "regulatory-specialist-path"
+
+title: "监管事务专员学习路径"
+title_en: "Regulatory Affairs Specialist Learning Path"
+
+description: "为医疗器械监管事务专员设计的学习路径，全面覆盖国际医疗器械法规标准、认证流程、技术文档编写和合规管理，帮助监管专员确保产品符合全球市场准入要求。"
+description_en: "A learning path designed for medical device regulatory affairs specialists, comprehensively covering international medical device regulations, certification processes, technical documentation, and compliance management to ensure products meet global market access requirements."
+
+estimated_total_time: "45小时"
+
+difficulty: "中级"
+
+target_role: "监管事务专员"
+
+prerequisites:
+  - "医疗器械行业基础知识"
+  - "基本的技术文档阅读能力"
+  - "英文技术文档阅读能力"
+  - "项目管理基础"
+
+learning_objectives:
+  - "深入理解全球主要医疗器械法规体系"
+  - "掌握IEC 62304、ISO 13485、ISO 14971等核心标准"
+  - "熟悉FDA、CE、NMPA等认证流程"
+  - "能够编写符合法规要求的技术文档"
+  - "理解软件开发流程和技术术语"
+  - "能够进行合规性评估和审核"
+  - "掌握法规变更管理和持续合规"
+
+stages:
+  # 阶段1：医疗器械法规体系概览
+  - stage: 1
+    title: "医疗器械法规体系概览"
+    title_en: "Medical Device Regulatory System Overview"
+    description: "建立全球医疗器械法规体系的整体认知"
+    description_en: "Build overall understanding of global medical device regulatory systems"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "regulatory-standards/index"
+        title: "法规标准概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "getting-started/for-regulatory-affairs"
+        title: "监管事务入门"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-62304/index"
+        title: "IEC 62304概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iso-13485/index"
+        title: "ISO 13485概述"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段2：IEC 62304软件生命周期
+  - stage: 2
+    title: "IEC 62304软件生命周期标准"
+    title_en: "IEC 62304 Software Lifecycle Standard"
+    description: "深入学习IEC 62304标准的所有要求"
+    description_en: "Deep dive into all requirements of IEC 62304 standard"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "regulatory-standards/iec-62304/software-classification"
+        title: "软件安全分类"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iec-62304/lifecycle-processes"
+        title: "生命周期过程"
+        required: true
+        estimated_time: "5小时"
+        
+      - id: "regulatory-standards/iec-62304/documentation-requirements"
+        title: "文档要求"
+        required: true
+        estimated_time: "4小时"
+
+  # 阶段3：质量管理体系
+  - stage: 3
+    title: "ISO 13485质量管理体系"
+    title_en: "ISO 13485 Quality Management System"
+    description: "掌握质量管理体系的建立和审核"
+    description_en: "Master establishment and auditing of quality management system"
+    estimated_time: "10小时"
+    
+    modules:
+      - id: "regulatory-standards/iso-13485/quality-management"
+        title: "质量管理原则"
+        required: true
+        estimated_time: "5小时"
+        
+      - id: "regulatory-standards/iso-13485/audit-checklist"
+        title: "审核检查清单"
+        required: true
+        estimated_time: "5小时"
+
+  # 阶段4：风险管理
+  - stage: 4
+    title: "ISO 14971风险管理"
+    title_en: "ISO 14971 Risk Management"
+    description: "学习风险管理的完整流程"
+    description_en: "Learn the complete risk management process"
+    estimated_time: "10小时"
+    
+    modules:
+      - id: "regulatory-standards/iso-14971/index"
+        title: "ISO 14971概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-analysis"
+        title: "风险分析"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-evaluation"
+        title: "风险评估"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-control"
+        title: "风险控制"
+        required: true
+        estimated_time: "3小时"
+
+  # 阶段5：FDA法规与美国市场准入
+  - stage: 5
+    title: "FDA法规与美国市场准入"
+    title_en: "FDA Regulations and US Market Access"
+    description: "掌握FDA法规要求和认证流程"
+    description_en: "Master FDA regulatory requirements and certification process"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "regulatory-standards/fda-regulations/index"
+        title: "FDA法规概述"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/fda-regulations/510k-process"
+        title: "510(k)流程"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "regulatory-standards/fda-regulations/pma-process"
+        title: "PMA流程"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/fda-regulations/software-validation"
+        title: "软件验证"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段6：电气安全与EMC
+  - stage: 6
+    title: "电气安全与EMC标准"
+    title_en: "Electrical Safety and EMC Standards"
+    description: "了解电气安全和电磁兼容性要求"
+    description_en: "Understand electrical safety and electromagnetic compatibility requirements"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "regulatory-standards/iec-60601-1/index"
+        title: "IEC 60601-1概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-60601-1/electrical-safety"
+        title: "电气安全"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iec-60601-1/emc-requirements"
+        title: "EMC要求"
+        required: true
+        estimated_time: "3小时"
+
+  # 阶段7：网络安全标准
+  - stage: 7
+    title: "网络安全标准"
+    title_en: "Cybersecurity Standards"
+    description: "学习医疗器械网络安全要求"
+    description_en: "Learn medical device cybersecurity requirements"
+    estimated_time: "6小时"
+    
+    modules:
+      - id: "regulatory-standards/iec-81001-5-1/index"
+        title: "IEC 81001-5-1概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-81001-5-1/threat-modeling"
+        title: "威胁建模"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-81001-5-1/security-controls"
+        title: "安全控制"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段8：技术基础理解
+  - stage: 8
+    title: "软件开发技术基础"
+    title_en: "Software Development Technical Fundamentals"
+    description: "理解软件开发的基本概念和流程"
+    description_en: "Understand basic concepts and processes of software development"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "software-engineering/requirements-engineering/index"
+        title: "需求工程概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/architecture-design/index"
+        title: "架构设计概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/testing-strategy/index"
+        title: "测试策略概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/configuration-management/index"
+        title: "配置管理概述"
+        required: true
+        estimated_time: "2小时"
+
+  # 阶段9：实践案例与文档编写
+  - stage: 9
+    title: "实践案例与文档编写"
+    title_en: "Case Studies and Documentation Writing"
+    description: "通过案例学习技术文档编写"
+    description_en: "Learn technical documentation writing through case studies"
+    estimated_time: "6小时"
+    
+    modules:
+      - id: "case-studies/index"
+        title: "案例研究概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "case-studies/class-a-device-example"
+        title: "A类设备案例"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "case-studies/class-b-device-example"
+        title: "B类设备案例"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "case-studies/class-c-device-example"
+        title: "C类设备案例"
+        required: false
+        estimated_time: "1小时"
+
+checkpoints:
+  - after_stage: 1
+    title: "法规体系理解检查点"
+    title_en: "Regulatory System Understanding Checkpoint"
+    assessment: "完成法规体系知识测试，能够识别不同标准的适用范围"
+    assessment_en: "Complete regulatory system knowledge test, able to identify applicable scope of different standards"
+    required_score: 85
+    
+  - after_stage: 2
+    title: "IEC 62304掌握检查点"
+    title_en: "IEC 62304 Mastery Checkpoint"
+    assessment: "完成IEC 62304综合测试，能够识别不同安全等级的文档要求"
+    assessment_en: "Complete IEC 62304 comprehensive test, able to identify documentation requirements for different safety classes"
+    required_score: 90
+    
+  - after_stage: 4
+    title: "风险管理应用检查点"
+    title_en: "Risk Management Application Checkpoint"
+    assessment: "完成风险管理文档审查练习，能够评估风险管理文件的完整性"
+    assessment_en: "Complete risk management document review exercise, able to assess completeness of risk management files"
+    required_score: 85
+    
+  - after_stage: 5
+    title: "FDA认证流程检查点"
+    title_en: "FDA Certification Process Checkpoint"
+    assessment: "完成FDA认证流程模拟，能够准备510(k)申报材料"
+    assessment_en: "Complete FDA certification process simulation, able to prepare 510(k) submission materials"
+    required_score: 85
+    
+  - after_stage: 9
+    title: "综合能力检查点"
+    title_en: "Comprehensive Skills Checkpoint"
+    assessment: "完成技术文档编写练习，展示从法规理解到文档编写的全流程能力"
+    assessment_en: "Complete technical documentation writing exercise, demonstrate full-process capabilities from regulatory understanding to documentation"
+    required_score: 90
+
+recommended_resources:
+  - type: "standard"
+    title: "IEC 62304:2006+AMD1:2015 医疗器械软件生命周期过程"
+    url: "https://www.iec.ch/standards"
+    
+  - type: "standard"
+    title: "ISO 13485:2016 医疗器械质量管理体系"
+    url: "https://www.iso.org/standard/59752.html"
+    
+  - type: "standard"
+    title: "ISO 14971:2019 医疗器械风险管理"
+    url: "https://www.iso.org/standard/72704.html"
+    
+  - type: "standard"
+    title: "IEC 60601-1:2005+AMD1:2012+AMD2:2020"
+    url: "https://www.iec.ch/standards"
+    
+  - type: "book"
+    title: "医疗器械法规事务实用指南"
+    url: "https://example.com/regulatory-affairs-guide"
+    
+  - type: "course"
+    title: "FDA医疗器械法规培训"
+    url: "https://www.fda.gov/training-and-continuing-education"
+    
+  - type: "course"
+    title: "欧盟MDR/IVDR培训"
+    url: "https://example.com/eu-mdr-training"
+    
+  - type: "tool"
+    title: "法规文档模板库"
+    url: "https://example.com/regulatory-templates"
+
+metadata:
+  version: "1.0"
+  last_updated: "2026-02-07"
+  author: "医疗器械嵌入式软件知识体系团队"
+  status: "active"
+  tags:
+    - "监管事务"
+    - "医疗器械"
+    - "法规标准"
+    - "认证流程"
+    - "技术文档"

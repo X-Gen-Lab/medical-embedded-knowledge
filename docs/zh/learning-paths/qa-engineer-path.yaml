@@ -1,0 +1,307 @@
+# 质量保证工程师学习路径
+# Quality Assurance Engineer Learning Path
+
+path_id: "qa-engineer-path"
+
+title: "质量保证工程师学习路径"
+title_en: "Quality Assurance Engineer Learning Path"
+
+description: "为医疗器械质量保证工程师设计的学习路径，重点关注医疗法规标准、测试策略、风险管理和质量管理体系，帮助QA工程师确保产品符合监管要求。"
+description_en: "A learning path designed for medical device QA engineers, focusing on medical regulations, testing strategies, risk management, and quality management systems to ensure product compliance."
+
+estimated_total_time: "50小时"
+
+difficulty: "中级"
+
+target_role: "质量保证工程师"
+
+prerequisites:
+  - "软件测试基础知识"
+  - "基本的软件开发流程理解"
+  - "文档编写能力"
+  - "问题分析和解决能力"
+
+learning_objectives:
+  - "深入理解医疗器械软件相关的国际标准和法规"
+  - "掌握IEC 62304软件生命周期过程"
+  - "能够进行风险分析和风险管理"
+  - "熟练应用各种测试策略和方法"
+  - "理解质量管理体系的建立和维护"
+  - "能够编写符合法规要求的技术文档"
+
+stages:
+  # 阶段1：医疗器械法规基础
+  - stage: 1
+    title: "医疗器械法规基础"
+    title_en: "Medical Device Regulations Fundamentals"
+    description: "建立医疗器械法规的基础知识体系"
+    description_en: "Build foundational knowledge of medical device regulations"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "regulatory-standards/index"
+        title: "法规标准概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "regulatory-standards/iec-62304/index"
+        title: "IEC 62304概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-62304/software-classification"
+        title: "软件安全分类"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-62304/lifecycle-processes"
+        title: "生命周期过程"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "regulatory-standards/iec-62304/documentation-requirements"
+        title: "文档要求"
+        required: true
+        estimated_time: "3小时"
+
+  # 阶段2：质量管理体系
+  - stage: 2
+    title: "质量管理体系"
+    title_en: "Quality Management System"
+    description: "学习ISO 13485质量管理体系的建立和维护"
+    description_en: "Learn to establish and maintain ISO 13485 quality management system"
+    estimated_time: "10小时"
+    
+    modules:
+      - id: "regulatory-standards/iso-13485/index"
+        title: "ISO 13485概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iso-13485/quality-management"
+        title: "质量管理原则"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "regulatory-standards/iso-13485/audit-checklist"
+        title: "审核检查清单"
+        required: true
+        estimated_time: "4小时"
+
+  # 阶段3：风险管理
+  - stage: 3
+    title: "风险管理"
+    title_en: "Risk Management"
+    description: "掌握ISO 14971风险管理的方法和实践"
+    description_en: "Master ISO 14971 risk management methods and practices"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "regulatory-standards/iso-14971/index"
+        title: "ISO 14971概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-analysis"
+        title: "风险分析"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-evaluation"
+        title: "风险评估"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/iso-14971/risk-control"
+        title: "风险控制"
+        required: true
+        estimated_time: "3小时"
+
+  # 阶段4：测试策略与方法
+  - stage: 4
+    title: "测试策略与方法"
+    title_en: "Testing Strategy and Methods"
+    description: "学习全面的软件测试策略和方法"
+    description_en: "Learn comprehensive software testing strategies and methods"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "software-engineering/testing-strategy/index"
+        title: "测试策略概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/testing-strategy/unit-testing"
+        title: "单元测试"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "software-engineering/testing-strategy/integration-testing"
+        title: "集成测试"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "software-engineering/testing-strategy/system-testing"
+        title: "系统测试"
+        required: true
+        estimated_time: "4小时"
+
+  # 阶段5：FDA法规与认证
+  - stage: 5
+    title: "FDA法规与认证流程"
+    title_en: "FDA Regulations and Certification Process"
+    description: "了解FDA法规要求和认证流程"
+    description_en: "Understand FDA regulatory requirements and certification process"
+    estimated_time: "10小时"
+    
+    modules:
+      - id: "regulatory-standards/fda-regulations/index"
+        title: "FDA法规概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/fda-regulations/510k-process"
+        title: "510(k)流程"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "regulatory-standards/fda-regulations/pma-process"
+        title: "PMA流程"
+        required: false
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/fda-regulations/software-validation"
+        title: "软件验证"
+        required: true
+        estimated_time: "3小时"
+
+  # 阶段6：其他重要标准
+  - stage: 6
+    title: "其他重要标准"
+    title_en: "Other Important Standards"
+    description: "学习电气安全和网络安全标准"
+    description_en: "Learn electrical safety and cybersecurity standards"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "regulatory-standards/iec-60601-1/index"
+        title: "IEC 60601-1概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-60601-1/electrical-safety"
+        title: "电气安全"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-81001-5-1/index"
+        title: "IEC 81001-5-1概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-81001-5-1/security-controls"
+        title: "安全控制"
+        required: false
+        estimated_time: "2小时"
+
+  # 阶段7：实践与案例
+  - stage: 7
+    title: "实践案例分析"
+    title_en: "Case Study Analysis"
+    description: "通过实际案例巩固所学知识"
+    description_en: "Consolidate knowledge through real case studies"
+    estimated_time: "6小时"
+    
+    modules:
+      - id: "case-studies/index"
+        title: "案例研究概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "case-studies/class-a-device-example"
+        title: "A类设备案例"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "case-studies/class-b-device-example"
+        title: "B类设备案例"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "case-studies/class-c-device-example"
+        title: "C类设备案例"
+        required: false
+        estimated_time: "1小时"
+
+checkpoints:
+  - after_stage: 1
+    title: "IEC 62304理解检查点"
+    title_en: "IEC 62304 Understanding Checkpoint"
+    assessment: "完成IEC 62304知识测试，能够识别不同安全等级的要求"
+    assessment_en: "Complete IEC 62304 knowledge test, able to identify requirements for different safety classes"
+    required_score: 85
+    
+  - after_stage: 2
+    title: "质量管理体系检查点"
+    title_en: "Quality Management System Checkpoint"
+    assessment: "完成ISO 13485审核模拟，能够识别质量体系中的不符合项"
+    assessment_en: "Complete ISO 13485 audit simulation, able to identify non-conformities in quality system"
+    required_score: 80
+    
+  - after_stage: 3
+    title: "风险管理能力检查点"
+    title_en: "Risk Management Skills Checkpoint"
+    assessment: "完成风险分析练习，能够识别危害、评估风险并提出控制措施"
+    assessment_en: "Complete risk analysis exercise, able to identify hazards, assess risks, and propose control measures"
+    required_score: 85
+    
+  - after_stage: 4
+    title: "测试策略应用检查点"
+    title_en: "Testing Strategy Application Checkpoint"
+    assessment: "完成测试计划编写练习，能够设计全面的测试策略"
+    assessment_en: "Complete test plan writing exercise, able to design comprehensive testing strategy"
+    required_score: 80
+    
+  - after_stage: 7
+    title: "综合能力检查点"
+    title_en: "Comprehensive Skills Checkpoint"
+    assessment: "完成综合案例分析，展示从法规理解到质量保证的全流程能力"
+    assessment_en: "Complete comprehensive case study, demonstrate full process capabilities from regulatory understanding to quality assurance"
+    required_score: 85
+
+recommended_resources:
+  - type: "standard"
+    title: "IEC 62304:2006+AMD1:2015 医疗器械软件生命周期过程"
+    url: "https://www.iec.ch/standards"
+    
+  - type: "standard"
+    title: "ISO 13485:2016 医疗器械质量管理体系"
+    url: "https://www.iso.org/standard/59752.html"
+    
+  - type: "standard"
+    title: "ISO 14971:2019 医疗器械风险管理"
+    url: "https://www.iso.org/standard/72704.html"
+    
+  - type: "book"
+    title: "医疗器械软件验证与确认实用指南"
+    url: "https://example.com/validation-book"
+    
+  - type: "course"
+    title: "FDA医疗器械法规培训"
+    url: "https://www.fda.gov/training-and-continuing-education"
+    
+  - type: "tool"
+    title: "风险管理工具模板"
+    url: "https://example.com/risk-management-templates"
+
+metadata:
+  version: "1.0"
+  last_updated: "2026-02-07"
+  author: "医疗器械嵌入式软件知识体系团队"
+  status: "active"
+  tags:
+    - "质量保证"
+    - "医疗器械"
+    - "法规标准"
+    - "测试"
+    - "风险管理"

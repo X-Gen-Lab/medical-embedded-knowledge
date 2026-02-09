@@ -1,0 +1,169 @@
+# 学习路径配置模板
+# Learning Path Configuration Template
+#
+# 此模板定义了学习路径的标准配置格式
+# This template defines the standard configuration format for learning paths
+
+# 路径唯一标识符（使用kebab-case格式）
+# Unique path identifier (use kebab-case format)
+path_id: "example-path"
+
+# 路径标题（中文）
+# Path title (Chinese)
+title: "示例学习路径"
+
+# 路径标题（英文，可选）
+# Path title (English, optional)
+title_en: "Example Learning Path"
+
+# 路径描述
+# Path description
+description: "这是一个示例学习路径，展示如何为特定角色设计系统化的学习计划"
+
+# 路径描述（英文，可选）
+# Path description (English, optional)
+description_en: "This is an example learning path showing how to design a systematic learning plan for a specific role"
+
+# 预计总学习时间
+# Estimated total learning time
+estimated_total_time: "40小时"
+
+# 难度级别：基础、中级、高级
+# Difficulty level: basic, intermediate, advanced
+difficulty: "中级"
+
+# 目标角色
+# Target role
+target_role: "示例角色"
+
+# 前置要求
+# Prerequisites
+prerequisites:
+  - "基础知识点1"
+  - "基础知识点2"
+  - "基础技能1"
+
+# 学习目标
+# Learning objectives
+learning_objectives:
+  - "掌握核心概念1"
+  - "能够应用技能2"
+  - "理解原理3"
+
+# 学习阶段
+# Learning stages
+stages:
+  # 阶段1
+  - stage: 1
+    title: "基础阶段"
+    title_en: "Foundation Stage"
+    description: "建立基础知识体系"
+    description_en: "Build foundational knowledge"
+    estimated_time: "10小时"
+    
+    # 阶段内的知识模块
+    modules:
+      # 模块1
+      - id: "technical-knowledge/embedded-c-cpp/memory-management"
+        title: "内存管理"  # 可选，用于显示
+        required: true  # 是否必修
+        estimated_time: "2小时"  # 可选
+        
+      # 模块2
+      - id: "technical-knowledge/embedded-c-cpp/pointer-operations"
+        title: "指针操作"
+        required: true
+        estimated_time: "2小时"
+        
+      # 模块3（选修）
+      - id: "technical-knowledge/embedded-c-cpp/bit-manipulation"
+        title: "位操作"
+        required: false
+        estimated_time: "1.5小时"
+  
+  # 阶段2
+  - stage: 2
+    title: "进阶阶段"
+    title_en: "Advanced Stage"
+    description: "深入学习核心技术"
+    description_en: "Deep dive into core technologies"
+    estimated_time: "15小时"
+    
+    modules:
+      - id: "technical-knowledge/rtos/index"
+        title: "RTOS概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/rtos/task-scheduling"
+        title: "任务调度"
+        required: true
+        estimated_time: "3小时"
+  
+  # 阶段3
+  - stage: 3
+    title: "实践阶段"
+    title_en: "Practice Stage"
+    description: "应用所学知识到实际项目"
+    description_en: "Apply knowledge to real projects"
+    estimated_time: "15小时"
+    
+    modules:
+      - id: "case-studies/class-a-device-example"
+        title: "A类设备案例"
+        required: true
+        estimated_time: "5小时"
+
+# 检查点配置
+# Checkpoint configuration
+checkpoints:
+  # 检查点1
+  - after_stage: 1
+    title: "基础知识检查点"
+    title_en: "Foundation Knowledge Checkpoint"
+    assessment: "完成基础知识自测，确保理解核心概念"
+    assessment_en: "Complete foundation self-assessment to ensure understanding of core concepts"
+    required_score: 80  # 可选：要求的最低分数
+    
+  # 检查点2
+  - after_stage: 2
+    title: "技术能力检查点"
+    title_en: "Technical Skills Checkpoint"
+    assessment: "完成RTOS实践练习，验证技术能力"
+    assessment_en: "Complete RTOS practice exercises to verify technical skills"
+    required_score: 75
+  
+  # 最终检查点
+  - after_stage: 3
+    title: "综合能力检查点"
+    title_en: "Comprehensive Skills Checkpoint"
+    assessment: "完成综合案例分析，展示端到端能力"
+    assessment_en: "Complete comprehensive case study to demonstrate end-to-end capabilities"
+    required_score: 85
+
+# 推荐资源
+# Recommended resources
+recommended_resources:
+  - type: "book"
+    title: "嵌入式系统设计"
+    url: "https://example.com/book"
+    
+  - type: "course"
+    title: "在线RTOS课程"
+    url: "https://example.com/course"
+    
+  - type: "tool"
+    title: "开发工具集"
+    url: "https://example.com/tools"
+
+# 元数据
+# Metadata
+metadata:
+  version: "1.0"
+  last_updated: "2026-02-07"
+  author: "知识体系团队"
+  status: "active"  # active, draft, archived
+  tags:
+    - "嵌入式"
+    - "医疗器械"
+    - "软件开发"

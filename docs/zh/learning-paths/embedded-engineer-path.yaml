@@ -1,0 +1,309 @@
+# 嵌入式软件工程师学习路径
+# Embedded Software Engineer Learning Path
+
+path_id: "embedded-engineer-path"
+
+title: "嵌入式软件工程师学习路径"
+title_en: "Embedded Software Engineer Learning Path"
+
+description: "为医疗器械嵌入式软件开发人员设计的系统学习路径，涵盖从基础编程到实时操作系统、硬件接口、信号处理以及医疗法规的全面知识体系。"
+description_en: "A comprehensive learning path designed for medical device embedded software developers, covering everything from basic programming to RTOS, hardware interfaces, signal processing, and medical regulations."
+
+estimated_total_time: "60小时"
+
+difficulty: "中级"
+
+target_role: "嵌入式软件工程师"
+
+prerequisites:
+  - "C语言基础知识"
+  - "基本的数据结构和算法"
+  - "基础电子电路知识"
+  - "Linux命令行基础"
+  - "Git版本控制基础"
+
+learning_objectives:
+  - "掌握医疗器械嵌入式C/C++编程的核心技术"
+  - "理解并应用实时操作系统（RTOS）进行任务管理"
+  - "熟练使用常见硬件接口（I2C、SPI、UART、ADC/DAC）"
+  - "掌握低功耗设计和信号处理基础"
+  - "理解医疗器械软件开发的法规要求"
+  - "能够应用编码规范和测试策略"
+
+stages:
+  # 阶段1：嵌入式C/C++基础
+  - stage: 1
+    title: "嵌入式C/C++编程基础"
+    title_en: "Embedded C/C++ Programming Fundamentals"
+    description: "掌握嵌入式环境下的C/C++编程核心技术"
+    description_en: "Master core C/C++ programming techniques in embedded environments"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "technical-knowledge/embedded-c-cpp/index"
+        title: "嵌入式C/C++概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "technical-knowledge/embedded-c-cpp/memory-management"
+        title: "内存管理"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "technical-knowledge/embedded-c-cpp/pointer-operations"
+        title: "指针操作"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "technical-knowledge/embedded-c-cpp/bit-manipulation"
+        title: "位操作"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/embedded-c-cpp/compiler-optimization"
+        title: "编译优化"
+        required: false
+        estimated_time: "3小时"
+
+  # 阶段2：实时操作系统
+  - stage: 2
+    title: "实时操作系统（RTOS）"
+    title_en: "Real-Time Operating System (RTOS)"
+    description: "深入学习RTOS的核心概念和应用"
+    description_en: "Deep dive into RTOS core concepts and applications"
+    estimated_time: "15小时"
+    
+    modules:
+      - id: "technical-knowledge/rtos/index"
+        title: "RTOS概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/rtos/task-scheduling"
+        title: "任务调度"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "technical-knowledge/rtos/synchronization"
+        title: "同步机制"
+        required: true
+        estimated_time: "4小时"
+        
+      - id: "technical-knowledge/rtos/interrupt-handling"
+        title: "中断处理"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "technical-knowledge/rtos/resource-management"
+        title: "资源管理"
+        required: false
+        estimated_time: "2小时"
+
+  # 阶段3：硬件接口
+  - stage: 3
+    title: "硬件接口与通信"
+    title_en: "Hardware Interfaces and Communication"
+    description: "掌握常见硬件接口的使用和调试"
+    description_en: "Master the use and debugging of common hardware interfaces"
+    estimated_time: "12小时"
+    
+    modules:
+      - id: "technical-knowledge/hardware-interfaces/index"
+        title: "硬件接口概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "technical-knowledge/hardware-interfaces/i2c"
+        title: "I2C接口"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "technical-knowledge/hardware-interfaces/spi"
+        title: "SPI接口"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "technical-knowledge/hardware-interfaces/uart"
+        title: "UART接口"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/hardware-interfaces/adc-dac"
+        title: "ADC/DAC"
+        required: true
+        estimated_time: "3小时"
+
+  # 阶段4：低功耗设计与信号处理
+  - stage: 4
+    title: "低功耗设计与信号处理"
+    title_en: "Low-Power Design and Signal Processing"
+    description: "学习医疗器械的低功耗设计和信号处理技术"
+    description_en: "Learn low-power design and signal processing for medical devices"
+    estimated_time: "10小时"
+    
+    modules:
+      - id: "technical-knowledge/low-power-design/index"
+        title: "低功耗设计概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "technical-knowledge/low-power-design/sleep-modes"
+        title: "睡眠模式"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/low-power-design/power-optimization"
+        title: "功耗优化"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/signal-processing/index"
+        title: "信号处理概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "technical-knowledge/signal-processing/digital-filters"
+        title: "数字滤波"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "technical-knowledge/signal-processing/ecg-processing"
+        title: "心电信号处理"
+        required: false
+        estimated_time: "2小时"
+
+  # 阶段5：医疗法规与编码规范
+  - stage: 5
+    title: "医疗法规与编码规范"
+    title_en: "Medical Regulations and Coding Standards"
+    description: "理解医疗器械软件开发的法规要求和编码规范"
+    description_en: "Understand regulatory requirements and coding standards for medical device software"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "regulatory-standards/iec-62304/index"
+        title: "IEC 62304概述"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "regulatory-standards/iec-62304/software-classification"
+        title: "软件安全分类"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "software-engineering/coding-standards/index"
+        title: "编码规范概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "software-engineering/coding-standards/misra-c"
+        title: "MISRA C规范"
+        required: true
+        estimated_time: "3小时"
+        
+      - id: "software-engineering/coding-standards/cert-c"
+        title: "CERT C规范"
+        required: false
+        estimated_time: "1小时"
+
+  # 阶段6：测试与实践
+  - stage: 6
+    title: "测试策略与实践案例"
+    title_en: "Testing Strategy and Case Studies"
+    description: "学习测试方法并通过实际案例巩固知识"
+    description_en: "Learn testing methods and consolidate knowledge through real cases"
+    estimated_time: "8小时"
+    
+    modules:
+      - id: "software-engineering/testing-strategy/index"
+        title: "测试策略概述"
+        required: true
+        estimated_time: "1小时"
+        
+      - id: "software-engineering/testing-strategy/unit-testing"
+        title: "单元测试"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "software-engineering/testing-strategy/integration-testing"
+        title: "集成测试"
+        required: true
+        estimated_time: "2小时"
+        
+      - id: "case-studies/class-a-device-example"
+        title: "A类设备案例"
+        required: false
+        estimated_time: "3小时"
+
+checkpoints:
+  - after_stage: 1
+    title: "C/C++编程能力检查点"
+    title_en: "C/C++ Programming Skills Checkpoint"
+    assessment: "完成嵌入式C/C++编程自测，确保掌握内存管理、指针操作和位操作"
+    assessment_en: "Complete embedded C/C++ self-assessment to ensure mastery of memory management, pointer operations, and bit manipulation"
+    required_score: 80
+    
+  - after_stage: 2
+    title: "RTOS应用能力检查点"
+    title_en: "RTOS Application Skills Checkpoint"
+    assessment: "完成RTOS实践练习，能够创建任务、使用同步机制和处理中断"
+    assessment_en: "Complete RTOS practice exercises, able to create tasks, use synchronization mechanisms, and handle interrupts"
+    required_score: 75
+    
+  - after_stage: 3
+    title: "硬件接口调试能力检查点"
+    title_en: "Hardware Interface Debugging Checkpoint"
+    assessment: "完成硬件接口调试练习，能够使用逻辑分析仪排查通信问题"
+    assessment_en: "Complete hardware interface debugging exercises, able to use logic analyzer to troubleshoot communication issues"
+    required_score: 75
+    
+  - after_stage: 5
+    title: "法规与规范理解检查点"
+    title_en: "Regulations and Standards Understanding Checkpoint"
+    assessment: "完成IEC 62304和MISRA C知识测试，理解医疗软件开发要求"
+    assessment_en: "Complete IEC 62304 and MISRA C knowledge test, understand medical software development requirements"
+    required_score: 80
+    
+  - after_stage: 6
+    title: "综合能力检查点"
+    title_en: "Comprehensive Skills Checkpoint"
+    assessment: "完成综合案例分析，展示从需求到实现的端到端能力"
+    assessment_en: "Complete comprehensive case study, demonstrate end-to-end capabilities from requirements to implementation"
+    required_score: 85
+
+recommended_resources:
+  - type: "book"
+    title: "嵌入式系统设计：基于ARM Cortex-M微控制器"
+    url: "https://example.com/embedded-systems-book"
+    
+  - type: "book"
+    title: "FreeRTOS实时内核实用指南"
+    url: "https://www.freertos.org/Documentation/RTOS_book.html"
+    
+  - type: "course"
+    title: "Coursera - 嵌入式系统专项课程"
+    url: "https://www.coursera.org/specializations/embedded-systems"
+    
+  - type: "tool"
+    title: "STM32CubeIDE开发环境"
+    url: "https://www.st.com/en/development-tools/stm32cubeide.html"
+    
+  - type: "tool"
+    title: "SEGGER J-Link调试器"
+    url: "https://www.segger.com/products/debug-probes/j-link/"
+    
+  - type: "standard"
+    title: "IEC 62304:2006+AMD1:2015 医疗器械软件生命周期过程"
+    url: "https://www.iec.ch/standards"
+
+metadata:
+  version: "1.0"
+  last_updated: "2026-02-07"
+  author: "医疗器械嵌入式软件知识体系团队"
+  status: "active"
+  tags:
+    - "嵌入式"
+    - "医疗器械"
+    - "软件开发"
+    - "RTOS"
+    - "硬件接口"
