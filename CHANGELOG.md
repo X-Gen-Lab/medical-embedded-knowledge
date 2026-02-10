@@ -17,11 +17,78 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### 计划中 | Planned
 - PDF导出功能完整测试
 - 离线HTML包功能测试
-- CI/CD自动化部署配置
 - 端到端测试套件
 - 更多实践案例（目标：10个以上）
 - 视频教程集成
 - 交互式代码示例
+
+---
+
+## [1.1.0] - 2026-02-11
+
+### 新增 | Added
+
+#### 文档内容完善 | Documentation Enhancement
+- ✨ 完成放疗剂量计算文档（dose-calculation.md）
+  - 添加蒙特卡洛模拟实现
+  - 包含质量保证程序和验证
+  - 提供剂量计算引擎代码示例
+  - 添加安全考虑和法规合规内容
+
+#### 元数据系统 | Metadata System
+- ✨ 为所有中文文档添加完整的Front Matter元数据
+  - 必需字段：title, description, difficulty, estimated_time, tags
+  - 推荐字段：related_modules, last_updated, version, language
+  - 统一使用中文难度级别（基础/中级/高级）
+  - 更新所有日期为2026-02-11
+
+#### 验证工具 | Validation Tools
+- 🛠️ 新增Front Matter元数据验证脚本（check_frontmatter.py）
+  - 验证必需字段完整性
+  - 检查推荐字段
+  - 支持单文件和批量验证
+  - 生成详细的验证报告
+
+### 改进 | Improved
+
+#### 内部链接修复 | Internal Links Fix
+- 🔗 修复所有失效的内部链接（64个）
+  - 修正相对路径错误
+  - 更新related_modules链接格式
+  - 添加正确的跨目录引用
+  - 恢复被误删的有效链接
+
+#### 文档覆盖 | Documentation Coverage
+- 📝 完善95个中文文档的元数据
+  - 案例研究（4个）
+  - 特定领域文档（12个）
+  - 法规标准（22个）
+  - 软件工程（14个）
+  - 技术知识（43个）
+
+### 修复 | Fixed
+- 🐛 修复链接验证脚本误报问题
+- 🐛 修正related_modules路径格式
+- 🐛 清理临时脚本和文档文件
+- 🐛 修复difficulty字段语言不一致问题
+
+### 验证结果 | Validation Results
+- ✅ 元数据验证：0个错误，0个警告
+- ✅ 链接验证：0个失效链接
+- ✅ MkDocs构建：成功（19秒）
+- ✅ 所有中文文档元数据完整
+
+### 技术改进 | Technical Improvements
+- 🔧 优化验证脚本性能
+- 🔧 改进错误报告格式
+- 🔧 统一元数据格式标准
+- 🔧 完善文档质量检查流程
+
+### 项目统计更新 | Updated Statistics
+- 📊 完整元数据文档：95+ 个
+- 📊 验证脚本：4 个
+- 📊 修复的链接：64 个
+- 📊 文档覆盖率：100%（中文核心文档）
 
 ---
 
@@ -213,5 +280,5 @@ Thank you to all the people who have contributed to this project!
 
 ---
 
-**最后更新 | Last Updated**: 2026-02-09  
+**最后更新 | Last Updated**: 2026-02-11  
 **维护者 | Maintainer**: 医疗器械嵌入式软件知识体系团队 | Medical Device Embedded Software Knowledge System Team
