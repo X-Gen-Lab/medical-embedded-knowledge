@@ -402,5 +402,13 @@ graph TD
 
 ## 内容模块
 
-- [IEC 62304 文档要求](documentation-requirements.md)
-- [IEC 62304 生命周期过程](lifecycle-processes.md)
+### 核心模块
+- [软件安全分类](software-classification.md) - 软件安全等级分类方法
+- [生命周期过程](lifecycle-processes.md) - 完整的软件开发生命周期
+- [文档要求](documentation-requirements.md) - 必需文档和模板
+
+### 高级主题
+- [SOUP管理详解](soup-management.md) - 现成软件的识别、评估和管理
+- [软件维护流程](maintenance-process.md) - 软件发布后的维护过程
+- [问题解决流程](problem-resolution.md) - 系统化的问题解决方法
+- [审核案例分析](audit-cases.md) - 实际审核案例和最佳实践

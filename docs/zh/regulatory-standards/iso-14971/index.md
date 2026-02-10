@@ -643,5 +643,9 @@ graph TD
 ## 内容模块
 
 - [ISO 14971 风险分析](risk-analysis.md)
-- [ISO 14971 风险控制](risk-control.md)
 - [ISO 14971 风险评估](risk-evaluation.md)
+- [ISO 14971 风险控制](risk-control.md)
+- [风险管理文件模板](risk-management-templates.md)
+- [FMEA/FMECA详细指南](fmea-guide.md)
+- [故障树分析(FTA)](fault-tree-analysis.md)
+- [风险可追溯矩阵示例](risk-traceability-matrix.md)
