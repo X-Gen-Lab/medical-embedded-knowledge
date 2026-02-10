@@ -1,3 +1,23 @@
+---
+title: 总结性评估
+description: IEC 62366可用性工程中的总结性评估，包括测试计划、执行和监管提交要求
+difficulty: 中级
+estimated_time: 2.5小时
+tags:
+  - IEC 62366
+  - 总结性评估
+  - 可用性验证
+  - 监管提交
+  - 测试计划
+related_modules:
+  - zh/regulatory-standards/iec-62366/index
+  - zh/regulatory-standards/iec-62366/formative-evaluation
+  - zh/regulatory-standards/fda-regulations/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 总结性评估
 
 ## 概述

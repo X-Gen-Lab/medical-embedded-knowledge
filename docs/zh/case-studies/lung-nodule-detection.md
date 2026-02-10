@@ -1,3 +1,23 @@
+---
+title: 肺结节AI检测系统
+description: LungAI智能肺结节检测系统的完整开发案例，包括3D CNN、CT图像分析和临床集成
+difficulty: 高级
+estimated_time: 2.5小时
+tags:
+  - 案例研究
+  - 医学影像
+  - 肺结节检测
+  - 3D CNN
+  - II类器械
+related_modules:
+  - zh/technical-knowledge/ai-ml/index
+  - zh/regulatory-standards/ai-ml-regulations/index
+  - zh/technical-knowledge/interoperability/dicom
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 肺结节AI检测系统
 
 ## 案例概述

@@ -1,3 +1,23 @@
+---
+title: 糖尿病视网膜病变AI筛查系统
+description: RetinaAI糖尿病视网膜病变智能筛查系统的完整开发案例，包括医学影像AI、深度学习和临床验证
+difficulty: 高级
+estimated_time: 2.5小时
+tags:
+  - 案例研究
+  - 医学影像
+  - 深度学习
+  - 糖尿病
+  - II类器械
+related_modules:
+  - zh/technical-knowledge/ai-ml/index
+  - zh/regulatory-standards/ai-ml-regulations/index
+  - zh/regulatory-standards/fda-regulations/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 糖尿病视网膜病变AI筛查系统
 
 ## 案例概述

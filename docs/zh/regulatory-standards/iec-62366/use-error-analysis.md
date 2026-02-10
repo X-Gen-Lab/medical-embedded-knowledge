@@ -1,3 +1,23 @@
+---
+title: 使用错误分析
+description: 医疗器械使用错误的识别、分析和控制方法，包括错误分类和风险缓解策略
+difficulty: 中级
+estimated_time: 2小时
+tags:
+  - IEC 62366
+  - 使用错误
+  - 风险分析
+  - 人因工程
+  - 安全设计
+related_modules:
+  - zh/regulatory-standards/iec-62366/index
+  - zh/regulatory-standards/iso-14971/index
+  - zh/regulatory-standards/iec-62366/ui-design-principles
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 使用错误分析
 
 ## 概述

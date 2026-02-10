@@ -1,3 +1,25 @@
+---
+title: "放射治疗设备软件概述"
+description: "放射治疗系统架构、治疗计划系统（TPS）、剂量计算算法（PBC和蒙特卡洛）和治疗执行流程"
+difficulty: "高级"
+estimated_time: "85分钟"
+tags:
+  - 放射治疗
+  - TPS
+  - 剂量计算
+  - IMRT
+  - 蒙特卡洛
+  - 笔形束卷积
+  - 治疗计划
+related_modules:
+  - "zh/domain-specific/radiation-therapy/dose-calculation"
+
+  - "zh/domain-specific/radiation-therapy/safety-interlocks"
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # 放射治疗设备软件概述
 
 ## 什么是放射治疗？
@@ -489,10 +511,10 @@ class MonteCarloSimulation:
 
 ## 相关资源
 
-- [剂量计算算法详解](dose-calculation.md)
-- [治疗计划系统](treatment-planning.md)
+
+- [剂量计算](dose-calculation.md)
+- [安全联锁](safety-interlocks.md)- [剂量计算算法详解](dose-calculation.md)
 - [安全联锁系统](safety-interlocks.md)
-- [质量保证](quality-assurance.md)
 
 ## 参考标准
 

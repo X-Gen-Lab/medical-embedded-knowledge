@@ -1,3 +1,24 @@
+---
+title: "IVD质量控制实施"
+description: "体外诊断质量控制的Westgard规则、质控品管理、Levey-Jennings图、内部质控和外部质量评估"
+difficulty: "中级"
+estimated_time: "65分钟"
+tags:
+  - 质量控制
+  - Westgard规则
+  - IQC
+  - EQA
+  - 质控图
+  - 统计质控
+  - CLSI
+related_modules:
+  - "zh/domain-specific/ivd/overview"
+
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # IVD质量控制实施
 
 ## 质量控制概述
@@ -492,10 +513,9 @@ class ExternalQualityAssessment:
 
 ## 相关资源
 
-- [IVD软件特点](overview.md)
-- [统计质量控制](statistical-qc.md)
-- [质控故障排除](qc-troubleshooting.md)
-- [质量管理体系](quality-management.md)
+
+- [IVD概述](overview.md)
+- [信号处理](../../technical-knowledge/signal-processing/index.md)- [IVD软件特点](overview.md)
 
 ## 参考标准
 

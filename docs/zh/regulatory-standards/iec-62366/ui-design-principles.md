@@ -1,3 +1,23 @@
+---
+title: 用户界面设计原则
+description: 医疗器械用户界面设计的核心原则、最佳实践和具体指南
+difficulty: 中级
+estimated_time: 2小时
+tags:
+  - IEC 62366
+  - UI设计
+  - 用户中心设计
+  - 界面设计
+  - 可用性
+related_modules:
+  - zh/regulatory-standards/iec-62366/index
+  - zh/regulatory-standards/iec-62366/use-error-analysis
+  - zh/software-engineering/requirements-engineering/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 用户界面设计原则
 
 ## 概述

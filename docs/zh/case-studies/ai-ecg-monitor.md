@@ -1,3 +1,24 @@
+---
+title: AI心电监护系统完整案例
+description: CardioAI智能心电监护系统的完整开发案例，涵盖需求分析、架构设计、AI模型开发和法规认证
+difficulty: 高级
+estimated_time: 3小时
+tags:
+  - 案例研究
+  - AI心电
+  - 深度学习
+  - 实时监护
+  - III类器械
+related_modules:
+  - zh/technical-knowledge/ai-ml/index
+  - zh/technical-knowledge/signal-processing/ecg-processing
+  - zh/regulatory-standards/iec-62304/index
+  - zh/regulatory-standards/ai-ml-regulations/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # AI心电监护系统完整案例
 
 ## 案例概述

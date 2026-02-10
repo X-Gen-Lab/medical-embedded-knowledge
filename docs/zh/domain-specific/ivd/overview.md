@@ -1,3 +1,25 @@
+---
+title: "体外诊断（IVD）软件概述"
+description: "体外诊断设备软件的数据处理特性、算法复杂性、质量控制集成、风险分类和技术挑战"
+difficulty: "中级"
+estimated_time: "60分钟"
+tags:
+  - 体外诊断
+  - IVD
+  - 数据处理
+  - 质量控制
+  - Westgard规则
+  - 校准曲线
+  - HL7
+related_modules:
+  - "zh/domain-specific/ivd/ivdr-regulations"
+  - "zh/domain-specific/ivd/lis-integration"
+  - "zh/domain-specific/ivd/quality-control"
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # 体外诊断（IVD）概述
 
 ## 什么是体外诊断？
@@ -356,10 +378,12 @@ class SoftwareVersionControl:
 
 ## 相关资源
 
-- [IVDR法规要求](ivdr-regulations.md)
+
+- [IVDR法规](ivdr-regulations.md)
+- [LIS集成](lis-integration.md)
+- [质量控制](quality-control.md)- [IVDR法规要求](ivdr-regulations.md)
 - [实验室信息系统](lis-integration.md)
 - [质量控制实施](quality-control.md)
-- [数据安全与隐私](data-security.md)
 
 ## 参考标准
 

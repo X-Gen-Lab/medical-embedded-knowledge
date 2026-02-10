@@ -1,3 +1,23 @@
+---
+title: IEC 62366 可用性工程
+description: 医疗器械可用性工程标准，包括用户界面设计、使用错误分析和可用性测试
+difficulty: 中级
+estimated_time: 12小时
+tags:
+  - IEC 62366
+  - 可用性工程
+  - 用户界面
+  - 使用错误
+  - 人因工程
+related_modules:
+  - zh/software-engineering/requirements-engineering/index
+  - zh/regulatory-standards/iso-14971/index
+  - zh/regulatory-standards/iec-62304/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # IEC 62366 可用性工程
 
 ## 概述

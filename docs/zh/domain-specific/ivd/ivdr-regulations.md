@@ -1,3 +1,23 @@
+---
+title: "IVDR法规要求"
+description: "欧盟体外诊断医疗器械法规（IVDR 2017/746）的风险分类、临床证据、质量管理体系和上市后监督要求"
+difficulty: "高级"
+estimated_time: "75分钟"
+tags:
+  - IVDR
+  - 法规合规
+  - 风险分类
+  - 临床证据
+  - 质量管理
+  - UDI
+  - EUDAMED
+related_modules:
+  - "zh/domain-specific/ivd/overview"
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # IVDR法规要求
 
 ## IVDR概述
@@ -455,10 +475,10 @@ class TransitionManager:
 
 ## 相关资源
 
-- [IVD软件特点](overview.md)
-- [临床性能评价](clinical-performance.md)
-- [质量管理体系](quality-management.md)
-- [上市后监督](post-market-surveillance.md)
+
+- [IVD概述](overview.md)
+- [质量控制](quality-control.md)
+- [ISO 13485质量管理](../../regulatory-standards/iso-13485/index.md)- [IVD软件特点](overview.md)
 
 ## 参考文献
 

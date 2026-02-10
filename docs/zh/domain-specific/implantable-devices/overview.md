@@ -1,3 +1,23 @@
+---
+title: "植入式设备软件概述"
+description: "植入式医疗设备软件开发的核心约束、超低功耗设计、无线通信、生物相容性和可靠性设计"
+difficulty: "高级"
+estimated_time: "90分钟"
+tags:
+  - 植入式设备
+  - 超低功耗
+  - 无线通信
+  - 生物相容性
+  - 可靠性设计
+  - MICS
+  - NFC
+related_modules:
+
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # 植入式设备软件概述
 
 ## 什么是植入式医疗设备？
@@ -385,12 +405,11 @@ class ReliabilitySystem:
 
 ## 相关资源
 
-- [超低功耗设计](ultra-low-power-design.md)
-- [无线能量传输](wireless-power-transfer.md)
-- [生物相容性要求](biocompatibility.md)
-- [可靠性工程](reliability-engineering.md)
 
-## 参考标准
+
+- [低功耗设计](../../technical-knowledge/low-power-design/index.md)
+- [无线通信](../../technical-knowledge/wireless-communication/index.md)
+- [ISO 14971风险管理](../../regulatory-standards/iso-14971/index.md)## 参考标准
 
 - ISO 14708: 植入式医疗器械通用要求
 - ISO 10993: 医疗器械生物学评价

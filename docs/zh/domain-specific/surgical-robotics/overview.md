@@ -1,3 +1,23 @@
+---
+title: "手术机器人系统概述"
+description: "手术机器人系统架构、主从控制、运动学、力反馈、视觉伺服和多层安全机制"
+difficulty: "高级"
+estimated_time: "80分钟"
+tags:
+  - 手术机器人
+  - 主从控制
+  - 运动学
+  - 力反馈
+  - 视觉伺服
+  - 碰撞检测
+  - IEC 80601-2-77
+related_modules:
+
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # 手术机器人系统概述
 
 ## 什么是手术机器人？
@@ -365,12 +385,11 @@ class SafetySystem:
 
 ## 相关资源
 
-- [运动控制详解](motion-control.md)
-- [力反馈系统](force-feedback.md)
-- [视觉系统](vision-system.md)
-- [安全标准](safety-standards.md)
 
-## 参考标准
+
+- [实时系统](../../technical-knowledge/rtos/index.md)
+- [信号处理](../../technical-knowledge/signal-processing/index.md)
+- [IEC 62304软件生命周期](../../regulatory-standards/iec-62304/index.md)## 参考标准
 
 - IEC 80601-2-77: 手术机器人安全标准
 - ISO 13482: 个人护理机器人安全要求

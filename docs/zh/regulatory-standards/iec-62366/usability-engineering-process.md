@@ -1,3 +1,23 @@
+---
+title: 可用性工程流程
+description: IEC 62366-1可用性工程流程的详细步骤，包括准备、分析、设计、评估和上市后监测
+difficulty: 中级
+estimated_time: 2.5小时
+tags:
+  - IEC 62366
+  - 可用性工程
+  - 流程管理
+  - 风险管理
+  - 用户研究
+related_modules:
+  - zh/regulatory-standards/iec-62366/index
+  - zh/regulatory-standards/iec-62366/formative-evaluation
+  - zh/regulatory-standards/iso-14971/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 可用性工程流程
 
 ## 概述

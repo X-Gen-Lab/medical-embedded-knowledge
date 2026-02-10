@@ -1,3 +1,23 @@
+---
+title: 持续学习系统
+description: AI/ML持续学习系统的监管考虑、实施策略和风险管理
+difficulty: 高级
+estimated_time: 2小时
+tags:
+  - 持续学习
+  - 自适应AI
+  - 数据漂移
+  - 模型更新
+  - AI/ML监管
+related_modules:
+  - zh/regulatory-standards/ai-ml-regulations/index
+  - zh/regulatory-standards/ai-ml-regulations/algorithm-validation
+  - zh/regulatory-standards/iso-14971/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 持续学习系统
 
 ## 概述

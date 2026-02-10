@@ -1,3 +1,23 @@
+---
+title: 形成性评估
+description: IEC 62366可用性工程中的形成性评估方法，包括启发式评估、认知走查和用户测试
+difficulty: 中级
+estimated_time: 2小时
+tags:
+  - IEC 62366
+  - 形成性评估
+  - 可用性测试
+  - 迭代设计
+  - 用户研究
+related_modules:
+  - zh/regulatory-standards/iec-62366/index
+  - zh/regulatory-standards/iec-62366/summative-evaluation
+  - zh/regulatory-standards/iso-14971/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 形成性评估
 
 ## 概述

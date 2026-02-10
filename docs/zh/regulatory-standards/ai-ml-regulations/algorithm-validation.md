@@ -1,3 +1,23 @@
+---
+title: 算法验证方法
+description: AI/ML医疗器械的算法验证和确认方法，包括测试策略、性能评估和监管要求
+difficulty: 高级
+estimated_time: 2小时
+tags:
+  - 算法验证
+  - V&V
+  - 性能评估
+  - 测试策略
+  - AI/ML
+related_modules:
+  - zh/regulatory-standards/ai-ml-regulations/index
+  - zh/software-engineering/testing-strategy/index
+  - zh/regulatory-standards/iec-62304/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 算法验证方法
 
 ## 概述

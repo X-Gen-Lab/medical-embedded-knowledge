@@ -1,3 +1,24 @@
+---
+title: "实验室信息系统（LIS）集成"
+description: "LIS系统架构、HL7/ASTM/FHIR接口标准、样本追踪和双向通信实现"
+difficulty: "中级"
+estimated_time: "70分钟"
+tags:
+  - LIS
+  - HL7
+  - ASTM
+  - FHIR
+  - 接口集成
+  - 样本追踪
+  - 互操作性
+related_modules:
+  - "zh/domain-specific/ivd/overview"
+
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # 实验室信息系统（LIS）集成
 
 ## LIS系统概述
@@ -755,10 +776,9 @@ class InterfaceEngine:
 
 ## 相关资源
 
-- [IVD软件特点](overview.md)
-- [数据交换标准](data-exchange-standards.md)
-- [工作流程管理](workflow-management.md)
-- [系统集成最佳实践](integration-best-practices.md)
+
+- [IVD概述](overview.md)
+- [互操作性标准](../../technical-knowledge/interoperability/index.md)- [IVD软件特点](overview.md)
 
 ## 参考标准
 

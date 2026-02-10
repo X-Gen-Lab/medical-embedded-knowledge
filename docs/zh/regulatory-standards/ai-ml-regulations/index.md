@@ -1,3 +1,23 @@
+---
+title: AI/ML医疗器械监管
+description: AI/ML医疗器械的全球监管要求，包括FDA SaMD指南、算法验证和持续学习系统管理
+difficulty: 高级
+estimated_time: 10小时
+tags:
+  - AI/ML监管
+  - SaMD
+  - FDA指南
+  - 算法验证
+  - 持续学习
+related_modules:
+  - zh/technical-knowledge/ai-ml/index
+  - zh/regulatory-standards/iec-62304/index
+  - zh/regulatory-standards/iso-14971/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # AI/ML医疗器械监管
 
 ## 概述

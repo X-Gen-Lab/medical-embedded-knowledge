@@ -1,3 +1,25 @@
+---
+title: "放射治疗安全联锁系统"
+description: "放射治疗设备的硬件和软件联锁、剂量监控、碰撞检测、紧急停止和患者安全监控系统"
+difficulty: "高级"
+estimated_time: "70分钟"
+tags:
+  - 安全联锁
+  - 剂量监控
+  - 碰撞检测
+  - 紧急停止
+  - 患者安全
+  - IEC 60601
+  - 辐射安全
+related_modules:
+  - "zh/domain-specific/radiation-therapy/overview"
+  - "zh/domain-specific/radiation-therapy/dose-calculation"
+
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+---
+
 # 放射治疗安全联锁系统
 
 ## 安全联锁概述
@@ -333,10 +355,10 @@ class PatientSafetyMonitoring:
 
 ## 相关资源
 
-- [放射治疗系统概述](overview.md)
+
+- [放疗概述](overview.md)
+- [剂量计算](dose-calculation.md)- [放射治疗系统概述](overview.md)
 - [剂量计算算法](dose-calculation.md)
-- [质量保证程序](quality-assurance.md)
-- [事故预防](accident-prevention.md)
 
 ## 参考标准
 

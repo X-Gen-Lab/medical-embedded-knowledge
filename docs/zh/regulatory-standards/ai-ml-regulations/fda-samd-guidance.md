@@ -1,3 +1,23 @@
+---
+title: FDA SaMD指南
+description: FDA软件作为医疗器械（SaMD）指南，包括AI/ML监管框架和临床评估要求
+difficulty: 中级
+estimated_time: 2.5小时
+tags:
+  - FDA
+  - SaMD
+  - AI/ML指南
+  - 监管框架
+  - 临床评估
+related_modules:
+  - zh/regulatory-standards/ai-ml-regulations/index
+  - zh/regulatory-standards/fda-regulations/index
+  - zh/regulatory-standards/iec-62304/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # FDA SaMD指南
 
 ## 概述
