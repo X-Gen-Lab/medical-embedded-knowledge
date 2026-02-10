@@ -18,6 +18,12 @@ language: zh-CN
 
 # 架构设计
 
+- [架构文档模板](architecture-documentation-template.md)
+- [架构模式详解](architecture-patterns.md)
+- [架构评审检查清单](architecture-review-checklist.md)
+- [性能架构设计](performance-architecture.md)
+
+
 ## 学习目标
 
 完成本模块后，你将能够：

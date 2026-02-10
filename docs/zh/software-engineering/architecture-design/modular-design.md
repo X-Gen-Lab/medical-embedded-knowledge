@@ -527,7 +527,7 @@ void heart_rate_attach(Observer observer) {
 
 void heart_rate_notify(const void* data) {
     for (size_t i = 0; i < monitor.observer_count; i++) {
-        monitor.observers[i](&monitor, data);
+        monitor.observers[i](monitor-data);
     }
 }
 
