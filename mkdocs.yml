@@ -206,12 +206,21 @@ nav:
           - 任务调度: technical-knowledge/rtos/task-scheduling.md
           - 同步机制: technical-knowledge/rtos/synchronization.md
           - 中断处理: technical-knowledge/rtos/interrupt-handling.md
+          - RTOS选型指南: technical-knowledge/rtos/rtos-selection-guide.md
+          - 多RTOS对比表: technical-knowledge/rtos/rtos-comparison.md
+          - RTOS性能调优: technical-knowledge/rtos/rtos-performance-tuning.md
+          - RTOS安全认证: technical-knowledge/rtos/rtos-safety-certification.md
       - 硬件接口:
           - technical-knowledge/hardware-interfaces/index.md
           - I2C: technical-knowledge/hardware-interfaces/i2c.md
           - SPI: technical-knowledge/hardware-interfaces/spi.md
           - UART: technical-knowledge/hardware-interfaces/uart.md
+          - GPIO: technical-knowledge/hardware-interfaces/gpio.md
           - ADC/DAC: technical-knowledge/hardware-interfaces/adc-dac.md
+          - CAN总线: technical-knowledge/hardware-interfaces/can-bus.md
+          - USB接口: technical-knowledge/hardware-interfaces/usb.md
+          - 以太网: technical-knowledge/hardware-interfaces/ethernet.md
+          - 显示接口: technical-knowledge/hardware-interfaces/display.md
       - 低功耗设计:
           - technical-knowledge/low-power-design/index.md
           - 睡眠模式: technical-knowledge/low-power-design/sleep-modes.md
@@ -220,8 +229,50 @@ nav:
           - technical-knowledge/signal-processing/index.md
           - 数字滤波: technical-knowledge/signal-processing/digital-filters.md
           - FFT: technical-knowledge/signal-processing/fft.md
+          - 小波变换: technical-knowledge/signal-processing/wavelet-transform.md
+          - 自适应滤波器: technical-knowledge/signal-processing/adaptive-filters.md
+          - 卡尔曼滤波器: technical-knowledge/signal-processing/kalman-filter.md
+          - 信号质量评估: technical-knowledge/signal-processing/signal-quality-assessment.md
           - 心电信号处理: technical-knowledge/signal-processing/ecg-processing.md
           - SpO2计算: technical-knowledge/signal-processing/spo2-calculation.md
+      - AI/ML医疗器械:
+          - technical-knowledge/ai-ml/index.md
+          - 机器学习基础: technical-knowledge/ai-ml/ml-fundamentals.md
+          - 深度学习算法: technical-knowledge/ai-ml/deep-learning.md
+          - 嵌入式AI实现: technical-knowledge/ai-ml/embedded-ai.md
+          - 模型优化技术: technical-knowledge/ai-ml/model-optimization.md
+          - 医疗应用场景: technical-knowledge/ai-ml/medical-applications.md
+      - 无线通信技术:
+          - technical-knowledge/wireless-communication/index.md
+          - 蓝牙与BLE: technical-knowledge/wireless-communication/bluetooth-ble.md
+          - WiFi通信: technical-knowledge/wireless-communication/wifi.md
+          - 其他无线技术: technical-knowledge/wireless-communication/other-wireless.md
+          - 安全考虑: technical-knowledge/wireless-communication/security-considerations.md
+      - 医疗设备互联互通:
+          - technical-knowledge/interoperability/index.md
+          - HL7 FHIR: technical-knowledge/interoperability/hl7-fhir.md
+          - DICOM: technical-knowledge/interoperability/dicom.md
+          - IEEE 11073: technical-knowledge/interoperability/ieee-11073.md
+      - 云计算与远程医疗:
+          - technical-knowledge/cloud-computing/index.md
+          - 云架构: technical-knowledge/cloud-computing/cloud-architecture.md
+          - 数据管理: technical-knowledge/cloud-computing/data-management.md
+          - 隐私与合规: technical-knowledge/cloud-computing/privacy-compliance.md
+          - 远程监护系统: technical-knowledge/cloud-computing/remote-monitoring.md
+      - 移动医疗(mHealth):
+          - technical-knowledge/mobile-health/index.md
+          - iOS医疗应用开发: technical-knowledge/mobile-health/ios-development.md
+          - Android医疗应用开发: technical-knowledge/mobile-health/android-development.md
+          - 移动应用安全: technical-knowledge/mobile-health/mobile-security.md
+          - 健康数据集成: technical-knowledge/mobile-health/health-data-integration.md
+          - 跨平台开发: technical-knowledge/mobile-health/cross-platform-development.md
+          - 移动医疗法规: technical-knowledge/mobile-health/mobile-regulations.md
+      - 高级嵌入式系统:
+          - technical-knowledge/advanced-embedded/index.md
+          - 多核处理器编程: technical-knowledge/advanced-embedded/multicore-programming.md
+          - DMA技术: technical-knowledge/advanced-embedded/dma.md
+          - 看门狗与故障恢复: technical-knowledge/advanced-embedded/watchdog-recovery.md
+          - 引导加载程序: technical-knowledge/advanced-embedded/bootloader.md
   - 法规与标准:
       - regulatory-standards/index.md
       - IEC 62304:
@@ -229,6 +280,10 @@ nav:
           - 软件安全分类: regulatory-standards/iec-62304/software-classification.md
           - 生命周期过程: regulatory-standards/iec-62304/lifecycle-processes.md
           - 文档要求: regulatory-standards/iec-62304/documentation-requirements.md
+          - SOUP管理: regulatory-standards/iec-62304/soup-management.md
+          - 软件维护流程: regulatory-standards/iec-62304/maintenance-process.md
+          - 问题解决流程: regulatory-standards/iec-62304/problem-resolution.md
+          - 审核案例分析: regulatory-standards/iec-62304/audit-cases.md
       - ISO 13485:
           - regulatory-standards/iso-13485/index.md
           - 质量管理: regulatory-standards/iso-13485/quality-management.md
@@ -238,6 +293,10 @@ nav:
           - 风险分析: regulatory-standards/iso-14971/risk-analysis.md
           - 风险评估: regulatory-standards/iso-14971/risk-evaluation.md
           - 风险控制: regulatory-standards/iso-14971/risk-control.md
+          - 风险管理文件模板: regulatory-standards/iso-14971/risk-management-templates.md
+          - FMEA/FMECA指南: regulatory-standards/iso-14971/fmea-guide.md
+          - 故障树分析: regulatory-standards/iso-14971/fault-tree-analysis.md
+          - 风险可追溯矩阵: regulatory-standards/iso-14971/risk-traceability-matrix.md
       - FDA法规:
           - regulatory-standards/fda-regulations/index.md
           - 510(k)流程: regulatory-standards/fda-regulations/510k-process.md
@@ -251,16 +310,47 @@ nav:
           - regulatory-standards/iec-81001-5-1/index.md
           - 威胁建模: regulatory-standards/iec-81001-5-1/threat-modeling.md
           - 安全控制: regulatory-standards/iec-81001-5-1/security-controls.md
+      - 欧盟法规:
+          - regulatory-standards/eu-regulations/index.md
+          - MDR概述: regulatory-standards/eu-regulations/mdr-overview.md
+          - IVDR概述: regulatory-standards/eu-regulations/ivdr-overview.md
+          - CE认证: regulatory-standards/eu-regulations/ce-marking.md
+          - 技术文档: regulatory-standards/eu-regulations/technical-documentation.md
+          - 临床评估: regulatory-standards/eu-regulations/clinical-evaluation.md
+          - 上市后监督: regulatory-standards/eu-regulations/post-market-surveillance.md
+          - MDR vs FDA对比: regulatory-standards/eu-regulations/mdr-vs-fda.md
+          - 案例研究-血糖仪: regulatory-standards/eu-regulations/case-study-glucose-meter.md
+      - AI/ML监管:
+          - regulatory-standards/ai-ml-regulations/index.md
+          - FDA SaMD指南: regulatory-standards/ai-ml-regulations/fda-samd-guidance.md
+          - 算法验证方法: regulatory-standards/ai-ml-regulations/algorithm-validation.md
+          - 持续学习系统: regulatory-standards/ai-ml-regulations/continuous-learning.md
+      - IEC 62366 可用性工程:
+          - regulatory-standards/iec-62366/index.md
+          - 可用性工程流程: regulatory-standards/iec-62366/usability-engineering-process.md
+          - 使用错误分析: regulatory-standards/iec-62366/use-error-analysis.md
+          - 用户界面设计原则: regulatory-standards/iec-62366/ui-design-principles.md
+          - 形成性评估: regulatory-standards/iec-62366/formative-evaluation.md
+          - 总结性评估: regulatory-standards/iec-62366/summative-evaluation.md
   - 软件工程:
       - software-engineering/index.md
       - 需求工程:
           - software-engineering/requirements-engineering/index.md
+          - 需求获取技术: software-engineering/requirements-engineering/requirements-elicitation.md
+          - 需求规格说明书: software-engineering/requirements-engineering/requirements-specification.md
+          - 用户需求vs系统需求: software-engineering/requirements-engineering/user-vs-system-requirements.md
+          - 需求验证方法: software-engineering/requirements-engineering/requirements-validation.md
           - 需求追溯: software-engineering/requirements-engineering/requirements-traceability.md
           - 变更管理: software-engineering/requirements-engineering/change-management.md
       - 架构设计:
           - software-engineering/architecture-design/index.md
           - 分层架构: software-engineering/architecture-design/layered-architecture.md
           - 接口设计: software-engineering/architecture-design/interface-design.md
+          - 模块化设计: software-engineering/architecture-design/modular-design.md
+          - 架构模式详解: software-engineering/architecture-design/architecture-patterns.md
+          - 架构评审检查清单: software-engineering/architecture-design/architecture-review-checklist.md
+          - 架构文档模板: software-engineering/architecture-design/architecture-documentation-template.md
+          - 性能架构设计: software-engineering/architecture-design/performance-architecture.md
       - 编码规范:
           - software-engineering/coding-standards/index.md
           - MISRA C: software-engineering/coding-standards/misra-c.md
@@ -271,6 +361,10 @@ nav:
           - 单元测试: software-engineering/testing-strategy/unit-testing.md
           - 集成测试: software-engineering/testing-strategy/integration-testing.md
           - 系统测试: software-engineering/testing-strategy/system-testing.md
+          - 性能测试: software-engineering/testing-strategy/performance-testing.md
+          - 安全测试: software-engineering/testing-strategy/security-testing.md
+          - 测试自动化: software-engineering/testing-strategy/test-automation.md
+          - 硬件在环测试: software-engineering/testing-strategy/hil-testing.md
       - 配置管理:
           - software-engineering/configuration-management/index.md
           - 版本控制: software-engineering/configuration-management/version-control.md
@@ -279,11 +373,39 @@ nav:
           - software-engineering/static-analysis/index.md
           - 工具使用: software-engineering/static-analysis/tool-usage.md
           - 缺陷分类: software-engineering/static-analysis/defect-classification.md
+      - DevOps与持续交付:
+          - software-engineering/devops/index.md
+          - CI/CD流水线: software-engineering/devops/ci-cd-pipeline.md
+          - 容器化与编排: software-engineering/devops/containerization.md
+          - 基础设施即代码: software-engineering/devops/infrastructure-as-code.md
+          - 监控与日志: software-engineering/devops/monitoring-logging.md
+      - 项目管理与团队协作:
+          - software-engineering/project-management/index.md
+          - 敏捷开发在医疗器械中的应用: software-engineering/project-management/agile-in-medical-devices.md
+          - 项目管理工具与平台: software-engineering/project-management/tools-and-platforms.md
+          - 团队协作最佳实践: software-engineering/project-management/team-collaboration.md
   - 实践案例:
       - case-studies/index.md
       - A类器械示例: case-studies/class-a-device-example.md
       - B类器械示例: case-studies/class-b-blood-pressure-monitor.md
       - C类器械示例: case-studies/class-c-device-example.md
+      - AI心电监护系统: case-studies/ai-ecg-monitor.md
+      - 糖尿病视网膜病变筛查: case-studies/diabetic-retinopathy.md
+      - 肺结节检测系统: case-studies/lung-nodule-detection.md
+  - 特定医疗领域:
+      - domain-specific/index.md
+      - 体外诊断(IVD):
+          - domain-specific/ivd/overview.md
+          - IVDR法规要求: domain-specific/ivd/ivdr-regulations.md
+          - 实验室信息系统: domain-specific/ivd/lis-integration.md
+          - 质量控制实施: domain-specific/ivd/quality-control.md
+      - 放射治疗设备:
+          - domain-specific/radiation-therapy/overview.md
+          - 安全联锁系统: domain-specific/radiation-therapy/safety-interlocks.md
+      - 手术机器人:
+          - domain-specific/surgical-robotics/overview.md
+      - 植入式设备:
+          - domain-specific/implantable-devices/overview.md
   - 学习路径:
       - learning-paths/index.md
       - 嵌入式工程师: learning-paths/embedded-engineer-path.md
