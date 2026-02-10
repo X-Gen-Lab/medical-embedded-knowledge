@@ -1,6 +1,13 @@
 ---
 title: "学习路径系统设计"
-description: "学习路径系统的设计文档"
+description: "学习路径系统的设计文档，描述如何组织和管理医疗器械嵌入式软件知识体系的学习路径"
+difficulty: 中级
+estimated_time: 20分钟
+tags:
+  - learning-path
+  - system-design
+  - documentation
+  - knowledge-management
 ---
 
 # 学习路径系统设计

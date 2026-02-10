@@ -4,8 +4,17 @@ title_en: "Regulatory Affairs Specialist Learning Path"
 description: "为医疗器械监管事务专员设计的学习路径，全面覆盖国际医疗器械法规标准、认证流程、技术文档编写和合规管理，帮助监管专员确保产品符合全球市场准入要求。"
 path_id: "regulatory-specialist-path"
 difficulty: "中级"
+estimated_time: "45小时"
 estimated_total_time: "45小时"
 target_role: "监管事务专员"
+tags:
+  - 学习路径
+  - 监管事务
+  - 法规合规
+  - IEC 62304
+  - ISO 13485
+  - FDA
+  - CE认证
 ---
 
 # 监管事务专员学习路径

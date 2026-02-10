@@ -4,8 +4,17 @@ title_en: "Quality Assurance Engineer Learning Path"
 description: "为医疗器械质量保证工程师设计的学习路径，重点关注医疗法规标准、测试策略、风险管理和质量管理体系，帮助QA工程师确保产品符合监管要求。"
 path_id: "qa-engineer-path"
 difficulty: "中级"
+estimated_time: "50小时"
 estimated_total_time: "50小时"
 target_role: "质量保证工程师"
+tags:
+  - 学习路径
+  - 质量保证
+  - 测试策略
+  - IEC 62304
+  - ISO 13485
+  - ISO 14971
+  - 风险管理
 ---
 
 # 质量保证工程师学习路径

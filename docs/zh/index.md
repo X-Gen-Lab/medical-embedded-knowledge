@@ -1,3 +1,22 @@
+---
+title: 医疗器械嵌入式软件知识体系
+description: 为医疗器械嵌入式软件开发人员、质量工程师和监管人员提供全面、系统的学习资源
+difficulty: 入门
+estimated_time: 10分钟
+tags:
+  - 医疗器械
+  - 嵌入式软件
+  - 知识体系
+  - 学习路径
+related_modules:
+  - zh/getting-started/index
+  - zh/learning-paths/index
+  - zh/technical-knowledge/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 医疗器械嵌入式软件知识体系
 
 欢迎来到医疗器械嵌入式软件知识体系！

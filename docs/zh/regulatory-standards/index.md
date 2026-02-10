@@ -1,6 +1,17 @@
 ---
 title: "医疗法规与标准"
-description: "医疗器械软件开发相关的法规和标准知识模块"
+description: "医疗器械软件开发相关的国际和地区法规标准，包括IEC、ISO、FDA和欧盟法规"
+difficulty: "中级"
+estimated_time: "10分钟"
+tags:
+  - 医疗法规
+  - IEC 62304
+  - ISO 13485
+  - ISO 14971
+  - FDA
+  - MDR
+  - IVDR
+  - 网络安全
 ---
 
 # 医疗法规与标准

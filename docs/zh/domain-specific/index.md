@@ -1,3 +1,23 @@
+---
+title: 特定医疗领域深化
+description: 深入探讨特定医疗器械领域的专业知识，涵盖IVD、放射治疗、手术机器人、植入式设备等领域
+difficulty: 高级
+estimated_time: 20小时
+tags:
+  - 医疗领域
+  - IVD
+  - 放射治疗
+  - 手术机器人
+  - 植入式设备
+related_modules:
+  - zh/technical-knowledge/index
+  - zh/regulatory-standards/index
+  - zh/software-engineering/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 特定医疗领域深化
 
 本章节深入探讨特定医疗器械领域的专业知识，涵盖各领域的独特技术要求、法规标准和实施细节。

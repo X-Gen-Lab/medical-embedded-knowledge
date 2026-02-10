@@ -4,8 +4,17 @@ title_en: "Embedded Software Engineer Learning Path"
 description: "为医疗器械嵌入式软件开发人员设计的系统学习路径，涵盖从基础编程到实时操作系统、硬件接口、信号处理以及医疗法规的全面知识体系。"
 path_id: "embedded-engineer-path"
 difficulty: "中级"
+estimated_time: "60小时"
 estimated_total_time: "60小时"
 target_role: "嵌入式软件工程师"
+tags:
+  - 学习路径
+  - 嵌入式开发
+  - C/C++编程
+  - RTOS
+  - 硬件接口
+  - 低功耗设计
+  - 信号处理
 ---
 
 # 嵌入式软件工程师学习路径

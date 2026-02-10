@@ -1,6 +1,13 @@
 ---
 title: "术语表 / Glossary"
 description: "医疗器械嵌入式软件开发相关术语的中英文对照和定义"
+difficulty: 基础
+estimated_time: 30分钟
+tags:
+  - glossary
+  - terminology
+  - reference
+  - bilingual
 language: "zh-CN"
 ---
 

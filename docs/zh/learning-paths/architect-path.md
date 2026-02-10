@@ -4,8 +4,17 @@ title_en: "System Architect Learning Path"
 description: "为医疗器械系统架构师设计的学习路径，涵盖软件架构设计、系统集成、需求工程、风险管理和技术决策，培养端到端的系统设计能力。"
 path_id: "architect-path"
 difficulty: "高级"
+estimated_time: "55小时"
 estimated_total_time: "55小时"
 target_role: "系统架构师"
+tags:
+  - 学习路径
+  - 系统架构
+  - 架构设计
+  - 需求工程
+  - 风险管理
+  - 技术决策
+  - 系统集成
 ---
 
 # 系统架构师学习路径

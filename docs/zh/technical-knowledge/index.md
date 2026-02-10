@@ -1,6 +1,14 @@
 ---
 title: "核心技术知识"
-description: "医疗器械嵌入式软件开发的核心技术知识模块"
+description: "医疗器械嵌入式软件开发的核心技术知识模块，包括嵌入式编程、RTOS、硬件接口、低功耗设计和信号处理"
+difficulty: 中级
+estimated_time: 1小时
+tags:
+  - embedded-systems
+  - technical-knowledge
+  - hardware
+  - software
+  - rtos
 ---
 
 # 核心技术知识
