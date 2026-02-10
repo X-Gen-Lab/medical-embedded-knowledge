@@ -1,7 +1,16 @@
 ---
 title: 安全测试
-difficulty: intermediate
+description: "执行医疗软件的安全测试，识别和修复安全漏洞"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - security-testing
+  - penetration-testing
+  - vulnerability-assessment
+  - cybersecurity
 ---
 
 # 安全测试
@@ -884,10 +893,6 @@ class FirmwareSecurityAnalysis:
         
         patterns = {
             'private_key': rb'-----BEGIN.*PRIVATE KEY-----',
-            'password': rb'password\s*=\s*["\']([^"\']+)["\']',
-            'api_key': rb'api[_-]?key\s*=\s*["\']([^"\']+)["\']',
-            'secret': rb'secret\s*=\s*["\']([^"\']+)["\']',
-            'token': rb'token\s*=\s*["\']([^"\']+)["\']'
         }
         
         with open(firmware_path, 'rb') as f:

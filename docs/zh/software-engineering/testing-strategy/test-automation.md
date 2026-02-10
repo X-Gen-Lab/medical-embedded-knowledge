@@ -1,7 +1,16 @@
 ---
 title: 测试自动化
-difficulty: intermediate
+description: "构建医疗软件的自动化测试框架，提高测试效率和覆盖率"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - test-automation
+  - selenium
+  - pytest
+  - quality-assurance
 ---
 
 # 测试自动化

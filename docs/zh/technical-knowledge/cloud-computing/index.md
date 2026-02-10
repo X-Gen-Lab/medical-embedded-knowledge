@@ -1,3 +1,23 @@
+---
+title: 云计算与远程医疗
+description: 云计算技术在医疗设备中的应用，包括远程监护、数据存储、设备管理和远程诊断
+difficulty: 中级
+estimated_time: 10小时
+tags:
+  - 云计算
+  - 远程医疗
+  - IoT
+  - 数据安全
+  - OTA更新
+related_modules:
+  - zh/technical-knowledge/wireless-communication/index
+  - zh/regulatory-standards/iec-81001-5-1/index
+  - zh/technical-knowledge/interoperability/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 云计算与远程医疗
 
 ## 概述

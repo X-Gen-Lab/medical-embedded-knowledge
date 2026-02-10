@@ -1,7 +1,16 @@
 ---
 title: Android医疗应用开发
-difficulty: intermediate
+description: "学习Android医疗应用开发，构建安全可靠的移动健康解决方案"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - android
+  - mobile-development
+  - mhealth
+  - healthcare-apps
 ---
 
 # Android医疗应用开发

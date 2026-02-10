@@ -1,7 +1,16 @@
 ---
 title: 看门狗与故障恢复
-difficulty: advanced
+description: "了解看门狗定时器和故障恢复机制，确保医疗设备的可靠性和安全性"
+difficulty: 高级
 estimated_time: 3-4小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - watchdog
+  - fault-recovery
+  - reliability
+  - embedded-systems
 ---
 
 # 看门狗与故障恢复

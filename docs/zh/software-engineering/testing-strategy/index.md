@@ -1,3 +1,23 @@
+---
+title: 高级测试策略
+description: 医疗设备软件的高级测试技术，包括性能测试、安全测试、自动化测试和硬件在环测试
+difficulty: 高级
+estimated_time: 15小时
+tags:
+  - 测试策略
+  - 性能测试
+  - 安全测试
+  - 自动化测试
+  - HIL测试
+related_modules:
+  - zh/software-engineering/testing-strategy/unit-testing
+  - zh/software-engineering/testing-strategy/integration-testing
+  - zh/regulatory-standards/iec-62304/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 高级测试策略
 
 - [集成测试](integration-testing.md)
@@ -206,10 +226,10 @@ graph TB
 
 ## 相关资源
 
-- [软件工程概述](../index.md)
-- [需求工程](../requirements/index.md)
-- [设计模式](../design-patterns/index.md)
-- [质量保证](../quality-assurance/index.md)
+
+- [需求工程](../requirements-engineering/index.md)
+- [架构设计](../architecture-design/index.md)
+- [配置管理](../configuration-management/index.md)- [软件工程概述](../index.md)
 
 ## 下一步
 

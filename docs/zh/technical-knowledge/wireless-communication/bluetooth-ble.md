@@ -1,7 +1,16 @@
 ---
 title: 蓝牙与BLE技术
-difficulty: intermediate
+description: "学习蓝牙和BLE技术在医疗设备中的应用和实现"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - bluetooth
+  - ble
+  - wireless
+  - medical-devices
 ---
 
 # 蓝牙与BLE技术

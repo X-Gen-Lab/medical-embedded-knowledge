@@ -1,7 +1,16 @@
 ---
 title: 其他无线技术
-difficulty: intermediate
+description: "了解其他无线通信技术在医疗设备中的应用"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - wireless
+  - zigbee
+  - lora
+  - medical-devices
 ---
 
 # 其他无线技术

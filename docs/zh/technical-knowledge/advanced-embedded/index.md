@@ -1,3 +1,23 @@
+---
+title: 高级嵌入式系统
+description: 医疗设备开发中的高级嵌入式系统主题，包括多核处理器编程、DMA技术、故障恢复机制和引导加载程序
+difficulty: 高级
+estimated_time: 12小时
+tags:
+  - 高级嵌入式
+  - 多核处理
+  - DMA
+  - 看门狗
+  - Bootloader
+related_modules:
+  - zh/technical-knowledge/rtos/index
+  - zh/technical-knowledge/embedded-c-cpp/index
+  - zh/technical-knowledge/hardware-interfaces/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 高级嵌入式系统
 
 本模块涵盖医疗设备开发中的高级嵌入式系统主题，包括多核处理器编程、DMA技术、故障恢复机制和引导加载程序。
@@ -82,7 +102,7 @@
 ## 🔗 相关模块
 
 - [实时操作系统](../rtos/index.md)
-- [嵌入式安全](../embedded-security/index.md)
+- [RTOS任务调度](../rtos/task-scheduling.md)
 - [硬件接口](../hardware-interfaces/index.md)
 - [测试策略](../../software-engineering/testing-strategy/index.md)
 

@@ -4,9 +4,13 @@ description: "医疗信号质量评估方法，包括质量指标、实时评估
 difficulty: "高级"
 estimated_time: "2小时"
 tags: ["信号质量", "SQI", "ECG", "PPG", "质量评估"]
-
+related_modules:
+  - zh/technical-knowledge/signal-processing/ecg-processing
+  - zh/technical-knowledge/signal-processing/spo2-calculation
+  - zh/technical-knowledge/signal-processing/digital-filters
 last_updated: 2026-02-10
 version: 1.0
+language: zh-CN
 ---
 
 # 信号质量评估（Signal Quality Assessment）

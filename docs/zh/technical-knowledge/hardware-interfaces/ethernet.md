@@ -1,9 +1,20 @@
 ---
 title: 以太网接口
 description: 医疗设备中以太网的原理、配置和网络通信实现
-difficulty: intermediate
+difficulty: 中级
 estimated_time: 2-3小时
-tags: 
+tags:
+  - 以太网
+  - 网络通信
+  - TCP/IP
+  - 硬件接口
+related_modules:
+  - zh/technical-knowledge/interoperability/index
+  - zh/regulatory-standards/iec-62304/index
+  - zh/regulatory-standards/iec-81001-5-1/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
 ---
 
 
@@ -994,6 +1005,6 @@ void check_lwip_memory(void) {
 
 ## 相关资源
 
-- [Wi-Fi无线通信](../wireless-communication/wifi.md)
-- [IEC 62304软件生命周期](../../regulatory-standards/iec-62304.md)
-- [IEC 80001-1网络风险管理](../../regulatory-standards/iec-80001-1.md)
+
+- [IEC 62304软件生命周期](../../regulatory-standards/iec-62304/index.md)
+- [IEC 81001-5-1网络安全](../../regulatory-standards/iec-81001-5-1/index.md)- [Wi-Fi无线通信](../wireless-communication/wifi.md)

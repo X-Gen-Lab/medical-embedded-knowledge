@@ -1,7 +1,16 @@
 ---
 title: 项目管理工具与平台
-difficulty: intermediate
+description: "选择和使用适合医疗设备开发的项目管理工具"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - tools
+  - jira
+  - confluence
+  - project-management
 ---
 
 # 项目管理工具与平台

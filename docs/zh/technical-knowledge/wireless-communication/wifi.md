@@ -1,7 +1,16 @@
 ---
 title: WiFi通信技术
-difficulty: intermediate
+description: "掌握Wi-Fi技术在医疗环境中的部署和优化"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - wifi
+  - wireless
+  - networking
+  - medical-devices
 ---
 
 # WiFi通信技术

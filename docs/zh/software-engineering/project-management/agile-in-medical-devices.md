@@ -1,7 +1,16 @@
 ---
 title: 敏捷开发在医疗器械中的应用
-difficulty: intermediate
+description: "在医疗设备开发中应用敏捷方法论，平衡灵活性和合规性"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - agile
+  - scrum
+  - project-management
+  - medical-devices
 ---
 
 # 敏捷开发在医疗器械中的应用

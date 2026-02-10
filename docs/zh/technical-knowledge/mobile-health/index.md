@@ -1,3 +1,23 @@
+---
+title: 移动医疗（mHealth）
+description: 移动医疗应用开发，包括iOS、Android开发、跨平台技术和移动医疗法规
+difficulty: 中级
+estimated_time: 15小时
+tags:
+  - 移动医疗
+  - mHealth
+  - iOS
+  - Android
+  - 移动应用
+related_modules:
+  - zh/technical-knowledge/wireless-communication/index
+  - zh/technical-knowledge/cloud-computing/index
+  - zh/regulatory-standards/fda-regulations/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 移动医疗（mHealth）
 
 ## 概述

@@ -1,7 +1,16 @@
 ---
 title: DMA（直接内存访问）
-difficulty: advanced
+description: "掌握直接内存访问(DMA)技术在医疗设备中的应用，提高数据传输效率和系统性能"
+difficulty: 高级
 estimated_time: 3-4小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - dma
+  - memory-management
+  - performance
+  - embedded-systems
 ---
 
 # DMA（直接内存访问）

@@ -15,6 +15,7 @@ related_modules:
 - zh/technical-knowledge/rtos/rtos-selection-guide
 last_updated: '2026-02-10'
 version: '1.0'
+language: zh-CN
 ---
 
 # RTOS安全认证

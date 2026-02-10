@@ -1,7 +1,16 @@
 ---
 title: iOS医疗应用开发
-difficulty: intermediate
+description: "掌握iOS医疗应用开发，利用Apple健康生态系统"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - ios
+  - mobile-development
+  - healthkit
+  - mhealth
 ---
 
 # iOS医疗应用开发

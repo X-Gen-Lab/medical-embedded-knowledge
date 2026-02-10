@@ -1,7 +1,16 @@
 ---
 title: 引导加载程序（Bootloader）
-difficulty: advanced
+description: "深入学习医疗设备引导加载程序的设计与实现，包括安全启动、固件更新、A/B分区和故障恢复机制"
+difficulty: 高级
 estimated_time: 3-4小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - bootloader
+  - secure-boot
+  - firmware-update
+  - embedded-systems
 ---
 
 # 引导加载程序（Bootloader）

@@ -1,7 +1,16 @@
 ---
 title: 团队协作最佳实践
-difficulty: intermediate
+description: "提升医疗设备开发团队的协作效率和沟通质量"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - collaboration
+  - teamwork
+  - communication
+  - project-management
 ---
 
 # 团队协作最佳实践

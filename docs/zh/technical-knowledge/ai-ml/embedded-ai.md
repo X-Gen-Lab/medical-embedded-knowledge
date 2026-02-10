@@ -1,7 +1,16 @@
 ---
 title: 嵌入式AI实现
-difficulty: intermediate
+description: "掌握嵌入式AI技术，在资源受限的医疗设备上部署AI模型"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - embedded-ai
+  - edge-computing
+  - tinyml
+  - optimization
 ---
 
 # 嵌入式AI实现

@@ -1,3 +1,23 @@
+---
+title: DevOps与持续交付
+description: 医疗器械软件开发中的DevOps实践，包括CI/CD、容器化、基础设施即代码和监控日志
+difficulty: 高级
+estimated_time: 12小时
+tags:
+  - DevOps
+  - CI/CD
+  - 容器化
+  - Docker
+  - 自动化
+related_modules:
+  - zh/software-engineering/configuration-management/index
+  - zh/software-engineering/testing-strategy/index
+  - zh/regulatory-standards/iec-62304/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # DevOps与持续交付
 
 ## 概述

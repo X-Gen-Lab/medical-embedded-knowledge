@@ -1,7 +1,16 @@
 ---
 title: HL7 FHIR标准
-difficulty: intermediate
+description: "掌握HL7 FHIR标准，实现现代化的医疗信息交换"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - hl7
+  - fhir
+  - interoperability
+  - healthcare-data-exchange
 ---
 
 # HL7 FHIR标准

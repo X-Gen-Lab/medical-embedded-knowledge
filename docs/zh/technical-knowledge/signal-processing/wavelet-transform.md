@@ -4,9 +4,13 @@ description: "小波变换在医疗信号处理中的应用，包括理论基础
 difficulty: "高级"
 estimated_time: "3小时"
 tags: ["小波变换", "信号处理", "时频分析", "医疗算法"]
-
+related_modules:
+  - zh/technical-knowledge/signal-processing/fft
+  - zh/technical-knowledge/signal-processing/ecg-processing
+  - zh/technical-knowledge/signal-processing/digital-filters
 last_updated: 2026-02-10
 version: 1.0
+language: zh-CN
 ---
 
 # 小波变换（Wavelet Transform）

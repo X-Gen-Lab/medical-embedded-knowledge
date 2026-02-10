@@ -1,7 +1,16 @@
 ---
 title: 机器学习基础
-difficulty: intermediate
+description: "学习机器学习基础知识，为医疗AI应用打下坚实基础"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - machine-learning
+  - ai
+  - fundamentals
+  - medical-ai
 ---
 
 # 机器学习基础

@@ -1,7 +1,16 @@
 ---
 title: 跨平台移动医疗应用开发
-difficulty: intermediate
+description: "使用跨平台框架开发医疗应用，提高开发效率"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - cross-platform
+  - react-native
+  - flutter
+  - mobile-development
 ---
 
 # 跨平台移动医疗应用开发

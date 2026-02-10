@@ -1,9 +1,21 @@
 ---
 title: 显示接口
 description: 医疗设备中LCD、OLED、TFT显示接口的原理和驱动实现
-difficulty: intermediate
+difficulty: 中级
 estimated_time: 2-3小时
-tags: 
+tags:
+  - 显示接口
+  - LCD
+  - OLED
+  - TFT
+  - 硬件接口
+related_modules:
+  - zh/technical-knowledge/hardware-interfaces/spi
+  - zh/technical-knowledge/hardware-interfaces/i2c
+  - zh/regulatory-standards/iec-62366/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
 ---
 
 
@@ -1049,6 +1061,6 @@ bool display_init_with_retry(void) {
 
 ## 相关资源
 
-- [SPI总线通信](spi.md)
+
+- [IEC 62366可用性工程](../../regulatory-standards/iec-62366/index.md)- [SPI总线通信](spi.md)
 - [I2C总线通信](i2c.md)
-- [IEC 62366可用性工程](../../regulatory-standards/iec-62366.md)

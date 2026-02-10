@@ -1,3 +1,23 @@
+---
+title: AI/ML医疗器械（SaMD）
+description: 人工智能和机器学习在医疗器械中的应用、技术实现和监管要求
+difficulty: 高级
+estimated_time: 15小时
+tags:
+  - AI
+  - 机器学习
+  - SaMD
+  - 医疗影像
+  - 深度学习
+related_modules:
+  - zh/technical-knowledge/signal-processing/index
+  - zh/regulatory-standards/ai-ml-regulations/index
+  - zh/software-engineering/testing-strategy/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # AI/ML医疗器械（SaMD）
 
 ## 概述

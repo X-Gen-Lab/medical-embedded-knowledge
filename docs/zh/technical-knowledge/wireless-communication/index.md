@@ -1,3 +1,23 @@
+---
+title: 无线通信技术
+description: 医疗器械中的无线通信技术，包括蓝牙BLE、WiFi、Zigbee等协议和安全实现
+difficulty: 中级
+estimated_time: 10小时
+tags:
+  - 无线通信
+  - 蓝牙BLE
+  - WiFi
+  - Zigbee
+  - 网络安全
+related_modules:
+  - zh/technical-knowledge/interoperability/index
+  - zh/technical-knowledge/mobile-health/index
+  - zh/regulatory-standards/iec-81001-5-1/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 无线通信技术
 
 ## 概述

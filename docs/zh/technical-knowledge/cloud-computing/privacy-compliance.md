@@ -1,7 +1,17 @@
 ---
 title: 隐私与合规
-difficulty: intermediate
+description: "了解医疗云服务的隐私保护和合规要求，确保数据安全"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - privacy
+  - compliance
+  - hipaa
+  - gdpr
+  - data-security
 ---
 
 # 隐私与合规

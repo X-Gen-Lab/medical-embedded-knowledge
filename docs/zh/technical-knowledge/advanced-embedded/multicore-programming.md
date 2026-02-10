@@ -1,7 +1,16 @@
 ---
 title: 多核处理器编程
-difficulty: advanced
+description: "学习多核处理器编程技术，实现医疗设备的并行处理和性能优化"
+difficulty: 高级
 estimated_time: 3-4小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - multicore
+  - parallel-processing
+  - performance
+  - embedded-systems
 ---
 
 # 多核处理器编程
@@ -1203,6 +1212,6 @@ void core1_function() {
 - [DMA技术](dma.md)
 - [看门狗与故障恢复](watchdog-recovery.md)
 - [实时操作系统](../rtos/index.md)
-- [嵌入式安全](../embedded-security/index.md)
+- [RTOS任务调度](../rtos/task-scheduling.md)
 
 **标签**: #多核处理 #SMP #AMP #核间通信 #并发控制 #性能优化 #医疗设备

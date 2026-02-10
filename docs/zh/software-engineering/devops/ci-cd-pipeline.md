@@ -1,7 +1,16 @@
 ---
 title: CI/CD流水线
-difficulty: intermediate
+description: "构建医疗软件的持续集成和持续部署流水线"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - ci-cd
+  - devops
+  - automation
+  - software-development
 ---
 
 # CI/CD流水线

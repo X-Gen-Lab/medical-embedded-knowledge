@@ -1,3 +1,23 @@
+---
+title: 医疗设备互联互通
+description: 医疗设备互联互通标准和实现，包括DICOM、HL7 FHIR、IEEE 11073等协议
+difficulty: 中级
+estimated_time: 12小时
+tags:
+  - 互联互通
+  - DICOM
+  - HL7 FHIR
+  - IEEE 11073
+  - 数据交换
+related_modules:
+  - zh/technical-knowledge/wireless-communication/index
+  - zh/technical-knowledge/cloud-computing/index
+  - zh/regulatory-standards/iec-81001-5-1/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 医疗设备互联互通
 
 ## 概述

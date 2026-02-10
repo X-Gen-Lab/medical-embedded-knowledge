@@ -15,6 +15,7 @@ related_modules:
 - zh/regulatory-standards/iec-62304/index
 last_updated: '2026-02-10'
 version: '1.0'
+language: zh-CN
 ---
 
 # RTOS选型指南

@@ -1,7 +1,16 @@
 ---
 title: 数据管理
-difficulty: intermediate
+description: "掌握医疗数据在云端的存储、处理和管理最佳实践"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - data-management
+  - cloud-storage
+  - data-processing
+  - healthcare-data
 ---
 
 # 数据管理

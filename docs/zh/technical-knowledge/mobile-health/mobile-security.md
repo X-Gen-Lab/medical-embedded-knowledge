@@ -1,7 +1,16 @@
 ---
 title: 移动医疗应用安全
-difficulty: intermediate
+description: "掌握移动医疗应用的安全设计和实现最佳实践"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - mobile-security
+  - data-protection
+  - authentication
+  - encryption
 ---
 
 # 移动医疗应用安全

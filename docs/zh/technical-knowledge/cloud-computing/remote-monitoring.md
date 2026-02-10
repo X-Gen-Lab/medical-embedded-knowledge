@@ -1,7 +1,16 @@
 ---
 title: 远程监护系统
-difficulty: intermediate
+description: "实现基于云的远程患者监护系统，提供实时健康数据分析"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - remote-monitoring
+  - telemedicine
+  - iot
+  - real-time-analytics
 ---
 
 # 远程监护系统

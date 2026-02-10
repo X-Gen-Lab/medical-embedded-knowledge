@@ -1,7 +1,16 @@
 ---
 title: 性能测试
-difficulty: intermediate
+description: "进行医疗软件的性能测试，确保系统响应和吞吐量"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - performance-testing
+  - load-testing
+  - benchmarking
+  - quality-assurance
 ---
 
 # 性能测试

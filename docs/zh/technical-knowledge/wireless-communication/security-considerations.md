@@ -1,7 +1,16 @@
 ---
 title: 无线通信安全考虑
-difficulty: intermediate
+description: "掌握医疗设备无线通信的安全设计和防护措施"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - wireless-security
+  - encryption
+  - authentication
+  - medical-devices
 ---
 
 # 无线通信安全考虑

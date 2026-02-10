@@ -1,7 +1,16 @@
 ---
 title: 深度学习算法
-difficulty: intermediate
+description: "深入理解深度学习技术在医疗影像分析和诊断中的应用"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - deep-learning
+  - neural-networks
+  - medical-imaging
+  - ai
 ---
 
 # 深度学习算法

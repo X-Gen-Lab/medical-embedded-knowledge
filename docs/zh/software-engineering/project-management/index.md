@@ -1,3 +1,23 @@
+---
+title: 项目管理与团队协作
+description: 医疗器械软件项目管理，包括敏捷开发、团队协作和工具平台
+difficulty: 中级
+estimated_time: 8小时
+tags:
+  - 项目管理
+  - 敏捷开发
+  - 团队协作
+  - Scrum
+  - 工具平台
+related_modules:
+  - zh/software-engineering/requirements-engineering/index
+  - zh/software-engineering/configuration-management/index
+  - zh/regulatory-standards/iec-62304/index
+last_updated: '2026-02-10'
+version: '1.0'
+language: zh-CN
+---
+
 # 项目管理与团队协作
 
 ## 概述

@@ -1,7 +1,16 @@
 ---
 title: 基础设施即代码（IaC）
-difficulty: intermediate
+description: "通过基础设施即代码实现医疗系统的自动化部署"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - iac
+  - terraform
+  - ansible
+  - devops
 ---
 
 # 基础设施即代码（IaC）

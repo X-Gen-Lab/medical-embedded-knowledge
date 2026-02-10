@@ -13,6 +13,7 @@ related_modules:
 - zh/technical-knowledge/rtos/task-scheduling
 last_updated: '2026-02-10'
 version: '1.0'
+language: zh-CN
 ---
 
 # 多RTOS对比表

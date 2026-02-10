@@ -1,7 +1,16 @@
 ---
 title: DICOM标准
-difficulty: intermediate
+description: "深入学习DICOM标准，实现医疗影像设备的互操作性"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - dicom
+  - medical-imaging
+  - interoperability
+  - pacs
 ---
 
 # DICOM标准

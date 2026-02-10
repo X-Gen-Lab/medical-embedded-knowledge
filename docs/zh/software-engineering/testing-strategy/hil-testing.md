@@ -1,7 +1,16 @@
 ---
 title: 硬件在环测试（HIL Testing）
-difficulty: intermediate
+description: "实施硬件在环测试，验证医疗设备的实际性能"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - hil-testing
+  - hardware-testing
+  - validation
+  - medical-devices
 ---
 
 # 硬件在环测试（HIL Testing）

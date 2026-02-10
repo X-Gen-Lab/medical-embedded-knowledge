@@ -14,6 +14,7 @@ related_modules:
 - zh/technical-knowledge/embedded-c-cpp/compiler-optimization
 last_updated: '2026-02-10'
 version: '1.0'
+language: zh-CN
 ---
 
 # RTOS性能调优

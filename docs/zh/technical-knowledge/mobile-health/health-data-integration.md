@@ -1,7 +1,16 @@
 ---
 title: 健康数据集成
-difficulty: intermediate
+description: "实现移动健康应用与医疗设备和系统的数据集成"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - data-integration
+  - health-data
+  - apis
+  - mhealth
 ---
 
 # 健康数据集成

@@ -1,7 +1,16 @@
 ---
 title: 监控与日志
-difficulty: intermediate
+description: "实现医疗系统的监控和日志管理，确保系统可观测性"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - monitoring
+  - logging
+  - observability
+  - devops
 ---
 
 # 监控与日志

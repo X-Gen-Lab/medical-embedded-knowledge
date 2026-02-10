@@ -4,9 +4,13 @@ description: "自适应滤波器原理与实现，包括LMS、RLS算法及医疗
 difficulty: "高级"
 estimated_time: "2.5小时"
 tags: ["自适应滤波", "LMS", "RLS", "信号处理", "噪声消除"]
-
+related_modules:
+  - zh/technical-knowledge/signal-processing/digital-filters
+  - zh/technical-knowledge/signal-processing/kalman-filter
+  - zh/technical-knowledge/signal-processing/ecg-processing
 last_updated: 2026-02-10
 version: 1.0
+language: zh-CN
 ---
 
 # 自适应滤波器（Adaptive Filters）

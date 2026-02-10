@@ -1,7 +1,16 @@
 ---
 title: 容器化与编排
-difficulty: intermediate
+description: "使用容器技术部署和管理医疗软件系统"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - docker
+  - kubernetes
+  - containerization
+  - devops
 ---
 
 # 容器化与编排

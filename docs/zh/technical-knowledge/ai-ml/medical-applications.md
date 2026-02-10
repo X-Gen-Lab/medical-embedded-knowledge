@@ -1,7 +1,16 @@
 ---
 title: AI/ML医疗应用场景
-difficulty: intermediate
+description: "探索AI/ML在医疗设备中的实际应用场景和实现方法"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - medical-ai
+  - clinical-applications
+  - ai-deployment
+  - healthcare
 ---
 
 # AI/ML医疗应用场景

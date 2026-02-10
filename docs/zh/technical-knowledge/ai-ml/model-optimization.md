@@ -1,7 +1,16 @@
 ---
 title: 模型优化技术
-difficulty: intermediate
+description: "学习AI模型优化技术，实现医疗设备上的高效推理"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - model-optimization
+  - quantization
+  - pruning
+  - edge-ai
 ---
 
 # 模型优化技术

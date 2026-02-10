@@ -1,7 +1,16 @@
 ---
 title: 云架构
-difficulty: intermediate
+description: "学习医疗云平台架构设计，构建可扩展的医疗数据处理系统"
+difficulty: 中级
 estimated_time: 2-3小时
+last_updated: "2026-02-11"
+version: "1.0"
+language: "zh-CN"
+tags:
+  - cloud-architecture
+  - scalability
+  - microservices
+  - healthcare-cloud
 ---
 
 # 云架构

@@ -4,9 +4,13 @@ description: "卡尔曼滤波器原理与实现，包括标准卡尔曼滤波、
 difficulty: "高级"
 estimated_time: "3小时"
 tags: ["卡尔曼滤波", "状态估计", "传感器融合", "信号处理"]
-
+related_modules:
+  - zh/technical-knowledge/signal-processing/adaptive-filters
+  - zh/technical-knowledge/signal-processing/digital-filters
+  - zh/technical-knowledge/rtos/task-scheduling
 last_updated: 2026-02-10
 version: 1.0
+language: zh-CN
 ---
 
 # 卡尔曼滤波器（Kalman Filter）
