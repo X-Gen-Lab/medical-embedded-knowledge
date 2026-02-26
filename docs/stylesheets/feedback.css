@@ -1,48 +1,54 @@
 /**
  * Feedback Section Styles
- * 反馈区域样式优化
+ * 反馈区域样式优化 - 紧凑版
  */
 
 /* 反馈区域容器 */
 .md-content__feedback {
-  margin: 3rem 0 2rem;
-  padding: 2rem;
-  background: var(--md-code-bg-color);
-  border-radius: 12px;
-  border-left: 4px solid var(--md-primary-fg-color);
+  margin: 2rem 0 1.5rem;
+  padding: 0;
+  background: transparent;
+  border: none;
 }
 
 .md-content__feedback hr {
-  display: none; /* 隐藏分隔线，使用背景色区分 */
+  margin: 1.5rem 0 1rem;
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
 }
 
 /* 点赞按钮区域 */
 .md-content__like {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 反馈操作按钮组 */
 .feedback-actions {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 0.75rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.75rem;
 }
 
 .feedback-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
+  gap: 0.375rem;
+  padding: 0.5rem 1rem;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 4px;
   transition: all 0.2s ease;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.8125rem;
   text-align: center;
-  border: 2px solid transparent;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
 }
 
 /* 报告问题按钮 - 主要按钮 */
@@ -54,22 +60,17 @@
 
 .feedback-button.md-button--primary:hover {
   background: var(--md-primary-fg-color--dark);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
 }
 
 /* 其他反馈按钮 - 次要按钮 */
-.feedback-button.md-button {
-  background: transparent;
-  color: var(--md-primary-fg-color);
-  border-color: var(--md-primary-fg-color);
-}
-
 .feedback-button.md-button:hover {
-  background: var(--md-primary-fg-color);
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: var(--md-default-fg-color--lightest);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 /* 按钮图标 */
@@ -80,8 +81,8 @@
 }
 
 .feedback-button .twemoji svg {
-  width: 1.1rem;
-  height: 1.1rem;
+  width: 0.875rem;
+  height: 0.875rem;
   fill: currentColor;
   transition: transform 0.2s ease;
 }
@@ -90,149 +91,171 @@
   transform: scale(1.1);
 }
 
-/* 点赞按钮优化 */
+/* 点赞按钮优化 - 更紧凑 */
 .like-button {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  border: 2px solid var(--md-accent-fg-color);
+  gap: 0.375rem;
+  padding: 0.5rem 1.25rem;
+  border: 1.5px solid var(--md-primary-fg-color);
   background-color: transparent;
-  color: var(--md-accent-fg-color);
-  border-radius: 24px;
+  color: var(--md-primary-fg-color);
+  border-radius: 20px;
   cursor: pointer;
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 0.8125rem;
+  font-weight: 600;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
 }
 
 .like-button:hover {
-  background-color: var(--md-accent-fg-color);
+  background-color: var(--md-primary-fg-color);
   color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
 }
 
 .like-button.liked {
-  background-color: var(--md-accent-fg-color);
+  background-color: var(--md-primary-fg-color);
   color: white;
-  border-color: var(--md-accent-fg-color);
+  border-color: var(--md-primary-fg-color);
 }
 
 .like-button .twemoji svg {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 1rem;
+  height: 1rem;
   fill: currentColor;
   transition: all 0.3s ease;
 }
 
 .like-button.liked .twemoji svg {
-  fill: #ff4757;
+  fill: #ff6b6b;
   animation: heartbeat 0.6s ease;
 }
 
 @keyframes heartbeat {
   0%, 100% { transform: scale(1); }
-  25% { transform: scale(1.3); }
-  50% { transform: scale(1.1); }
-  75% { transform: scale(1.25); }
+  25% { transform: scale(1.2); }
+  50% { transform: scale(1.05); }
+  75% { transform: scale(1.15); }
 }
 
 .like-button.liked-animation {
-  animation: likeButtonPulse 0.6s ease;
+  animation: likeButtonPulse 0.5s ease;
 }
 
 @keyframes likeButtonPulse {
-  0%, 100% { transform: scale(1) translateY(-2px); }
-  50% { transform: scale(1.05) translateY(-4px); }
+  0%, 100% { transform: scale(1) translateY(-1px); }
+  50% { transform: scale(1.03) translateY(-2px); }
 }
 
 /* 评论区域样式 */
 .md-content__comments {
-  margin: 3rem 0 2rem;
-  padding: 2rem;
-  background: var(--md-code-bg-color);
-  border-radius: 12px;
-  border-left: 4px solid var(--md-accent-fg-color);
+  margin: 2rem 0 1.5rem;
+  padding: 0;
+  background: transparent;
+  border: none;
 }
 
 .md-content__comments hr {
-  display: none;
+  margin: 1.5rem 0 1rem;
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
 }
 
 .md-content__comments h2 {
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   color: var(--md-default-fg-color);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 .comments-description {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.95rem;
+  font-size: 0.8125rem;
+  text-align: center;
+}
+
+/* Giscus 评论框样式优化 */
+.giscus {
+  margin-top: 1rem;
 }
 
 /* 响应式设计 */
 @media screen and (max-width: 768px) {
-  .md-content__feedback,
-  .md-content__comments {
-    padding: 1.5rem;
-    margin: 2rem 0 1.5rem;
-  }
-  
   .feedback-actions {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
   }
   
   .feedback-button {
-    padding: 0.625rem 0.875rem;
-    font-size: 0.85rem;
+    width: 100%;
+    justify-content: center;
+    padding: 0.5rem 0.875rem;
   }
   
   .like-button {
-    padding: 0.625rem 1.25rem;
-    font-size: 0.875rem;
+    padding: 0.5rem 1.125rem;
+    font-size: 0.8125rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   .md-content__feedback,
   .md-content__comments {
-    padding: 1rem;
-    border-radius: 8px;
+    margin: 1.5rem 0 1rem;
+  }
+  
+  .feedback-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
   }
   
   .feedback-button .twemoji svg {
-    width: 1rem;
-    height: 1rem;
+    width: 0.8125rem;
+    height: 0.8125rem;
+  }
+  
+  .like-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
   }
   
   .like-button .twemoji svg {
-    width: 1.1rem;
-    height: 1.1rem;
+    width: 0.9375rem;
+    height: 0.9375rem;
   }
 }
 
 /* 暗色主题适配 */
-[data-md-color-scheme="slate"] .md-content__feedback,
-[data-md-color-scheme="slate"] .md-content__comments {
-  background: rgba(255, 255, 255, 0.05);
-}
-
-[data-md-color-scheme="slate"] .md-content__like {
-  border-bottom-color: rgba(255, 255, 255, 0.1);
-}
-
 [data-md-color-scheme="slate"] .feedback-button.md-button {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="slate"] .feedback-button.md-button:hover {
+  background: rgba(255, 255, 255, 0.1);
   border-color: var(--md-accent-fg-color);
   color: var(--md-accent-fg-color);
 }
 
-[data-md-color-scheme="slate"] .feedback-button.md-button:hover {
-  background: var(--md-accent-fg-color);
+[data-md-color-scheme="slate"] .like-button {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="slate"] .like-button:hover {
+  background-color: var(--md-accent-fg-color);
+  color: var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .like-button.liked {
+  background-color: var(--md-accent-fg-color);
   color: var(--md-default-bg-color);
 }
 
@@ -257,7 +280,11 @@
 }
 
 /* 加载状态 */
-.feedback-button:active,
-.like-button:active {
+.feedback-button:active {
   transform: translateY(0);
 }
+
+.like-button:active {
+  transform: scale(0.98) translateY(0);
+}
+
