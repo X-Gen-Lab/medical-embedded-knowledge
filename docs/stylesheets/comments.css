@@ -1,0 +1,119 @@
+/**
+ * 评论系统样式 (Comment System Styles)
+ * 需求 19.6 - 提供自定义 CSS 样式以调整评论区外观
+ * 
+ * 功能：
+ * - 定义评论区容器样式
+ * - 调整评论区与页面内容的间距
+ * - 确保移动端响应式显示
+ * - 与 Material 主题保持一致
+ */
+
+/* 评论区容器 */
+.md-content__comments {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+/* 评论区标题 */
+.md-content__comments h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--md-default-fg-color);
+}
+
+/* 评论区描述文字 */
+.md-content__comments .comments-description {
+  margin-bottom: 1.5rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+}
+
+/* 评论区分隔线 */
+.md-content__comments hr {
+  margin-bottom: 1.5rem;
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Giscus iframe 容器 */
+.md-content__comments .giscus {
+  width: 100%;
+}
+
+/* 确保 iframe 响应式 */
+.md-content__comments iframe {
+  width: 100%;
+  border: none;
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 76.1875em) {
+  .md-content__comments {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+
+  .md-content__comments h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* 小屏幕移动端 */
+@media screen and (max-width: 44.9375em) {
+  .md-content__comments {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .md-content__comments h2 {
+    font-size: 1.2rem;
+  }
+
+  .md-content__comments .comments-description {
+    font-size: 0.85rem;
+  }
+}
+
+/* 暗色主题适配 */
+[data-md-color-scheme="slate"] .md-content__comments {
+  /* 暗色主题下的样式调整 */
+}
+
+[data-md-color-scheme="slate"] .md-content__comments hr {
+  border-top-color: var(--md-default-fg-color--lightest);
+}
+
+/* 打印样式 - 隐藏评论区 */
+@media print {
+  .md-content__comments {
+    display: none;
+  }
+}
+
+/* 加载状态样式 */
+.md-content__comments .giscus-frame {
+  min-height: 200px;
+}
+
+/* 评论区加载动画 */
+.md-content__comments .giscus:empty::before {
+  content: "正在加载评论...";
+  display: block;
+  padding: 2rem;
+  text-align: center;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+}
+
+/* 无评论时的提示 */
+.md-content__comments .giscus-frame[data-loading="true"] {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.md-content__comments .giscus-frame[data-loading="false"] {
+  opacity: 1;
+}
