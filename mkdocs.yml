@@ -3,6 +3,14 @@ site_description: 全面的医疗器械嵌入式软件开发知识库
 site_author: 知识体系团队
 site_url: https://x-gen-lab.github.io/medical-embedded-knowledge/
 
+# Repository
+repo_url: https://github.com/X-Gen-Lab/medical-embedded-knowledge
+repo_name: medical-embedded-knowledge
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2024 Medical Embedded Knowledge Team
+
 # 离线HTML构建配置 (Offline HTML Build Configuration)
 # 需求 11.2: 支持将整个知识库打包为离线HTML文件
 use_directory_urls: false  # 使用文件名而非目录URL，确保离线访问时链接正常工作
@@ -13,25 +21,20 @@ theme:
   custom_dir: docs/overrides  # 使用自定义模板目录
   features:
     # 导航特性 (Navigation Features)
-    - navigation.tabs           # 启用顶部标签式导航
-    - navigation.sections       # 启用导航分组
-    - navigation.expand         # 默认展开所有导航项
+    - navigation.instant        # 即时加载
+    - navigation.tracking       # 锚点跟踪
+    - navigation.tabs           # 顶部标签页
+    - navigation.sections       # 章节分组
+    - navigation.expand         # 默认展开
     - navigation.top            # 返回顶部按钮
-    - navigation.indexes        # 启用章节索引页
-    - navigation.tracking       # 地址栏自动更新为当前标题
-    # 搜索特性 (Search Features) - 需求 6.1, 6.2, 6.5
-    - search.suggest            # 搜索建议（输入时显示建议）
-    - search.highlight          # 搜索结果高亮显示
-    - search.share              # 搜索结果分享
+    # 搜索特性 (Search Features)
+    - search.suggest            # 搜索建议
+    - search.highlight          # 搜索高亮
     # 内容特性 (Content Features)
-    - content.code.copy
-    - content.tabs.link
-    - content.code.annotate     # 代码注释
-    - content.action.edit     # 编辑此页按钮
-    - content.action.view     # 查看源代码按钮
-    # 目录特性 (TOC Features)
-    - toc.follow                # 目录跟随滚动
-    - toc.integrate             # 将目录集成到左侧导航
+    - content.code.copy         # 代码复制按钮
+    - content.tabs.link         # 标签页链接
+    - content.action.edit       # 编辑此页按钮
+    - content.action.view       # 查看源代码按钮
   palette:
     - scheme: default
       primary: blue
@@ -45,6 +48,13 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到亮色模式
+  font:
+    text: Noto Sans SC
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
 
 plugins:
   - search:
