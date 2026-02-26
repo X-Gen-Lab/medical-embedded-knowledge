@@ -27,6 +27,8 @@ theme:
     - content.code.copy
     - content.tabs.link
     - content.code.annotate     # 代码注释
+    - content.action.edit     # 编辑此页按钮
+    - content.action.view     # 查看源代码按钮
     # 目录特性 (TOC Features)
     - toc.follow                # 目录跟随滚动
     - toc.integrate             # 将目录集成到左侧导航
@@ -431,15 +433,39 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/X-Gen-Lab/medical-embedded-knowledge
+  # 评论系统配置 (Comment System Configuration)
+  # 需求 15.1, 19.1, 19.2, 19.7
+  # 使用 Giscus (基于 GitHub Discussions)
+  comments:
+    provider: giscus
+    repo: X-Gen-Lab/medical-embedded-knowledge
+    repo_id: R_kgDORL976A
+    category: Announcements
+    category_id: DIC_kwDORL976M4C3Q1u
+    mapping: pathname  # 使用页面路径作为讨论映射
+    strict: 0  # 不严格匹配
+    reactions_enabled: 1  # 启用反应功能
+    emit_metadata: 0  # 不发送元数据
+    input_position: top  # 评论输入框位置（顶部）
+    theme: preferred_color_scheme  # 使用用户首选配色方案
+    lang: zh-CN  # 中文界面
+    loading: lazy  # 延迟加载评论
 
 # 自定义JavaScript (Custom JavaScript)
 extra_javascript:
   - javascripts/search-handler.js
+  - javascripts/comments-theme.js  # 评论系统主题同步
+  - javascripts/like-button.js  # 点赞按钮功能
+  - javascripts/github-stats.js  # GitHub统计功能
 
 # 自定义CSS (Custom CSS)
 extra_css:
   - stylesheets/search-custom.css
   - assets/css/pdf-styles.css
+  - stylesheets/comments.css  # 评论系统样式
+  - stylesheets/like-button.css  # 点赞按钮样式
+  - stylesheets/community-stats.css  # 社区统计样式
+  - stylesheets/feedback.css  # 反馈区域样式
 
 # 离线HTML构建说明 (Offline HTML Build Instructions)
 # 需求 11.2, 11.3, 11.4, 11.5

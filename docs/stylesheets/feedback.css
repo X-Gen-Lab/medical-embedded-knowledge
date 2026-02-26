@@ -1,0 +1,263 @@
+/**
+ * Feedback Section Styles
+ * 反馈区域样式优化
+ */
+
+/* 反馈区域容器 */
+.md-content__feedback {
+  margin: 3rem 0 2rem;
+  padding: 2rem;
+  background: var(--md-code-bg-color);
+  border-radius: 12px;
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+.md-content__feedback hr {
+  display: none; /* 隐藏分隔线，使用背景色区分 */
+}
+
+/* 点赞按钮区域 */
+.md-content__like {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* 反馈操作按钮组 */
+.feedback-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+}
+
+.feedback-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+/* 报告问题按钮 - 主要按钮 */
+.feedback-button.md-button--primary {
+  background: var(--md-primary-fg-color);
+  color: white;
+  border-color: var(--md-primary-fg-color);
+}
+
+.feedback-button.md-button--primary:hover {
+  background: var(--md-primary-fg-color--dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 其他反馈按钮 - 次要按钮 */
+.feedback-button.md-button {
+  background: transparent;
+  color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+.feedback-button.md-button:hover {
+  background: var(--md-primary-fg-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 按钮图标 */
+.feedback-button .twemoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-button .twemoji svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
+  transition: transform 0.2s ease;
+}
+
+.feedback-button:hover .twemoji svg {
+  transform: scale(1.1);
+}
+
+/* 点赞按钮优化 */
+.like-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid var(--md-accent-fg-color);
+  background-color: transparent;
+  color: var(--md-accent-fg-color);
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.like-button:hover {
+  background-color: var(--md-accent-fg-color);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.like-button.liked {
+  background-color: var(--md-accent-fg-color);
+  color: white;
+  border-color: var(--md-accent-fg-color);
+}
+
+.like-button .twemoji svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+  transition: all 0.3s ease;
+}
+
+.like-button.liked .twemoji svg {
+  fill: #ff4757;
+  animation: heartbeat 0.6s ease;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  25% { transform: scale(1.3); }
+  50% { transform: scale(1.1); }
+  75% { transform: scale(1.25); }
+}
+
+.like-button.liked-animation {
+  animation: likeButtonPulse 0.6s ease;
+}
+
+@keyframes likeButtonPulse {
+  0%, 100% { transform: scale(1) translateY(-2px); }
+  50% { transform: scale(1.05) translateY(-4px); }
+}
+
+/* 评论区域样式 */
+.md-content__comments {
+  margin: 3rem 0 2rem;
+  padding: 2rem;
+  background: var(--md-code-bg-color);
+  border-radius: 12px;
+  border-left: 4px solid var(--md-accent-fg-color);
+}
+
+.md-content__comments hr {
+  display: none;
+}
+
+.md-content__comments h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: var(--md-default-fg-color);
+  font-size: 1.5rem;
+}
+
+.comments-description {
+  margin-bottom: 1.5rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.95rem;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+  .md-content__feedback,
+  .md-content__comments {
+    padding: 1.5rem;
+    margin: 2rem 0 1.5rem;
+  }
+  
+  .feedback-actions {
+    grid-template-columns: 1fr;
+  }
+  
+  .feedback-button {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.85rem;
+  }
+  
+  .like-button {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .md-content__feedback,
+  .md-content__comments {
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .feedback-button .twemoji svg {
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .like-button .twemoji svg {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}
+
+/* 暗色主题适配 */
+[data-md-color-scheme="slate"] .md-content__feedback,
+[data-md-color-scheme="slate"] .md-content__comments {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+[data-md-color-scheme="slate"] .md-content__like {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-md-color-scheme="slate"] .feedback-button.md-button {
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="slate"] .feedback-button.md-button:hover {
+  background: var(--md-accent-fg-color);
+  color: var(--md-default-bg-color);
+}
+
+/* 打印样式 */
+@media print {
+  .md-content__feedback,
+  .md-content__comments {
+    display: none !important;
+  }
+}
+
+/* 无障碍支持 */
+.feedback-button:focus,
+.like-button:focus {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+.feedback-button:focus:not(:focus-visible),
+.like-button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* 加载状态 */
+.feedback-button:active,
+.like-button:active {
+  transform: translateY(0);
+}
