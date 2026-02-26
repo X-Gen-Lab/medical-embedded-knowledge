@@ -19,6 +19,84 @@
   {% endif %}
   
   {{ super() }}
+  
+  <!-- 反馈按钮区域 (Feedback Section) -->
+  <!-- 需求 16.1, 16.2, 16.4 - 提供报告问题链接，预填充页面信息 -->
+  <div class="md-content__feedback">
+    <hr>
+    
+    <!-- 点赞按钮 (Like Button) -->
+    <!-- 需求 16.5, 16.6, 23.1, 23.2, 23.3 - 点赞功能 -->
+    <div class="md-content__like">
+      <button id="like-button" class="md-button like-button" onclick="toggleLike()" title="如果这个内容对您有帮助，请点赞">
+        <span class="twemoji" id="like-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.1 18.55l-.1.1-.11-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5 22 5.41 19.58 3 16.5 3z"/></svg>
+        </span>
+        <span id="like-text">内容有用</span>
+        <span id="like-count" class="like-count"></span>
+      </button>
+    </div>
+    
+    <div class="feedback-actions">
+      <a href="https://github.com/X-Gen-Lab/medical-embedded-knowledge/issues/new?template=content-error.md&title={{ '[内容问题] ' | urlencode }}{{ page.title | urlencode }}&labels=content-error&body={{ '页面URL: ' | urlencode }}{{ page.canonical_url | urlencode }}{{ '%0A页面标题: ' | urlencode }}{{ page.title | urlencode }}{{ '%0A发现日期: ' | urlencode }}{{ '%0A%0A## 问题描述%0A请在此描述问题...%0A' | urlencode }}"
+         class="md-button md-button--primary feedback-button"
+         target="_blank"
+         rel="noopener"
+         title="报告内容错误或不准确信息">
+        <span class="twemoji">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21z"/></svg>
+        </span>
+        报告问题
+      </a>
+      
+      <a href="https://github.com/X-Gen-Lab/medical-embedded-knowledge/issues/new?template=broken-link.md&title={{ '[链接失效] ' | urlencode }}{{ page.title | urlencode }}&labels=broken-link&body={{ '页面URL: ' | urlencode }}{{ page.canonical_url | urlencode }}{{ '%0A页面标题: ' | urlencode }}{{ page.title | urlencode }}{{ '%0A' | urlencode }}"
+         class="md-button feedback-button"
+         target="_blank"
+         rel="noopener"
+         title="报告失效或错误的链接">
+        <span class="twemoji">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.59 13.41c.41.39.41 1.03 0 1.42-.39.39-1.03.39-1.42 0a5.003 5.003 0 0 1 0-7.07l3.54-3.54a5.003 5.003 0 0 1 7.07 0 5.003 5.003 0 0 1 0 7.07l-1.49 1.49c.01-.82-.12-1.64-.4-2.42l.47-.48a2.982 2.982 0 0 0 0-4.24 2.982 2.982 0 0 0-4.24 0l-3.53 3.53a2.982 2.982 0 0 0 0 4.24m2.82-4.24c.39-.39 1.03-.39 1.42 0a5.003 5.003 0 0 1 0 7.07l-3.54 3.54a5.003 5.003 0 0 1-7.07 0 5.003 5.003 0 0 1 0-7.07l1.49-1.49c-.01.82.12 1.64.4 2.43l-.47.47a2.982 2.982 0 0 0 0 4.24 2.982 2.982 0 0 0 4.24 0l3.53-3.53a2.982 2.982 0 0 0 0-4.24.973.973 0 0 1 0-1.42z"/></svg>
+        </span>
+        链接失效
+      </a>
+      
+      <a href="https://github.com/X-Gen-Lab/medical-embedded-knowledge/issues/new?template=enhancement.md&title={{ '[改进建议] ' | urlencode }}{{ page.title | urlencode }}&labels=enhancement&body={{ '页面URL: ' | urlencode }}{{ page.canonical_url | urlencode }}{{ '%0A页面标题: ' | urlencode }}{{ page.title | urlencode }}{{ '%0A' | urlencode }}"
+         class="md-button feedback-button"
+         target="_blank"
+         rel="noopener"
+         title="提出改进建议">
+        <span class="twemoji">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7H5V5h7V3H5m12.78 1a.69.69 0 0 0-.48.2l-1.22 1.21 2.5 2.5L19.8 6.7c.26-.26.26-.7 0-.95L18.25 4.2c-.13-.13-.3-.2-.47-.2m-2.41 2.12L8 13.5V16h2.5l7.37-7.38-2.5-2.5z"/></svg>
+        </span>
+        建议改进
+      </a>
+    </div>
+  </div>
+  
+  <!-- Giscus 评论区 (Comment Section) -->
+  <!-- 需求 15.2, 15.3 - 在页面底部显示评论区，支持通过 Front Matter 禁用 -->
+  {% if config.extra.comments and page.meta.comments != false %}
+  <div class="md-content__comments">
+    <hr>
+    <h2>💬 讨论区</h2>
+    <p class="comments-description">欢迎在这里分享您的想法、提出问题或参与讨论。需要 GitHub 账号登录。</p>
+    <script src="https://giscus.app/client.js"
+            data-repo="{{ config.extra.comments.repo }}"
+            data-repo-id="{{ config.extra.comments.repo_id }}"
+            data-category="{{ config.extra.comments.category }}"
+            data-category-id="{{ config.extra.comments.category_id }}"
+            data-mapping="{{ config.extra.comments.mapping }}"
+            data-strict="{{ config.extra.comments.strict }}"
+            data-reactions-enabled="{{ config.extra.comments.reactions_enabled }}"
+            data-emit-metadata="{{ config.extra.comments.emit_metadata }}"
+            data-input-position="{{ config.extra.comments.input_position }}"
+            data-theme="{{ config.extra.comments.theme }}"
+            data-lang="{{ config.extra.comments.lang }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </div>
+  {% endif %}
 {% endblock %}
 
 {% block styles %}
@@ -54,5 +132,48 @@
       background-color: #2196f3;
       color: #fff;
     }
+    
+    /* 反馈按钮样式 */
+    .md-content__feedback {
+      margin: 2rem 0;
+    }
+    
+    .feedback-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .feedback-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 0.25rem;
+      transition: all 0.2s ease;
+    }
+    
+    .feedback-button .twemoji {
+      display: inline-flex;
+      align-items: center;
+    }
+    
+    .feedback-button .twemoji svg {
+      width: 1.2rem;
+      height: 1.2rem;
+      fill: currentColor;
+    }
+    
+    .feedback-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
   </style>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'javascripts/like-button.js' | url }}"></script>
 {% endblock %}
