@@ -21,7 +21,6 @@ theme:
   custom_dir: docs/overrides  # 使用自定义模板目录
   features:
     # 导航特性 (Navigation Features)
-    - navigation.instant        # 即时加载
     - navigation.tracking       # 锚点跟踪
     - navigation.tabs           # 顶部标签页
     - navigation.sections       # 章节分组
